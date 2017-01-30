@@ -1,14 +1,14 @@
 # https://cmake.org/cmake-tutorial/
 
-#Specify the version being used aswell as the language
-cmake_minimum_required(VERSION 2.6)
-#Name your project here
-project(fibonacci)
+# Specify the version being used as well as the language
+cmake_minimum_required ( VERSION 2.6 ) #  multiplatform Qt4­ based GUI.
+# Name your project here
+project ( fibonacci )
 
 #Sends the -std=c99 flag to the gcc compiler
-add_definitions(-std=c99)
+add_definitions ( -std=c99 )
 #This tells CMake to fib.c and name it fibonacci
-add_executable(fibonacci fib.c)
+add_executable ( fibonacci fib.c )
 
 # rditldmt@ITLDMT-MD-O2034:mathnathan $ date
 # Mon Jan 30 16:56:06 CST 2017

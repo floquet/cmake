@@ -43,10 +43,10 @@ RM = /opt/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rditldmt/hpc/cmake/examples
+CMAKE_SOURCE_DIR = /Users/rditldmt/Documents/GitHub_Desktop/cmake/examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rditldmt/hpc/cmake/examples/build
+CMAKE_BINARY_DIR = /Users/rditldmt/Documents/GitHub_Desktop/cmake/examples/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Tutorial.dir/depend.make
@@ -66,6 +66,6 @@ CMakeFiles/Tutorial.dir/clean:
 .PHONY : CMakeFiles/Tutorial.dir/clean
 
 CMakeFiles/Tutorial.dir/depend:
-	cd /Users/rditldmt/hpc/cmake/examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/rditldmt/hpc/cmake/examples /Users/rditldmt/hpc/cmake/examples /Users/rditldmt/hpc/cmake/examples/build /Users/rditldmt/hpc/cmake/examples/build /Users/rditldmt/hpc/cmake/examples/build/CMakeFiles/Tutorial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/rditldmt/Documents/GitHub_Desktop/cmake/examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/rditldmt/Documents/GitHub_Desktop/cmake/examples /Users/rditldmt/Documents/GitHub_Desktop/cmake/examples /Users/rditldmt/Documents/GitHub_Desktop/cmake/examples/build /Users/rditldmt/Documents/GitHub_Desktop/cmake/examples/build /Users/rditldmt/Documents/GitHub_Desktop/cmake/examples/build/CMakeFiles/Tutorial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Tutorial.dir/depend
 
