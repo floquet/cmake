@@ -1,4 +1,4 @@
-# Install script for directory: /Users/rditldmt/hpc/cmake/examples
+# Install script for directory: /Users/rditldmt/Documents/GitHub_Desktop/cmake/mathnathan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/rditldmt/hpc/cmake/examples/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/rditldmt/Documents/GitHub_Desktop/cmake/mathnathan/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

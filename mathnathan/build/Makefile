@@ -48,10 +48,10 @@ RM = /opt/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rditldmt/hpc/cmake/examples
+CMAKE_SOURCE_DIR = /Users/rditldmt/Documents/GitHub_Desktop/cmake/mathnathan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rditldmt/hpc/cmake/examples/build
+CMAKE_BINARY_DIR = /Users/rditldmt/Documents/GitHub_Desktop/cmake/mathnathan/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rditldmt/hpc/cmake/examples/build/CMakeFiles /Users/rditldmt/hpc/cmake/examples/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rditldmt/Documents/GitHub_Desktop/cmake/mathnathan/build/CMakeFiles /Users/rditldmt/Documents/GitHub_Desktop/cmake/mathnathan/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rditldmt/hpc/cmake/examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rditldmt/Documents/GitHub_Desktop/cmake/mathnathan/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Tutorial
+# Target rules for targets named fibonacci
 
 # Build rule for target.
-Tutorial: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Tutorial
-.PHONY : Tutorial
+fibonacci: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fibonacci
+.PHONY : fibonacci
 
 # fast build rule for target.
-Tutorial/fast:
-	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/build
-.PHONY : Tutorial/fast
+fibonacci/fast:
+	$(MAKE) -f CMakeFiles/fibonacci.dir/build.make CMakeFiles/fibonacci.dir/build
+.PHONY : fibonacci/fast
+
+fib.o: fib.c.o
+
+.PHONY : fib.o
+
+# target to build an object file
+fib.c.o:
+	$(MAKE) -f CMakeFiles/fibonacci.dir/build.make CMakeFiles/fibonacci.dir/fib.c.o
+.PHONY : fib.c.o
+
+fib.i: fib.c.i
+
+.PHONY : fib.i
+
+# target to preprocess a source file
+fib.c.i:
+	$(MAKE) -f CMakeFiles/fibonacci.dir/build.make CMakeFiles/fibonacci.dir/fib.c.i
+.PHONY : fib.c.i
+
+fib.s: fib.c.s
+
+.PHONY : fib.s
+
+# target to generate assembly for a file
+fib.c.s:
+	$(MAKE) -f CMakeFiles/fibonacci.dir/build.make CMakeFiles/fibonacci.dir/fib.c.s
+.PHONY : fib.c.s
 
 # Help Target
 help:
@@ -131,7 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Tutorial"
+	@echo "... fibonacci"
+	@echo "... fib.o"
+	@echo "... fib.i"
+	@echo "... fib.s"
 .PHONY : help
 
 
