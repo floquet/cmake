@@ -48,10 +48,10 @@ RM = /opt/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rditldmt/Documents/GitHub_Desktop/cmake/examples
+CMAKE_SOURCE_DIR = /Users/rditldmt/Documents/GitHub_Desktop/cmake/beta
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rditldmt/Documents/GitHub_Desktop/cmake/examples/build
+CMAKE_BINARY_DIR = /Users/rditldmt/Documents/GitHub_Desktop/cmake/beta/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rditldmt/Documents/GitHub_Desktop/cmake/examples/build/CMakeFiles /Users/rditldmt/Documents/GitHub_Desktop/cmake/examples/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rditldmt/Documents/GitHub_Desktop/cmake/beta/build/CMakeFiles /Users/rditldmt/Documents/GitHub_Desktop/cmake/beta/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rditldmt/Documents/GitHub_Desktop/cmake/examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rditldmt/Documents/GitHub_Desktop/cmake/beta/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ Tutorial/fast:
 	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/build
 .PHONY : Tutorial/fast
 
+src/tutorial.o: src/tutorial.cxx.o
+
+.PHONY : src/tutorial.o
+
+# target to build an object file
+src/tutorial.cxx.o:
+	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/src/tutorial.cxx.o
+.PHONY : src/tutorial.cxx.o
+
+src/tutorial.i: src/tutorial.cxx.i
+
+.PHONY : src/tutorial.i
+
+# target to preprocess a source file
+src/tutorial.cxx.i:
+	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/src/tutorial.cxx.i
+.PHONY : src/tutorial.cxx.i
+
+src/tutorial.s: src/tutorial.cxx.s
+
+.PHONY : src/tutorial.s
+
+# target to generate assembly for a file
+src/tutorial.cxx.s:
+	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/src/tutorial.cxx.s
+.PHONY : src/tutorial.cxx.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Tutorial"
+	@echo "... src/tutorial.o"
+	@echo "... src/tutorial.i"
+	@echo "... src/tutorial.s"
 .PHONY : help
 
 
