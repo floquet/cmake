@@ -1,0 +1,66 @@
+#  SUCCESS
+
+dantopa@petaca3.lanl.gov:f_exit_code $ quick
+-- The Fortran compiler identification is Intel 17.0.1.20161005
+-- Check for working Fortran compiler: /opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort
+-- Check for working Fortran compiler: /opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort  -- works
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Checking whether /opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort supports Fortran 90
+-- Checking whether /opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort supports Fortran 90 -- yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dantopa/Repos/gitlab/Production/Production_test_codes/f_exit_code/build
+dantopa@petaca3.lanl.gov:build $ make
+Scanning dependencies of target test_unit
+[ 50%] Building Fortran object CMakeFiles/test_unit.dir/src/call_exit_test.F90.o
+[100%] Linking Fortran executable test_unit
+[100%] Built target test_unit
+dantopa@petaca3.lanl.gov:build $ make test
+Running tests...
+Test project /home/dantopa/Repos/gitlab/Production/Production_test_codes/f_exit_code/build
+    Start 1: my_test
+1/1 Test #1: my_test ..........................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.00 sec
+
+# FAILURE
+dantopa@petaca3.lanl.gov:src $ vi call_exit_test.F90 
+dantopa@petaca3.lanl.gov:src $ cd ..
+dantopa@petaca3.lanl.gov:f_exit_code $ quick
+-- The Fortran compiler identification is Intel 17.0.1.20161005
+-- Check for working Fortran compiler: /opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort
+-- Check for working Fortran compiler: /opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort  -- works
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Checking whether /opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort supports Fortran 90
+-- Checking whether /opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort supports Fortran 90 -- yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dantopa/Repos/gitlab/Production/Production_test_codes/f_exit_code/build
+dantopa@petaca3.lanl.gov:build $ make
+Scanning dependencies of target test_unit
+[ 50%] Building Fortran object CMakeFiles/test_unit.dir/src/call_exit_test.F90.o
+[100%] Linking Fortran executable test_unit
+[100%] Built target test_unit
+dantopa@petaca3.lanl.gov:build $ make test
+Running tests...
+Test project /home/dantopa/Repos/gitlab/Production/Production_test_codes/f_exit_code/build
+    Start 1: my_test
+1/1 Test #1: my_test ..........................***Failed    0.00 sec
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   0.00 sec
+
+The following tests FAILED:
+	  1 - my_test (Failed)
+Errors while running CTest
+Makefile:83: recipe for target 'test' failed
+make: *** [test] Error 8
+dantopa@petaca3.lanl.gov:build $ date
+Sun Aug 13 22:32:37 MDT 2017
+dantopa@petaca3.lanl.gov:build $ pwd
+/home/dantopa/Repos/gitlab/Production/Production_test_codes/f_exit_code/build

@@ -1,0 +1,4 @@
+/home/dantopa/Repos/gitlab/CMake/coverage/build/CMakeFiles/test.dir
+/home/dantopa/Repos/gitlab/CMake/coverage/build/CMakeFiles/edit_cache.dir
+/home/dantopa/Repos/gitlab/CMake/coverage/build/CMakeFiles/rebuild_cache.dir
+/home/dantopa/Repos/gitlab/CMake/coverage/build/CMakeFiles/Coverage.dir

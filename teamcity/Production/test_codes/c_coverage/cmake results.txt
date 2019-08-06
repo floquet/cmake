@@ -1,0 +1,52 @@
+dantopa@Daniels-MacBook-Pro.local:demo $ date
+Sun Jul 30 20:13:55 MDT 2017
+dantopa@Daniels-MacBook-Pro.local:demo $ pwd
+/Users/dantopa/Documents/CMake/demo
+dantopa@Daniels-MacBook-Pro.local:demo $ mkdir build && cd dir
+-bash: cd: dir: No such file or directory
+dantopa@Daniels-MacBook-Pro.local:demo $
+dantopa@Daniels-MacBook-Pro.local:demo $
+dantopa@Daniels-MacBook-Pro.local:demo $ pwd
+/Users/dantopa/Documents/CMake/demo
+dantopa@Daniels-MacBook-Pro.local:demo $ date
+Sun Jul 30 20:14:33 MDT 2017
+dantopa@Daniels-MacBook-Pro.local:demo $ mkdir -p build && cd build
+dantopa@Daniels-MacBook-Pro.local:build $ cmake ..
+-- The C compiler identification is GNU 7.1.1
+-- The CXX compiler identification is GNU 7.1.1
+-- Checking whether C compiler has -isysroot
+-- Checking whether C compiler has -isysroot - yes
+-- Checking whether C compiler supports OSX deployment target flag
+-- Checking whether C compiler supports OSX deployment target flag - yes
+-- Check for working C compiler: /opt/local/bin/gcc
+-- Check for working C compiler: /opt/local/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Checking whether CXX compiler has -isysroot
+-- Checking whether CXX compiler has -isysroot - yes
+-- Checking whether CXX compiler supports OSX deployment target flag
+-- Checking whether CXX compiler supports OSX deployment target flag - yes
+-- Check for working CXX compiler: /opt/local/bin/g++
+-- Check for working CXX compiler: /opt/local/bin/g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/dantopa/Documents/CMake/demo/build
+dantopa@Daniels-MacBook-Pro.local:build $ make
+Scanning dependencies of target Coverage
+[ 50%] Building CXX object CMakeFiles/Coverage.dir/src/coverage.cpp.o
+[100%] Linking CXX executable Coverage
+[100%] Built target Coverage
+dantopa@Daniels-MacBook-Pro.local:build $ ctest Coverage
+Test project /Users/dantopa/Documents/CMake/demo/build
+    Start 1: Coverage
+1/1 Test #1: Coverage .........................   Passed    0.02 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.03 sec

@@ -1,0 +1,45 @@
+l127914@pn1249300.lanl.gov:f_exit_code $ date
+Fri Aug 11 23:49:02 MDT 2017
+
+l127914@pn1249300.lanl.gov:f_exit_code $ pwd
+/Users/l127914/Repos/gitlab/CuidadEquipo/test_codes/f_exit_code
+
+l127914@pn1249300.lanl.gov:f_exit_code $ mkdir build && cd build/
+
+l127914@pn1249300.lanl.gov:build $ cmake ..
+-- The Fortran compiler identification is GNU 7.1.1
+-- Checking whether Fortran compiler has -isysroot
+-- Checking whether Fortran compiler has -isysroot - yes
+-- Checking whether Fortran compiler supports OSX deployment target flag
+-- Checking whether Fortran compiler supports OSX deployment target flag - yes
+-- Check for working Fortran compiler: /opt/local/bin/gfortran
+-- Check for working Fortran compiler: /opt/local/bin/gfortran  -- works
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Checking whether /opt/local/bin/gfortran supports Fortran 90
+-- Checking whether /opt/local/bin/gfortran supports Fortran 90 -- yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/l127914/Repos/gitlab/CuidadEquipo/test_codes/f_exit_code/build
+
+l127914@pn1249300.lanl.gov:build $ make
+Scanning dependencies of target test_unit
+[ 50%] Building Fortran object CMakeFiles/test_unit.dir/src/call_exit_test.F90.o
+[100%] Linking Fortran executable test_unit
+[100%] Built target test_unit
+
+l127914@pn1249300.lanl.gov:build $ make test
+Running tests...
+Test project /Users/l127914/Repos/gitlab/CuidadEquipo/test_codes/f_exit_code/build
+    Start 1: my_test
+    1/1 Test #1: my_test ..........................***Failed    0.01 sec
+
+    0% tests passed, 1 tests failed out of 1
+
+    Total Test time (real) =   0.01 sec
+
+    The following tests FAILED:
+          1 - my_test (Failed)
+          Errors while running CTest
+          make: *** [test] Error 8
+
