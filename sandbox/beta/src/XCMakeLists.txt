@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 3.12)
+project (Tutorial)
+
+add_executable( tutorial.cpp )
+
+set(CMAKE_CXX_FLAGS "-g -Wall")

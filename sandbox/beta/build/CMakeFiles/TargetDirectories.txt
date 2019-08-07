@@ -1,0 +1,3 @@
+/Users/l127914/Documents/repos/github/cmake/sandbox/beta/build/CMakeFiles/rebuild_cache.dir
+/Users/l127914/Documents/repos/github/cmake/sandbox/beta/build/CMakeFiles/edit_cache.dir
+/Users/l127914/Documents/repos/github/cmake/sandbox/beta/build/CMakeFiles/Tutorial.dir

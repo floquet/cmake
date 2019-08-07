@@ -1,6 +1,6 @@
 # https://cmake.org/cmake-tutorial/
 
-cmake_minimum_required ( VERSION 2.6 )
+cmake_minimum_required ( VERSION 3.12 )
 
 set ( myProject Tutorial )
 project ( ${myProject} )
@@ -8,7 +8,7 @@ project ( ${myProject} )
 # The version number.
 # set (Tutorial_VERSION_MAJOR 1)
 # set (Tutorial_VERSION_MINOR 0)
-set ( HOME               /Users/rditldmt )
+set ( HOME               /Users/l127914 )
 set ( PROJECT_DIRECTORY  ${HOME}/Documents/repos/github/cmake/sandbox/beta   )
 set ( PROJECT_SOURCE_DIR ${PROJECT_DIRECTORY}/src )
 set ( PROJECT_BINARY_DIR ${PROJECT_DIRECTORY}/bin )
@@ -26,29 +26,23 @@ set ( PROJECT_BINARY_DIR ${PROJECT_DIRECTORY}/bin )
 include_directories ( "${PROJECT_BINARY_DIR}" )
 #
 # # add the executable
-add_executable ( ${myProject} ${PROJECT_SOURCE_DIR}/tutorial.cxx )
-# add_executable ( Tutorial src/tutorial.cxx )
+add_executable ( ${myProject} ${PROJECT_SOURCE_DIR}/tutorial.cpp )
+# add_executable ( Tutorial src/tutorial.cpp )
 
-# rditldmt@ITLDMT-MD-O2034:beta $ date
-# Mon Jan 30 18:18:18 CST 2017
-
-# rditldmt@ITLDMT-MD-O2034:beta $ pwd
-# /Users/rditldmt/Documents/GitHub_Desktop/cmake/beta
-
-# rditldmt@ITLDMT-MD-O2034:beta $ lss
+# l127914@pn1249300.lanl.gov:beta $ pwd
+# /Users/l127914/Documents/repos/github/cmake/sandbox/beta
+# l127914@pn1249300.lanl.gov:beta $ date
+# Tue Aug  6 23:43:18 MDT 2019
+# l127914@pn1249300.lanl.gov:beta $ lss
 # total 16
-# drwxr-xr-x   5 rditldmt  staff   170B Jan 30 18:18 .
-# drwxr-xr-x  13 rditldmt  staff   442B Jan 30 17:31 ..
-# -rw-r--r--   1 rditldmt  staff   936B Jan 30 18:16 CMakeLists.txt
-# -rw-r--r--   1 rditldmt  staff   165B Jan 30 17:19 TutorialConfig.h.in
-# drwxr-xr-x   5 rditldmt  staff   170B Jan 30 17:34 src
-
-# rditldmt@ITLDMT-MD-O2034:beta $ mkdir build
-# rditldmt@ITLDMT-MD-O2034:beta $ cd build/
-# rditldmt@ITLDMT-MD-O2034:build $ cmake ..
-
-# -- The C compiler identification is AppleClang 8.0.0.8000042
-# -- The CXX compiler identification is AppleClang 8.0.0.8000042
+# drwxr-xr-x  5 l127914  staff   160B Aug  6 23:43 .
+# drwxr-xr-x  3 l127914  staff    96B Aug  6 23:34 ..
+# -rw-r--r--  1 l127914  staff   2.9K Aug  6 23:41 CMakeLists.txt
+# -rw-r--r--  1 l127914  staff   165B Aug  6 15:12 TutorialConfig.h.in
+# drwxr-xr-x  5 l127914  staff   160B Aug  6 23:38 src
+# l127914@pn1249300.lanl.gov:beta $ mkdir build && cd build && cmake ..
+# -- The C compiler identification is AppleClang 9.0.0.9000039
+# -- The CXX compiler identification is AppleClang 9.0.0.9000039
 # -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 # -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
 # -- Detecting C compiler ABI info
@@ -63,13 +57,13 @@ add_executable ( ${myProject} ${PROJECT_SOURCE_DIR}/tutorial.cxx )
 # -- Detecting CXX compile features - done
 # -- Configuring done
 # -- Generating done
-# -- Build files have been written to: /Users/rditldmt/Documents/GitHub_Desktop/cmake/beta/build
-
-# rditldmt@ITLDMT-MD-O2034:build $ make
+# -- Build files have been written to: /Users/l127914/Documents/repos/github/cmake/sandbox/beta/build
+# l127914@pn1249300.lanl.gov:build $ make
 # Scanning dependencies of target Tutorial
-# [ 50%] Building CXX object CMakeFiles/Tutorial.dir/src/tutorial.cxx.o
+# [ 50%] Building CXX object CMakeFiles/Tutorial.dir/src/tutorial.cpp.o
 # [100%] Linking CXX executable Tutorial
-# [100%] Built target Tutorial
+# ld: warning: URGENT: building for OSX, but linking against dylib (/usr/lib/libc++.dylib) built for (unknown). Note: This will be an error in the future.ld: warning: URGENT: building for OSX, but linking against dylib (/usr/lib/libSystem.dylib) built for (unknown). Note: This will be an error in the future.
 
-# rditldmt@ITLDMT-MD-O2034:build $ ./Tutorial 36
-# The square root of 36 is 6
+# [100%] Built target Tutorial
+# l127914@pn1249300.lanl.gov:build $ ./Tutorial 144
+# The square root of 144 is 12
