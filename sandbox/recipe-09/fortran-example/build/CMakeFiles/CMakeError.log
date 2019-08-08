@@ -1,0 +1,116 @@
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: /usr/local/bin/flang 
+Build flags: 
+Id flags: -v 
+
+The output was:
+1
+clang version 4.0.1 (https://github.com/flang-compiler/clang.git 1e3a3bec071e694fe7b4707dd4193cc07062afe0) (https://github.com/llvm-mirror/llvm.git c8fccc53ed66d505898f8850bcc690c977a7c9a7)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /usr/local/bin
+Found CUDA installation: /usr/local/cuda, version 8.0
+ "flang1" CMakeFortranCompilerId.F -opt 0 -terse 1 -inform warn -nohpf -nostatic -y 129 2 -inform warn -x 19 0x400000 -quad -x 59 4 -x 15 2 -x 49 0x400004 -x 51 0x20 -x 57 0x4c -x 58 0x10000 -x 124 0x1000 -tp px -x 57 0xfb0000 -x 58 0x78031040 -x 47 0x08 -x 48 4608 -x 49 0x100 -def unix -def __unix -def __unix__ -def linux -def __linux -def __linux__ -def __NO_MATH_INLINES -def __LP64__ -def __x86_64 -def __x86_64__ -def __LONG_MAX__=9223372036854775807L -def __SIZE_TYPE__=unsigned long int -def __PTRDIFF_TYPE__=long int -def __THROW= -def __extension__= -def __amd_64__amd64__ -def __k8 -def __k8__ -def __PGLLVM__ -preprocess -nofreeform -vect 48 -y 54 1 -x 70 0x40000000 -y 163 0xc0000000 -x 189 0x10 -stbfile /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-ebd81b.stb -modexport /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-ebd81b.cmod -modindex /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-ebd81b.cmdx -output /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-ebd81b.ilm
+clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: /usr/local/bin/flang 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: /usr/local/bin/flang 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: /usr/local/bin/flang 
+Build flags: 
+Id flags: -fpp 
+
+The output was:
+1
+clang-4.0: error: unknown argument: '-fpp'
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: /usr/local/bin/flang 
+Build flags: 
+Id flags: -v 
+
+The output was:
+1
+clang version 4.0.1 (https://github.com/flang-compiler/clang.git 1e3a3bec071e694fe7b4707dd4193cc07062afe0) (https://github.com/llvm-mirror/llvm.git c8fccc53ed66d505898f8850bcc690c977a7c9a7)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /usr/local/bin
+Found CUDA installation: /usr/local/cuda, version 8.0
+ "flang1" CMakeFortranCompilerId.F -opt 0 -terse 1 -inform warn -nohpf -nostatic -y 129 2 -inform warn -x 19 0x400000 -quad -x 59 4 -x 15 2 -x 49 0x400004 -x 51 0x20 -x 57 0x4c -x 58 0x10000 -x 124 0x1000 -tp px -x 57 0xfb0000 -x 58 0x78031040 -x 47 0x08 -x 48 4608 -x 49 0x100 -def unix -def __unix -def __unix__ -def linux -def __linux -def __linux__ -def __NO_MATH_INLINES -def __LP64__ -def __x86_64 -def __x86_64__ -def __LONG_MAX__=9223372036854775807L -def __SIZE_TYPE__=unsigned long int -def __PTRDIFF_TYPE__=long int -def __THROW= -def __extension__= -def __amd_64__amd64__ -def __k8 -def __k8__ -def __PGLLVM__ -preprocess -nofreeform -vect 48 -y 54 1 -x 70 0x40000000 -y 163 0xc0000000 -x 189 0x10 -stbfile /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-2e1e83.stb -modexport /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-2e1e83.cmod -modindex /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-2e1e83.cmdx -output /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-2e1e83.ilm
+clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: /usr/local/bin/flang 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: /usr/local/bin/flang 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: /usr/local/bin/flang 
+Build flags: 
+Id flags: -fpp 
+
+The output was:
+1
+clang-4.0: error: unknown argument: '-fpp'
+
+
+Checking whether the Fortran compiler is Compaq using "-what" did not match "Compaq Visual Fortran":
+clang-4.0: error: unknown argument: '-what'
+clang-4.0: error: no input files
+Checking whether the Fortran compiler is NAG using "-V" did not match "NAG Fortran Compiler":
+clang-4.0: error: argument to '-V' is missing (expected 1 value)
+clang-4.0: error: no input files
+Checking whether the Fortran compiler is Compaq using "-what" did not match "Compaq Visual Fortran":
+clang-4.0: error: unknown argument: '-what'
+clang-4.0: error: no input files
+Checking whether the Fortran compiler is NAG using "-V" did not match "NAG Fortran Compiler":
+clang-4.0: error: argument to '-V' is missing (expected 1 value)
+clang-4.0: error: no input files
+Determining if the Fortran compiler works failed with the following output:
+Change Dir: /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4905f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4905f.dir/build.make CMakeFiles/cmTC_4905f.dir/build
+Building Fortran object CMakeFiles/cmTC_4905f.dir/testFortranCompiler.f.o
+/usr/local/bin/flang    -c /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_4905f.dir/testFortranCompiler.f.o
+clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
+make[1]: *** [CMakeFiles/cmTC_4905f.dir/testFortranCompiler.f.o] Error 1
+make: *** [cmTC_4905f/fast] Error 2
+
+
+
