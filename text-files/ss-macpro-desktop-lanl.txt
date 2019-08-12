@@ -1296,4 +1296,704 @@ CMake Warning:
 
 
   configuring ... OK
+^[[A  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Defining a unit test and linking against Boost test
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Using dynamic analysis to detect memory defects
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Testing expected failures
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-06/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Using timeouts for long tests
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-07/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Running tests in parallel
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-08/using-cost-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-08/without-cost-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Running a subset of tests
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-09/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Using test fixtures
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-10/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Using platform-independent file operations
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Running a custom command at configure time
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-02/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Running a custom command at build time: I. Using `add_custom_command`
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-03/cxx-example
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Running a custom command at build time: II. Using `add_custom_target`
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-04/cxx-example
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Running custom commands for specific targets at build time
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-05/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Probing compilation and linking
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-06/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-06/cxx-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Probing compiler flags
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-07/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Probing execution
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-08/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-08/c-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Fine-tuning configuration and compilation with generator expressions
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-09/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-09/cxx-example-asan
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Generating sources at configure time
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-01/fortran-c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Generating source code at configure time using Python
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-02/fortran-c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Generating source code at build time using Python
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Recording the project version information for reproducibility
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-04/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-04/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Recording the project version from a file
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Recording the Git hash at configure time
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-06/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Recording the Git hash at build time
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-07/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Code reuse with functions and macros
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Splitting CMake sources into modules
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-02/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Writing a function to test and set compiler flags
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-03/c-cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Defining a function or macro with named arguments
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Redefining functions and macros
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-05/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Deprecating functions, macros, and variables
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-06/example
+CMake Deprecation Warning at CMakeLists.txt:26 (message):
+  custom_include_guard is deprecated - use built-in include_guard instead
+Call Stack (most recent call first):
+  cmake/custom.cmake:1 (custom_include_guard)
+  CMakeLists.txt:34 (include)
+
+
+CMake Deprecation Warning at CMakeLists.txt:19 (message):
+  variable included_modules is deprecated
+Call Stack (most recent call first):
+  CMakeLists.txt:9999 (deprecate_variable)
+  CMakeLists.txt:36 (message)
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Limiting scope with `add_subdirectory`
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-07/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Avoiding global variables using `target_sources`
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-08/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Organizing Fortran projects
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-09/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Using the superbuild pattern
+
+  /home/mightybuilder/cmake-cookbook/chapter-08/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Managing dependencies with a superbuild: I. The Boost libraries
+
+  /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example
+cmake -H"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example" -B"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15" -G"Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug" -DCMAKE_DISABLE_FIND_PACKAGE_Boost="ON"
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- recipe-02 staged install: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/stage
+-- Boost 1.61 could not be located, Building Boost 1.61.0 instead.
+--   Libraries to be built: filesystem, system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+cmake --build "/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15" --config Debug -- 
+Scanning dependencies of target boost_external
+[  6%] Creating directories for 'boost_external'
+[ 12%] Performing download step (download, verify and extract) for 'boost_external'
+-- Downloading...
+   dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Download/boost_external/boost_1_61_0.zip'
+   timeout='none'
+-- Using src='https://sourceforge.net/projects/boost/files/boost/1.61.0/boost_1_61_0.zip'
+-- verifying file...
+       file='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Download/boost_external/boost_1_61_0.zip'
+-- Downloading... done
+-- extracting...
+     src='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Download/boost_external/boost_1_61_0.zip'
+     dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Source/boost_external'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 18%] No patch step for 'boost_external'
+[ 25%] No update step for 'boost_external'
+[ 31%] Performing configure step for 'boost_external'
+Building Boost.Build engine with toolset gcc... tools/build/src/engine/bin.linuxx86_64/b2
+Unicode/ICU support for Boost.Regex?... not found.
+Generating Boost.Build configuration in project-config.jam...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+    
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+     
+   - Getting started guide: 
+     http://www.boost.org/more/getting_started/unix-variants.html
+     
+   - Boost.Build documentation:
+     http://www.boost.org/build/doc/html/index.html
+
+[ 37%] Performing build step for 'boost_external'
+-- boost_external build command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Stamp/boost_external/boost_external-build-*.log
+[ 43%] Performing install step for 'boost_external'
+-- boost_external install command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Stamp/boost_external/boost_external-install-*.log
+[ 50%] Completed 'boost_external'
+[ 50%] Built target boost_external
+Scanning dependencies of target recipe-02_core
+[ 56%] Creating directories for 'recipe-02_core'
+[ 62%] No download step for 'recipe-02_core'
+[ 68%] No patch step for 'recipe-02_core'
+[ 75%] No update step for 'recipe-02_core'
+[ 81%] Performing configure step for 'recipe-02_core'
+loading initial cache file /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/tmp/recipe-02_core/recipe-02_core-cache-Debug.cmake
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Boost version: 1.61.0
+-- Found the following Boost libraries:
+--   filesystem
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Build/recipe-02_core
+[ 87%] Performing build step for 'recipe-02_core'
+Scanning dependencies of target path-info
+[ 50%] Building CXX object CMakeFiles/path-info.dir/path-info.cpp.o
+[100%] Linking CXX executable path-info
+[100%] Built target path-info
+[ 93%] No install step for 'recipe-02_core'
+[100%] Completed 'recipe-02_core'
+[100%] Built target recipe-02_core
+  building configuration Debug ... OK
+
+recipe: Managing dependencies with a superbuild: II. The FFTW library
+
+  /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example
+cmake -H"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example" -B"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21" -G"Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug" -DCMAKE_DISABLE_FIND_PACKAGE_FFTW3="ON"
+-- The C compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- recipe-03 staged install: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/stage
+-- Suitable FFTW3 could not be located. Downloading and building!
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+cmake --build "/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21" --config Debug -- 
+Scanning dependencies of target fftw3_external
+[  6%] Creating directories for 'fftw3_external'
+[ 12%] Performing download step (download, verify and extract) for 'fftw3_external'
+-- Downloading...
+   dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Download/fftw3_external/fftw-3.3.8.tar.gz'
+   timeout='none'
+-- Using src='http://www.fftw.org/fftw-3.3.8.tar.gz'
+-- verifying file...
+       file='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Download/fftw3_external/fftw-3.3.8.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Download/fftw3_external/fftw-3.3.8.tar.gz'
+     dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Source/fftw3_external'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 18%] No patch step for 'fftw3_external'
+[ 25%] No update step for 'fftw3_external'
+[ 31%] Performing configure step for 'fftw3_external'
+-- fftw3_external configure command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Stamp/fftw3_external/fftw3_external-configure-*.log
+[ 37%] Performing build step for 'fftw3_external'
+-- fftw3_external build command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Stamp/fftw3_external/fftw3_external-build-*.log
+[ 43%] Performing install step for 'fftw3_external'
+-- fftw3_external install command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Stamp/fftw3_external/fftw3_external-install-*.log
+[ 50%] Completed 'fftw3_external'
+[ 50%] Built target fftw3_external
+Scanning dependencies of target recipe-03_core
+[ 56%] Creating directories for 'recipe-03_core'
+[ 62%] No download step for 'recipe-03_core'
+[ 68%] No patch step for 'recipe-03_core'
+[ 75%] No update step for 'recipe-03_core'
+[ 81%] Performing configure step for 'recipe-03_core'
+loading initial cache file /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/tmp/recipe-03_core/recipe-03_core-cache-Debug.cmake
+-- The C compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found FFTW3: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/stage/lib/libfftw3.so.3 (found version 3.3.7)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Build/recipe-03_core
+[ 87%] Performing build step for 'recipe-03_core'
+Scanning dependencies of target fftw_example
+[ 50%] Building C object CMakeFiles/fftw_example.dir/fftw_example.c.o
+[100%] Linking C executable fftw_example
+[100%] Built target fftw_example
+[ 93%] No install step for 'recipe-03_core'
+[100%] Completed 'recipe-03_core'
+[100%] Built target recipe-03_core
+  building configuration Debug ... OK
+
+recipe: Managing dependencies with a superbuild: III. The Google Test framework
+
+  /home/mightybuilder/cmake-cookbook/chapter-08/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
 
