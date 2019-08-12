@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 
+set(ENV{FC} "/usr/local/bin/gfortran")
 project(recipe-09 LANGUAGES Fortran)
+
+message ( "Fortran_COMPILER_NAME  =  ${CMAKE_Fortran_COMPILER}" )
 
 include(GNUInstallDirs)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/${CMAKE_INSTALL_LIBDIR})

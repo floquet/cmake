@@ -1,0 +1,1299 @@
+Last login: Thu Aug  8 12:31:07 on ttys040
+pn1249300:~ l127914$ source ~/.bashrc
+Thu Aug  8 12:31:08 MDT 2019 /Users/l127914/.bashrc
+Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /Users/l127914/Documents/repos/gitlab/node-queries/Cauchy-Schwarz/log.in-pn1249300/dir-configuration
+directory of core scripts = ${core} = /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts
+Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/master.sh
+Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
+Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+-bash: gonode: command not found
+fatal: not a git repository (or any of the parent directories): .git
+Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/git.sh
+fatal: not a git repository (or any of the parent directories): .git
+Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/permissions-and-groups.sh
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+cp: /Users/l127914/.libraries-Cauchy-Schwarz.sh: No such file or directory
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-projects.sh
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
+[1]   Done                    source ${core}/info-git.sh
+[2]+  Done                    source "${core}/copy-configuration.sh"
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/uname.sh
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/spack.sh
+/Users/l127914/Documents/repos/gitlab/node-queries
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/modules.sh
+uname: illegal option -- i
+usage: uname [-amnprsv]
+[3]+  Exit 127                module available >> ${my_log} 2>&1
+uname: illegal option -- o
+usage: uname [-amnprsv]
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/alias.sh
+[2]-  Done                    source "${core}/uname.sh"
+[3]+  Exit 127                module list >> ${my_log} 2>&1
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/rsync.sh
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[master 90c1eee77] Cauchy-Schwarz-log.in-pn1249300 Thu Aug  8 12:31:09 MDT 2019
+ 3 files changed, 7 insertions(+), 1227 deletions(-)
+ rewrite Cauchy-Schwarz/log.in-pn1249300/apple_profiler.txt (99%)
+[1]+  Done                    source ${core}/info-git.sh
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/.bash-Cauchy-Schwarz-platform-specific
+Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/apple.sh
+Thu Aug  8 12:31:10 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/macports.sh
+l127914@pn1249300.lanl.gov:~ $ cd /usr/local/
+[1]   Done                    cp ${HOME}/${bash_file} ${alt_vault}  (wd: ~)
+(wd now: /usr/local)
+[2]   Done                    cp ${HOME}/${extras} ${alt_vault}  (wd: ~)
+(wd now: /usr/local)
+[3]-  Done                    cp ${HOME}/.vimrc ${alt_vault}  (wd: ~)
+(wd now: /usr/local)
+[4]+  Done                    cp ${HOME}/.gitconfig ${alt_vault}  (wd: ~)
+(wd now: /usr/local)
+l127914@pn1249300.lanl.gov:local $ lss
+total 0
+drwxr-xr-x   22 root     wheel   704B Aug  6 20:45 .
+drwxr-xr-x@  11 root     wheel   352B Aug  6 15:32 ..
+-rw-r--r--    1 root     wheel     0B Aug  8 09:41 .com.apple.installer.keep
+drwxrwxr-x    2 l127914  admin    64B Aug  6 20:45 Caskroom
+drwxrwxr-x   28 l127914  admin   896B Aug  6 23:21 Cellar
+drwxrwxr-x    2 l127914  admin    64B Aug  6 20:45 Frameworks
+drwxrwxr-x   20 l127914  admin   640B Aug  6 20:45 Homebrew
+drwxr-xr-x    7 root     wheel   224B Jul 31 10:12 MacGPG2
+drwxrwxr-x  273 l127914  admin   8.5K Aug  6 23:25 bin
+drwxr-xr-x   17 root     wheel   544B Jul 31 10:12 cuda
+drwxrwxr-x    9 l127914  admin   288B Aug  6 23:21 etc
+drwxr-xr-x    7 root     wheel   224B Jul 31 10:11 gfortran
+drwxrwxr-x  364 l127914  admin    11K Aug  6 23:25 include
+drwxr-xr-x    3 root     wheel    96B Jul 31 10:12 jamf
+drwxrwxr-x  340 l127914  admin    11K Aug  6 23:21 lib
+drwxr-xr-x    7 root     wheel   224B Jul 31 10:10 libexec
+drwxrwxr-x   33 l127914  admin   1.0K Aug  6 23:25 opt
+drwxr-xr-x    3 root     wheel    96B Jul 31 10:11 remotedesktop
+drwxrwxr-t    4 l127914  admin   128B Jul 31 10:10 sbin
+drwxrwxr-x   33 l127914  admin   1.0K Aug  6 23:21 share
+drwxr-xr-x    5 root     wheel   160B Jul 31 10:12 texlive
+drwxrwxr-x    3 l127914  admin    96B Aug  6 20:45 var
+l127914@pn1249300.lanl.gov:local $ cd Cellar/
+l127914@pn1249300.lanl.gov:Cellar $ lss
+total 0
+drwxrwxr-x  28 l127914  admin   896B Aug  6 23:21 .
+drwxr-xr-x  22 root     wheel   704B Aug  6 20:45 ..
+drwxr-xr-x   3 l127914  staff    96B Aug  6 20:56 cmake
+drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 gcc
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:17 gcc@7
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:16 gcc@8
+drwxr-xr-x   3 l127914  staff    96B Aug  6 20:55 gettext
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:18 git
+drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 gmp
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:20 hdf5
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:20 hwloc
+drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 isl
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:20 libevent
+drwxr-xr-x   3 l127914  staff    96B Aug  6 20:55 libidn2
+drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 libmpc
+drwxr-xr-x   3 l127914  staff    96B Aug  6 20:55 libunistring
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:20 metis
+drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 mpfr
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:20 netcdf
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:21 open-mpi
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:21 openblas
+drwxr-xr-x   3 l127914  staff    96B Aug  6 20:55 openssl
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:18 pcre2
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:21 petsc
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:21 scalapack
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:21 suite-sparse
+drwxr-xr-x   3 l127914  staff    96B Aug  6 23:20 szip
+drwxr-xr-x   3 l127914  staff    96B Aug  6 20:55 wget
+l127914@pn1249300.lanl.gov:Cellar $ cd gcc
+l127914@pn1249300.lanl.gov:gcc $ lss
+total 0
+drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 .
+drwxrwxr-x  28 l127914  admin   896B Aug  6 23:21 ..
+drwxr-xr-x  13 l127914  staff   416B Aug  6 20:58 9.1.0
+l127914@pn1249300.lanl.gov:gcc $ cd 9.1.0/
+l127914@pn1249300.lanl.gov:9.1.0 $ lss
+total 3080
+drwxr-xr-x  13 l127914  staff   416B Aug  6 20:58 .
+drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 ..
+drwxr-xr-x   3 l127914  staff    96B May  3 02:19 .brew
+-rw-r--r--   1 l127914  staff    18K May  3 02:19 COPYING
+-rw-r--r--   1 l127914  staff   611K May  3 02:19 ChangeLog
+-rw-r--r--   1 l127914  staff   1.0K Aug  6 20:58 INSTALL_RECEIPT.json
+-rw-r--r--   1 l127914  staff   898K May  3 02:19 NEWS
+-rw-r--r--   1 l127914  staff   1.0K May  3 02:19 README
+drwxr-xr-x  22 l127914  staff   704B May  3 02:19 bin
+drwxr-xr-x   3 l127914  staff    96B May  3 02:19 include
+drwxr-xr-x   3 l127914  staff    96B May  3 02:19 lib
+drwxr-xr-x   3 l127914  staff    96B May  3 02:19 libexec
+drwxr-xr-x   4 l127914  staff   128B May  3 02:19 share
+l127914@pn1249300.lanl.gov:9.1.0 $ pwd
+/usr/local/Cellar/gcc/9.1.0
+l127914@pn1249300.lanl.gov:9.1.0 $ cd bin
+l127914@pn1249300.lanl.gov:bin $ lss
+total 33848
+drwxr-xr-x  22 l127914  staff   704B May  3 02:19 .
+drwxr-xr-x  13 l127914  staff   416B Aug  6 20:58 ..
+-r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 c++-9
+-r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 cpp-9
+-r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 g++-9
+-r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 gcc-9
+-r-xr-xr-x   1 l127914  staff    42K May  3 02:19 gcc-ar-9
+-r-xr-xr-x   1 l127914  staff    42K May  3 02:19 gcc-nm-9
+-r-xr-xr-x   1 l127914  staff    42K May  3 02:19 gcc-ranlib-9
+-r-xr-xr-x   1 l127914  staff   990K May  3 02:19 gcov-9
+-r-xr-xr-x   1 l127914  staff   689K May  3 02:19 gcov-dump-9
+-r-xr-xr-x   1 l127914  staff   727K May  3 02:19 gcov-tool-9
+lrwxr-xr-x   1 l127914  staff    10B May  3 02:19 gfortran -> gfortran-9
+-r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 gfortran-9
+-r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 x86_64-apple-darwin18-c++-9
+-r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 x86_64-apple-darwin18-g++-9
+-r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 x86_64-apple-darwin18-gcc-9
+-r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 x86_64-apple-darwin18-gcc-9.1.0
+-r-xr-xr-x   1 l127914  staff    42K May  3 02:19 x86_64-apple-darwin18-gcc-ar-9
+-r-xr-xr-x   1 l127914  staff    42K May  3 02:19 x86_64-apple-darwin18-gcc-nm-9
+-r-xr-xr-x   1 l127914  staff    42K May  3 02:19 x86_64-apple-darwin18-gcc-ranlib-9
+-r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 x86_64-apple-darwin18-gfortran-9
+l127914@pn1249300.lanl.gov:bin $ cd ..
+l127914@pn1249300.lanl.gov:9.1.0 $ gosandbox
+-bash: gosandbox: command not found
+l127914@pn1249300.lanl.gov:9.1.0 $ sr
+Thu Aug  8 14:51:30 MDT 2019 /Users/l127914/.Cauchy-Schwarz-bash
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /Users/l127914/Documents/repos/gitlab/node-queries/Cauchy-Schwarz/log.in-pn1249300/dir-configuration
+directory of core scripts = ${core} = /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/master.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+/Users/l127914/Documents/repos/gitlab/node-queries
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/git.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/permissions-and-groups.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+cp: /Users/l127914/.libraries-Cauchy-Schwarz.sh: No such file or directory
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+[master 5f87962b0] Cauchy-Schwarz-log.in-pn1249300 Thu Aug  8 14:51:31 MDT 2019
+ 5 files changed, 95 insertions(+), 64 deletions(-)
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-projects.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
+[1]-  Done                    source ${core}/info-git.sh
+[2]+  Done                    source "${core}/copy-configuration.sh"
+Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/uname.sh
+Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/spack.sh
+/Users/l127914/Documents/repos/gitlab/node-queries
+Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/modules.sh
+uname: illegal option -- i
+usage: uname [-amnprsv]
+[3]+  Exit 127                module available >> ${my_log} 2>&1
+uname: illegal option -- o
+usage: uname [-amnprsv]
+Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/alias.sh
+[2]-  Done                    source "${core}/uname.sh"
+[3]+  Exit 127                module list >> ${my_log} 2>&1
+Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/rsync.sh
+Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[master 79b8af658] Cauchy-Schwarz-log.in-pn1249300 Thu Aug  8 14:51:32 MDT 2019
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[1]+  Done                    source ${core}/info-git.sh
+Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/.bash-Cauchy-Schwarz-platform-specific
+Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/apple.sh
+gosThu Aug  8 14:51:33 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/macports.sh
+l127914@pn1249300.lanl.gov:9.1.0 $ gosandbox
+/Users/l127914/Documents/repos/github/cmake/sandbox
+[1]   Done                    cp ${HOME}/${bash_file} ${alt_vault}  (wd: /usr/local/Cellar/gcc/9.1.0)
+(wd now: ~/Documents/repos/github/cmake/sandbox)
+[2]   Done                    cp ${HOME}/${extras} ${alt_vault}  (wd: /usr/local/Cellar/gcc/9.1.0)
+(wd now: ~/Documents/repos/github/cmake/sandbox)
+[3]-  Done                    cp ${HOME}/.vimrc ${alt_vault}  (wd: /usr/local/Cellar/gcc/9.1.0)
+(wd now: ~/Documents/repos/github/cmake/sandbox)
+[4]+  Done                    cp ${HOME}/.gitconfig ${alt_vault}  (wd: /usr/local/Cellar/gcc/9.1.0)
+(wd now: ~/Documents/repos/github/cmake/sandbox)
+l127914@pn1249300.lanl.gov:sandbox $ cd neil/
+l127914@pn1249300.lanl.gov:neil $ lss
+total 16
+drwxr-xr-x  6 l127914  staff   192B Aug  8 14:45 .
+drwxr-xr-x  6 l127914  staff   192B Aug  8 14:38 ..
+-rw-r--r--  1 l127914  staff   2.2K Aug  8 14:38 CMakeLists.txt
+drwxr-xr-x  4 l127914  staff   128B Aug  8 14:42 build
+-rw-r--r--  1 l127914  staff   255B Aug  8 14:51 compiler.sh
+drwxr-xr-x  3 l127914  staff    96B Aug  8 14:38 src
+l127914@pn1249300.lanl.gov:neil $ . compiler.sh 
+Thu Aug  8 14:51:40 MDT 2019 compiler.sh
+l127914@pn1249300.lanl.gov:neil $ gcc --version
+gcc-9 (Homebrew GCC 9.1.0) 9.1.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+l127914@pn1249300.lanl.gov:neil $ quick
+-- The Fortran compiler identification is unknown
+-- Checking whether Fortran compiler has -isysroot
+-- Checking whether Fortran compiler has -isysroot - yes
+-- Checking whether Fortran compiler supports OSX deployment target flag
+-- Checking whether Fortran compiler supports OSX deployment target flag - yes
+-- Check for working Fortran compiler: /usr/local/bin/flang
+-- Check for working Fortran compiler: /usr/local/bin/flang  -- broken
+CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeTestFortranCompiler.cmake:45 (message):
+  The Fortran compiler
+
+    "/usr/local/bin/flang"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/l127914/Documents/repos/github/cmake/sandbox/neil/build/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/make cmTC_7ca7f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7ca7f.dir/build.make CMakeFiles/cmTC_7ca7f.dir/build
+    Building Fortran object CMakeFiles/cmTC_7ca7f.dir/testFortranCompiler.f.o
+    /usr/local/bin/flang    -c /Users/l127914/Documents/repos/github/cmake/sandbox/neil/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_7ca7f.dir/testFortranCompiler.f.o
+    clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
+    make[1]: *** [CMakeFiles/cmTC_7ca7f.dir/testFortranCompiler.f.o] Error 1
+    make: *** [cmTC_7ca7f/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:6 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/l127914/Documents/repos/github/cmake/sandbox/neil/build/CMakeFiles/CMakeOutput.log".
+See also "/Users/l127914/Documents/repos/github/cmake/sandbox/neil/build/CMakeFiles/CMakeError.log".
+l127914@pn1249300.lanl.gov:build $ cmake --version
+cmake version 3.15.1
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+l127914@pn1249300.lanl.gov:build $ cd ..
+l127914@pn1249300.lanl.gov:neil $ cd ..
+l127914@pn1249300.lanl.gov:sandbox $ cd sandbox
+-bash: cd: sandbox: No such file or directory
+l127914@pn1249300.lanl.gov:sandbox $ cd recipe-09/
+l127914@pn1249300.lanl.gov:recipe-09 $ lss
+total 24
+drwxr-xr-x  6 l127914  staff   192B Aug  8 12:42 .
+drwxr-xr-x  6 l127914  staff   192B Aug  8 14:38 ..
+-rw-r--r--  1 l127914  staff   173B Aug  8 12:42 README.md
+-rw-r--r--  1 l127914  staff   102B Aug  8 12:42 abstract.md
+drwxr-xr-x  8 l127914  staff   256B Aug  8 12:44 fortran-example
+-rw-r--r--  1 l127914  staff    28B Aug  8 12:42 title.txt
+l127914@pn1249300.lanl.gov:recipe-09 $ cd src
+-bash: cd: src: No such file or directory
+l127914@pn1249300.lanl.gov:recipe-09 $ cd fortran-example/
+l127914@pn1249300.lanl.gov:fortran-example $ cd src/
+l127914@pn1249300.lanl.gov:src $ lss
+total 16
+drwxr-xr-x  8 l127914  staff   256B Aug  8 12:42 .
+drwxr-xr-x  8 l127914  staff   256B Aug  8 12:44 ..
+-rw-r--r--  1 l127914  staff   240B Aug  8 12:42 CMakeLists.txt
+drwxr-xr-x  6 l127914  staff   192B Aug  8 12:42 evolution
+drwxr-xr-x  4 l127914  staff   128B Aug  8 12:42 initial
+drwxr-xr-x  4 l127914  staff   128B Aug  8 12:42 io
+-rw-r--r--  1 l127914  staff   1.0K Aug  8 12:42 main.f90
+drwxr-xr-x  4 l127914  staff   128B Aug  8 12:42 parser
+l127914@pn1249300.lanl.gov:src $ mkdir build && cd build
+l127914@pn1249300.lanl.gov:build $ cmake ..
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is AppleClang 9.0.0.9000039
+-- The CXX compiler identification is AppleClang 9.0.0.9000039
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.15)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+CMake Error: Cannot determine link language for target "automata".
+CMake Error: CMake can not determine linker language for target: automata
+CMake Error: Cannot determine link language for target "evolution".
+CMake Error: CMake can not determine linker language for target: evolution
+CMake Error: Cannot determine link language for target "initial".
+CMake Error: CMake can not determine linker language for target: initial
+CMake Error: Cannot determine link language for target "io".
+CMake Error: CMake can not determine linker language for target: io
+CMake Error: Cannot determine link language for target "parser".
+CMake Error: CMake can not determine linker language for target: parser
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+l127914@pn1249300.lanl.gov:build $ cd ..
+l127914@pn1249300.lanl.gov:src $ lss
+total 16
+drwxr-xr-x   9 l127914  staff   288B Aug 12 14:24 .
+drwxr-xr-x   8 l127914  staff   256B Aug  8 12:44 ..
+-rw-r--r--   1 l127914  staff   240B Aug  8 12:42 CMakeLists.txt
+drwxr-xr-x  10 l127914  staff   320B Aug 12 14:24 build
+drwxr-xr-x   6 l127914  staff   192B Aug  8 12:42 evolution
+drwxr-xr-x   4 l127914  staff   128B Aug  8 12:42 initial
+drwxr-xr-x   4 l127914  staff   128B Aug  8 12:42 io
+-rw-r--r--   1 l127914  staff   1.0K Aug  8 12:42 main.f90
+drwxr-xr-x   4 l127914  staff   128B Aug  8 12:42 parser
+l127914@pn1249300.lanl.gov:src $ rm -rf build/
+l127914@pn1249300.lanl.gov:src $ mkdir build && cd build && cmake ..
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is AppleClang 9.0.0.9000039
+-- The CXX compiler identification is AppleClang 9.0.0.9000039
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.15)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+CMake Error: Cannot determine link language for target "automata".
+CMake Error: CMake can not determine linker language for target: automata
+CMake Error: Cannot determine link language for target "evolution".
+CMake Error: CMake can not determine linker language for target: evolution
+CMake Error: Cannot determine link language for target "initial".
+CMake Error: CMake can not determine linker language for target: initial
+CMake Error: Cannot determine link language for target "io".
+CMake Error: CMake can not determine linker language for target: io
+CMake Error: Cannot determine link language for target "parser".
+CMake Error: CMake can not determine linker language for target: parser
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+l127914@pn1249300.lanl.gov:build $ cd ..
+l127914@pn1249300.lanl.gov:src $ lss
+total 16
+drwxr-xr-x   9 l127914  staff   288B Aug 12 14:32 .
+drwxr-xr-x   8 l127914  staff   256B Aug  8 12:44 ..
+-rw-r--r--   1 l127914  staff   240B Aug  8 12:42 CMakeLists.txt
+drwxr-xr-x  10 l127914  staff   320B Aug 12 14:32 build
+drwxr-xr-x   6 l127914  staff   192B Aug  8 12:42 evolution
+drwxr-xr-x   4 l127914  staff   128B Aug  8 12:42 initial
+drwxr-xr-x   4 l127914  staff   128B Aug  8 12:42 io
+-rw-r--r--   1 l127914  staff   1.0K Aug  8 12:42 main.f90
+drwxr-xr-x   4 l127914  staff   128B Aug  8 12:42 parser
+l127914@pn1249300.lanl.gov:src $ rm -rf build/
+l127914@pn1249300.lanl.gov:src $ cd ..
+l127914@pn1249300.lanl.gov:fortran-example $ lss
+total 16
+drwxr-xr-x  8 l127914  staff   256B Aug  8 12:44 .
+drwxr-xr-x  6 l127914  staff   192B Aug  8 12:42 ..
+-rw-r--r--  1 l127914  staff   557B Aug  8 12:42 CMakeLists.txt
+drwxr-xr-x  4 l127914  staff   128B Aug  8 12:44 build
+drwxr-xr-x  5 l127914  staff   160B Aug  8 12:42 external
+-rw-r--r--  1 l127914  staff   239B Aug  8 12:42 menu.yml
+drwxr-xr-x  8 l127914  staff   256B Aug 12 14:33 src
+drwxr-xr-x  4 l127914  staff   128B Aug  8 12:42 tests
+l127914@pn1249300.lanl.gov:fortran-example $ rm -rf build/
+l127914@pn1249300.lanl.gov:fortran-example $ mkdir build && cd build && cmake ..
+-- The Fortran compiler identification is unknown
+-- Checking whether Fortran compiler has -isysroot
+-- Checking whether Fortran compiler has -isysroot - yes
+-- Checking whether Fortran compiler supports OSX deployment target flag
+-- Checking whether Fortran compiler supports OSX deployment target flag - yes
+-- Check for working Fortran compiler: /usr/local/bin/flang
+-- Check for working Fortran compiler: /usr/local/bin/flang  -- broken
+CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeTestFortranCompiler.cmake:45 (message):
+  The Fortran compiler
+
+    "/usr/local/bin/flang"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/make cmTC_7aa64/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7aa64.dir/build.make CMakeFiles/cmTC_7aa64.dir/build
+    Building Fortran object CMakeFiles/cmTC_7aa64.dir/testFortranCompiler.f.o
+    /usr/local/bin/flang    -c /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_7aa64.dir/testFortranCompiler.f.o
+    clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
+    make[1]: *** [CMakeFiles/cmTC_7aa64.dir/testFortranCompiler.f.o] Error 1
+    make: *** [cmTC_7aa64/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:3 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeOutput.log".
+See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeError.log".
+l127914@pn1249300.lanl.gov:build $ cmake ./
+-- The Fortran compiler identification is unknown
+-- Checking whether Fortran compiler has -isysroot
+-- Checking whether Fortran compiler has -isysroot - yes
+-- Checking whether Fortran compiler supports OSX deployment target flag
+-- Checking whether Fortran compiler supports OSX deployment target flag - yes
+-- Check for working Fortran compiler: /usr/local/bin/flang
+-- Check for working Fortran compiler: /usr/local/bin/flang  -- broken
+CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeTestFortranCompiler.cmake:45 (message):
+  The Fortran compiler
+
+    "/usr/local/bin/flang"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/make cmTC_c75c7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c75c7.dir/build.make CMakeFiles/cmTC_c75c7.dir/build
+    Building Fortran object CMakeFiles/cmTC_c75c7.dir/testFortranCompiler.f.o
+    /usr/local/bin/flang    -c /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_c75c7.dir/testFortranCompiler.f.o
+    clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
+    make[1]: *** [CMakeFiles/cmTC_c75c7.dir/testFortranCompiler.f.o] Error 1
+    make: *** [cmTC_c75c7/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:3 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeOutput.log".
+See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeError.log".
+l127914@pn1249300.lanl.gov:build $ agai
+-bash: agai: command not found
+l127914@pn1249300.lanl.gov:build $ again
+l127914@pn1249300.lanl.gov:build $ which gcc
+/usr/bin/gcc
+l127914@pn1249300.lanl.gov:build $ which gfortran
+/usr/local/bin/gfortran
+l127914@pn1249300.lanl.gov:build $ again
+l127914@pn1249300.lanl.gov:build $ cd ..
+l127914@pn1249300.lanl.gov:fortran-example $ lss
+total 16
+drwxr-xr-x  8 l127914  staff   256B Aug 12 14:44 .
+drwxr-xr-x  6 l127914  staff   192B Aug  8 12:42 ..
+-rw-r--r--  1 l127914  staff   596B Aug 12 14:44 CMakeLists.txt
+drwxr-xr-x  2 l127914  staff    64B Aug 12 14:44 build
+drwxr-xr-x  5 l127914  staff   160B Aug  8 12:42 external
+-rw-r--r--  1 l127914  staff   239B Aug  8 12:42 menu.yml
+drwxr-xr-x  8 l127914  staff   256B Aug 12 14:33 src
+drwxr-xr-x  4 l127914  staff   128B Aug  8 12:42 tests
+l127914@pn1249300.lanl.gov:fortran-example $ rm -rf build/
+l127914@pn1249300.lanl.gov:fortran-example $ mkdir build && cd build
+l127914@pn1249300.lanl.gov:build $ cmake ..
+-- The Fortran compiler identification is GNU 9.1.0
+-- Checking whether Fortran compiler has -isysroot
+-- Checking whether Fortran compiler has -isysroot - yes
+-- Checking whether Fortran compiler supports OSX deployment target flag
+-- Checking whether Fortran compiler supports OSX deployment target flag - yes
+-- Check for working Fortran compiler: /usr/local/bin/gfortran
+-- Check for working Fortran compiler: /usr/local/bin/gfortran  -- broken
+CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeTestFortranCompiler.cmake:45 (message):
+  The Fortran compiler
+
+    "/usr/local/bin/gfortran"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/make cmTC_d3b05/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d3b05.dir/build.make CMakeFiles/cmTC_d3b05.dir/build
+    Building Fortran object CMakeFiles/cmTC_d3b05.dir/testFortranCompiler.f.o
+    /usr/local/bin/gfortran    -c /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_d3b05.dir/testFortranCompiler.f.o
+    Linking Fortran executable cmTC_d3b05
+    /usr/local/Cellar/cmake/3.15.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3b05.dir/link.txt --verbose=1
+    /usr/local/bin/gfortran      CMakeFiles/cmTC_d3b05.dir/testFortranCompiler.f.o  -o cmTC_d3b05 
+    ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd
+    ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd
+    ld: symbol dyld_stub_binder not found (normally in libSystem.dylib).  Needed to perform lazy binding to function __gfortran_set_args for architecture x86_64
+    collect2: error: ld returned 1 exit status
+    make[1]: *** [cmTC_d3b05] Error 1
+    make: *** [cmTC_d3b05/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:4 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeOutput.log".
+See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeError.log".
+l127914@pn1249300.lanl.gov:build $ again
+l127914@pn1249300.lanl.gov:build $ cd ..
+l127914@pn1249300.lanl.gov:fortran-example $ quick
+CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:33 (message):
+  Could not find compiler set in environment variable FC:
+
+  /usr/local/bin/gfortran/bin.
+Call Stack (most recent call first):
+  CMakeLists.txt:4 (project)
+
+
+CMake Error: CMAKE_Fortran_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
+See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeOutput.log".
+l127914@pn1249300.lanl.gov:build $ cd ..
+l127914@pn1249300.lanl.gov:fortran-example $ quick
+CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:33 (message):
+  Could not find compiler set in environment variable FC:
+
+  /usr/local/bin/gfortran/bin.
+Call Stack (most recent call first):
+  CMakeLists.txt:4 (project)
+
+
+CMake Error: CMAKE_Fortran_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
+See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeOutput.log".
+l127914@pn1249300.lanl.gov:build $ cd ..
+l127914@pn1249300.lanl.gov:fortran-example $ quick
+-- The Fortran compiler identification is GNU 9.1.0
+-- Checking whether Fortran compiler has -isysroot
+-- Checking whether Fortran compiler has -isysroot - yes
+-- Checking whether Fortran compiler supports OSX deployment target flag
+-- Checking whether Fortran compiler supports OSX deployment target flag - yes
+-- Check for working Fortran compiler: /usr/local/bin/gfortran
+-- Check for working Fortran compiler: /usr/local/bin/gfortran  -- broken
+CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeTestFortranCompiler.cmake:45 (message):
+  The Fortran compiler
+
+    "/usr/local/bin/gfortran"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/make cmTC_b4cba/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b4cba.dir/build.make CMakeFiles/cmTC_b4cba.dir/build
+    Building Fortran object CMakeFiles/cmTC_b4cba.dir/testFortranCompiler.f.o
+    /usr/local/bin/gfortran    -c /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_b4cba.dir/testFortranCompiler.f.o
+    Linking Fortran executable cmTC_b4cba
+    /usr/local/Cellar/cmake/3.15.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4cba.dir/link.txt --verbose=1
+    /usr/local/bin/gfortran      CMakeFiles/cmTC_b4cba.dir/testFortranCompiler.f.o  -o cmTC_b4cba 
+    ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd
+    ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd
+    ld: symbol dyld_stub_binder not found (normally in libSystem.dylib).  Needed to perform lazy binding to function __gfortran_set_args for architecture x86_64
+    collect2: error: ld returned 1 exit status
+    make[1]: *** [cmTC_b4cba] Error 1
+    make: *** [cmTC_b4cba/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:4 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeOutput.log".
+See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeError.log".
+l127914@pn1249300.lanl.gov:build $ which docker
+/usr/local/bin/docker
+l127914@pn1249300.lanl.gov:build $ $ docker run -it devcafe/cmake-cookbook_ubuntu-18.04
+-bash: $: command not found
+l127914@pn1249300.lanl.gov:build $ $ docker run -it devcafe/cmake-cookbook_ubuntu-18.04
+-bash: $: command not found
+l127914@pn1249300.lanl.gov:build $ docker run -it devcafe/cmake-cookbook_ubuntu-18.04
+Unable to find image 'devcafe/cmake-cookbook_ubuntu-18.04:latest' locally
+latest: Pulling from devcafe/cmake-cookbook_ubuntu-18.04
+c64513b74145: Pull complete 
+01b8b12bad90: Pull complete 
+c5d85cf7a05f: Pull complete 
+b6b268720157: Pull complete 
+e12192999ff1: Pull complete 
+8accc523e5b4: Pull complete 
+efcd1d905fb7: Pull complete 
+c62cc0c9c9ae: Pull complete 
+4dc40d78ae16: Pull complete 
+5ab1a3cb2051: Pull complete 
+e977689d49fd: Pull complete 
+Digest: sha256:5f995aaa94b4b032f8bc5bcec98fe51c36884952672e47f503a855d58502de15
+Status: Downloaded newer image for devcafe/cmake-cookbook_ubuntu-18.04:latest
+
+Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. mightybuilder@6c93cf1dceb1:~$ 
+mightybuilder@6c93cf1dceb1:~$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
+bash: syntax error near unexpected token `('
+mightybuilder@6c93cf1dceb1:~$ git clone https://github.com/dev-cafe/cmake-cookbook.git
+Cloning into 'cmake-cookbook'...
+remote: Enumerating objects: 14014, done.
+remote: Total 14014 (delta 0), reused 0 (delta 0), pack-reused 14014
+Receiving objects: 100% (14014/14014), 88.25 MiB | 18.09 MiB/s, done.
+Resolving deltas: 100% (7118/7118), done.
+mightybuilder@6c93cf1dceb1:~$ 
+mightybuilder@6c93cf1dceb1:~$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
+bash: syntax error near unexpected token `('
+mightybuilder@6c93cf1dceb1:~$ cd cmake-cookbook/
+mightybuilder@6c93cf1dceb1:~/cmake-cookbook$ pipenv install --three
+Creating a virtualenv for this project...
+Pipfile: /home/mightybuilder/cmake-cookbook/Pipfile
+Using /opt/conda/bin/python3 (3.6.6) to create virtualenv...
+⠋Running virtualenv with interpreter /opt/conda/bin/python3
+Using base prefix '/opt/conda'
+New python executable in /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3
+Also creating executable in /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python
+Installing setuptools, pip, wheel...done.
+Setting project for cmake-cookbook-3GSOBQuY to /home/mightybuilder/cmake-cookbook
+
+Virtualenv location: /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY
+Installing dependencies from Pipfile.lock (096ebe)...
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 27/27 — 00:00:10
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+mightybuilder@6c93cf1dceb1:~/cmake-cookbook$ 
+mightybuilder@6c93cf1dceb1:~/cmake-cookbook$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. pipenv run python testing/collect_tests.py 'chapter-*/recipe-*'
+bash: syntax error near unexpected token `('
+mightybuilder@6c93cf1dceb1:~/cmake-cookbook$ 
+mightybuilder@6c93cf1dceb1:~/cmake-cookbook$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
+bash: syntax error near unexpected token `('
+mightybuilder@6c93cf1dceb1:~/cmake-cookbook$ pipenv run python testing/collect_tests.py 'chapter-*/recipe-*'
+
+recipe: Compiling a single source file into an executable
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-01/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-01/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Switching generators
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-02/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-02/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-02/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Building and linking static and shared libraries
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-03/cxx-objlib-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-03/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Controlling compilation with conditionals
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Presenting options to the user
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Specifying the compiler
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-06/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Switching the build type
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-07/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Release ... OK
+
+recipe: Controlling compiler flags
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-08/cxx-example
+C++ compiler flags: -fno-exceptions -fno-rtti
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Setting the standard for the language
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-09/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-09/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Using control flow constructs
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-10/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Discovering the operating system
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-01/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Dealing with platform-dependent source code
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-02/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Dealing with compiler-dependent source code
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-03/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Discovering the host processor architecture
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Discovering the host processor instruction set
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Enabling vectorization for the Eigen library
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-06/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the Python interpreter
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-01/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the Python library
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-02/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+/home/mightybuilder/cmake-cookbook/chapter-03/recipe-02/c-example/hello-embedded-python.c: In function ‘main’:
+/home/mightybuilder/cmake-cookbook/chapter-03/recipe-02/c-example/hello-embedded-python.c:4:21: warning: passing argument 1 of ‘Py_SetProgramName’ from incompatible pointer type [-Wincompatible-pointer-types]
+   Py_SetProgramName(argv[0]); /* optional but recommended */
+                     ^~~~
+In file included from /usr/include/python3.6m/Python.h:119:0,
+                 from /home/mightybuilder/cmake-cookbook/chapter-03/recipe-02/c-example/hello-embedded-python.c:1:
+/usr/include/python3.6m/pylifecycle.h:10:18: note: expected ‘wchar_t * {aka int *}’ but argument is of type ‘char *’
+ PyAPI_FUNC(void) Py_SetProgramName(wchar_t *);
+                  ^~~~~~~~~~~~~~~~~
+  building configuration Debug ... OK
+
+recipe: Detecting Python modules and packages
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the BLAS and LAPACK math libraries
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-04/cxx-example
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the OpenMP parallel environment
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-05/cxx-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-05/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-05/fortran-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the MPI parallel environment
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-06/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-06/c-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-06/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the Eigen library
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-07/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-07/cxx-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the Boost libraries
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-08/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting external libraries: I. Using `pkg-config`
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-09/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-09/c-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting external libraries: II. Writing a find-module
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-10/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Creating a simple unit test
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Defining a unit test using the Catch2 library
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-02/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Defining a unit test and linking against Google Test
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-03/cxx-example-3.5
+Cloning into 'googletest-src'...
+Note: checking out 'release-1.8.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at ec44c6c1 Merge pull request #821 from mazong1123/master
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+

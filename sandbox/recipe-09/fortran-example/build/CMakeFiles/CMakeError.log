@@ -1,116 +1,96 @@
 Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
-Compiler: /usr/local/bin/flang 
+Compiler: /usr/local/bin/gfortran 
 Build flags: 
 Id flags: -v 
 
 The output was:
 1
-clang version 4.0.1 (https://github.com/flang-compiler/clang.git 1e3a3bec071e694fe7b4707dd4193cc07062afe0) (https://github.com/llvm-mirror/llvm.git c8fccc53ed66d505898f8850bcc690c977a7c9a7)
+Driving: /usr/local/bin/gfortran -v CMakeFortranCompilerId.F -mmacosx-version-min=10.14.0 -asm_macosx_version_min=10.14 -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/9.1.0/libexec/gcc/x86_64-apple-darwin18/9.1.0/lto-wrapper
+Target: x86_64-apple-darwin18
+Configured with: ../configure --build=x86_64-apple-darwin18 --prefix=/usr/local/Cellar/gcc/9.1.0 --libdir=/usr/local/Cellar/gcc/9.1.0/lib/gcc/9 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-9 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --with-pkgversion='Homebrew GCC 9.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+Thread model: posix
+gcc version 9.1.0 (Homebrew GCC 9.1.0) 
+COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc/9.1.0/libexec/gcc/x86_64-apple-darwin18/9.1.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T//cc8nDQqi.f90 -quiet -v -D__DYNAMIC__ CMakeFortranCompilerId.F -fPIC -quiet -dumpbase CMakeFortranCompilerId.F -mmacosx-version-min=10.14.0 -mtune=core2 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/finclude -o /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T//ccNHKikX.s
+GNU Fortran (Homebrew GCC 9.1.0) version 9.1.0 (x86_64-apple-darwin18)
+	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+ignoring nonexistent directory "/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/../../../../../../x86_64-apple-darwin18/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/finclude
+ /usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/include
+ /usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+End of search list.
+GNU Fortran2008 (Homebrew GCC 9.1.0) version 9.1.0 (x86_64-apple-darwin18)
+	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.14.0'  '-shared-libgcc' '-mtune=core2'
+ as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.14 -o /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T//cc4pxsBa.o /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T//ccNHKikX.s
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
 Target: x86_64-apple-darwin18.7.0
 Thread model: posix
-InstalledDir: /usr/local/bin
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 Found CUDA installation: /usr/local/cuda, version 8.0
- "flang1" CMakeFortranCompilerId.F -opt 0 -terse 1 -inform warn -nohpf -nostatic -y 129 2 -inform warn -x 19 0x400000 -quad -x 59 4 -x 15 2 -x 49 0x400004 -x 51 0x20 -x 57 0x4c -x 58 0x10000 -x 124 0x1000 -tp px -x 57 0xfb0000 -x 58 0x78031040 -x 47 0x08 -x 48 4608 -x 49 0x100 -def unix -def __unix -def __unix__ -def linux -def __linux -def __linux__ -def __NO_MATH_INLINES -def __LP64__ -def __x86_64 -def __x86_64__ -def __LONG_MAX__=9223372036854775807L -def __SIZE_TYPE__=unsigned long int -def __PTRDIFF_TYPE__=long int -def __THROW= -def __extension__= -def __amd_64__amd64__ -def __k8 -def __k8__ -def __PGLLVM__ -preprocess -nofreeform -vect 48 -y 54 1 -x 70 0x40000000 -y 163 0xc0000000 -x 189 0x10 -stbfile /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-ebd81b.stb -modexport /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-ebd81b.cmod -modindex /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-ebd81b.cmdx -output /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-ebd81b.ilm
-clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple x86_64-apple-macosx10.14.0 -filetype obj -main-file-name ccNHKikX.s -target-cpu penryn -fdebug-compilation-dir /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/3.15.1/CompilerIdFortran -dwarf-debug-producer Apple LLVM version 9.0.0 (clang-900.0.39.2) -dwarf-version=4 -mrelocation-model pic -o /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T//cc4pxsBa.o /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T//ccNHKikX.s
+Reading specs from /usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/../../../libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.14.0'  '-shared-libgcc' '-mtune=core2'
+COMPILER_PATH=/usr/local/Cellar/gcc/9.1.0/libexec/gcc/x86_64-apple-darwin18/9.1.0/:/usr/local/Cellar/gcc/9.1.0/libexec/gcc/x86_64-apple-darwin18/9.1.0/:/usr/local/Cellar/gcc/9.1.0/libexec/gcc/x86_64-apple-darwin18/:/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/:/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/
+LIBRARY_PATH=/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/:/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.14.0'  '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc/9.1.0/libexec/gcc/x86_64-apple-darwin18/9.1.0/collect2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o a.out -L/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0 -L/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/../../.. /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T//cc4pxsBa.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 9.1.0
+/usr/bin/ld -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.14.0 -weak_reference_mismatches non-weak -o a.out -L/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0 -L/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0/../../.. /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T//cc4pxsBa.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-305
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/local/Cellar/gcc/9.1.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.1.0
+	/usr/local/Cellar/gcc/9.1.0/lib/gcc/9
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd
+ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd
+ld: symbol dyld_stub_binder not found (normally in libSystem.dylib).  Needed to perform lazy binding to function __gfortran_st_write for architecture x86_64
+collect2: error: ld returned 1 exit status
 
 
 Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
-Compiler: /usr/local/bin/flang 
+Compiler: /usr/local/bin/gfortran 
 Build flags: 
 Id flags:  
 
 The output was:
 1
-clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
+ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd
+ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd
+ld: symbol dyld_stub_binder not found (normally in libSystem.dylib).  Needed to perform lazy binding to function __gfortran_set_args for architecture x86_64
+collect2: error: ld returned 1 exit status
 
 
-Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
-Compiler: /usr/local/bin/flang 
-Build flags: 
-Id flags: -c 
-
-The output was:
-1
-clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
-
-
-Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
-Compiler: /usr/local/bin/flang 
-Build flags: 
-Id flags: -fpp 
-
-The output was:
-1
-clang-4.0: error: unknown argument: '-fpp'
-
-
-Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
-Compiler: /usr/local/bin/flang 
-Build flags: 
-Id flags: -v 
-
-The output was:
-1
-clang version 4.0.1 (https://github.com/flang-compiler/clang.git 1e3a3bec071e694fe7b4707dd4193cc07062afe0) (https://github.com/llvm-mirror/llvm.git c8fccc53ed66d505898f8850bcc690c977a7c9a7)
-Target: x86_64-apple-darwin18.7.0
-Thread model: posix
-InstalledDir: /usr/local/bin
-Found CUDA installation: /usr/local/cuda, version 8.0
- "flang1" CMakeFortranCompilerId.F -opt 0 -terse 1 -inform warn -nohpf -nostatic -y 129 2 -inform warn -x 19 0x400000 -quad -x 59 4 -x 15 2 -x 49 0x400004 -x 51 0x20 -x 57 0x4c -x 58 0x10000 -x 124 0x1000 -tp px -x 57 0xfb0000 -x 58 0x78031040 -x 47 0x08 -x 48 4608 -x 49 0x100 -def unix -def __unix -def __unix__ -def linux -def __linux -def __linux__ -def __NO_MATH_INLINES -def __LP64__ -def __x86_64 -def __x86_64__ -def __LONG_MAX__=9223372036854775807L -def __SIZE_TYPE__=unsigned long int -def __PTRDIFF_TYPE__=long int -def __THROW= -def __extension__= -def __amd_64__amd64__ -def __k8 -def __k8__ -def __PGLLVM__ -preprocess -nofreeform -vect 48 -y 54 1 -x 70 0x40000000 -y 163 0xc0000000 -x 189 0x10 -stbfile /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-2e1e83.stb -modexport /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-2e1e83.cmod -modindex /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-2e1e83.cmdx -output /var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/CMakeFortranCompilerId-2e1e83.ilm
-clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
-
-
-Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
-Compiler: /usr/local/bin/flang 
-Build flags: 
-Id flags:  
-
-The output was:
-1
-clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
-
-
-Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
-Compiler: /usr/local/bin/flang 
-Build flags: 
-Id flags: -c 
-
-The output was:
-1
-clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
-
-
-Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
-Compiler: /usr/local/bin/flang 
-Build flags: 
-Id flags: -fpp 
-
-The output was:
-1
-clang-4.0: error: unknown argument: '-fpp'
-
-
-Checking whether the Fortran compiler is Compaq using "-what" did not match "Compaq Visual Fortran":
-clang-4.0: error: unknown argument: '-what'
-clang-4.0: error: no input files
-Checking whether the Fortran compiler is NAG using "-V" did not match "NAG Fortran Compiler":
-clang-4.0: error: argument to '-V' is missing (expected 1 value)
-clang-4.0: error: no input files
-Checking whether the Fortran compiler is Compaq using "-what" did not match "Compaq Visual Fortran":
-clang-4.0: error: unknown argument: '-what'
-clang-4.0: error: no input files
-Checking whether the Fortran compiler is NAG using "-V" did not match "NAG Fortran Compiler":
-clang-4.0: error: argument to '-V' is missing (expected 1 value)
-clang-4.0: error: no input files
 Determining if the Fortran compiler works failed with the following output:
 Change Dir: /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_4905f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4905f.dir/build.make CMakeFiles/cmTC_4905f.dir/build
-Building Fortran object CMakeFiles/cmTC_4905f.dir/testFortranCompiler.f.o
-/usr/local/bin/flang    -c /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_4905f.dir/testFortranCompiler.f.o
-clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
-make[1]: *** [CMakeFiles/cmTC_4905f.dir/testFortranCompiler.f.o] Error 1
-make: *** [cmTC_4905f/fast] Error 2
+Run Build Command(s):/usr/bin/make cmTC_b4cba/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b4cba.dir/build.make CMakeFiles/cmTC_b4cba.dir/build
+Building Fortran object CMakeFiles/cmTC_b4cba.dir/testFortranCompiler.f.o
+/usr/local/bin/gfortran    -c /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_b4cba.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_b4cba
+/usr/local/Cellar/cmake/3.15.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4cba.dir/link.txt --verbose=1
+/usr/local/bin/gfortran      CMakeFiles/cmTC_b4cba.dir/testFortranCompiler.f.o  -o cmTC_b4cba 
+ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd
+ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd
+ld: symbol dyld_stub_binder not found (normally in libSystem.dylib).  Needed to perform lazy binding to function __gfortran_set_args for architecture x86_64
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_b4cba] Error 1
+make: *** [cmTC_b4cba/fast] Error 2
 
 
 

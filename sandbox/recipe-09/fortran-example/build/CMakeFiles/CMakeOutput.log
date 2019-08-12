@@ -1,13 +1,14 @@
 The system is: Darwin - 18.7.0 - x86_64
-Determining if the Fortran compiler is GNU succeeded with the following output:
-# 1 "/usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeTestGNU.c"
-# 1 "<built-in>" 1
-# 1 "<built-in>" 3
-# 328 "<built-in>" 3
-# 1 "<command line>" 1
-# 1 "<built-in>" 2
-# 1 "/usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeTestGNU.c" 2
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/local/bin/gfortran 
+Build flags: 
+Id flags: -c 
 
-void THIS_IS_GNU();
+The output was:
+0
 
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "CMakeFortranCompilerId.o"
+
+The Fortran compiler identification is GNU, found in "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/3.15.1/CompilerIdFortran/CMakeFortranCompilerId.o"
 
