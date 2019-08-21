@@ -1,0 +1,3742 @@
+Last login: Mon Aug 19 17:59:48 on ttys037
+pn1249300:~ l127914$ source ~/.bashrc
+Mon Aug 19 18:05:29 MDT 2019 /Users/l127914/.bashrc
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /Users/l127914/Documents/repos/gitlab/node-queries/Cauchy-Schwarz/log.in-pn1249300/dir-configuration
+directory of core scripts = ${core} = /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/master.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+-bash: gonode: command not found
+fatal: not a git repository (or any of the parent directories): .git
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/git.sh
+fatal: not a git repository (or any of the parent directories): .git
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/permissions-and-groups.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+cp: /Users/l127914/.libraries-Cauchy-Schwarz.sh: No such file or directory
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-projects.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Mon Aug 19 18:05:29 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
+[1]   Done                    source ${core}/info-git.sh
+[2]+  Done                    source "${core}/copy-configuration.sh"
+Mon Aug 19 18:05:30 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/uname.sh
+Mon Aug 19 18:05:30 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Mon Aug 19 18:05:30 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/spack.sh
+/Users/l127914/Documents/repos/gitlab/node-queries
+Mon Aug 19 18:05:30 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/modules.sh
+uname: illegal option -- i
+usage: uname [-amnprsv]
+[3]+  Exit 127                module available >> ${my_log} 2>&1
+uname: illegal option -- o
+usage: uname [-amnprsv]
+Mon Aug 19 18:05:30 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/alias.sh
+[2]-  Done                    source "${core}/uname.sh"
+[3]+  Exit 127                module list >> ${my_log} 2>&1
+Mon Aug 19 18:05:30 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/rsync.sh
+Mon Aug 19 18:05:30 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[master 96d6e9d5e] Cauchy-Schwarz-log.in-pn1249300 Mon Aug 19 18:05:30 MDT 2019
+ 6 files changed, 60 insertions(+), 219 deletions(-)
+ rewrite Cauchy-Schwarz/log.in-pn1249300/alias-assignments.txt (99%)
+[1]+  Done                    source ${core}/info-git.sh
+Mon Aug 19 18:05:30 MDT 2019, /Users/l127914/.bash-Cauchy-Schwarz-platform-specific
+Mon Aug 19 18:05:30 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/apple.sh
+Mon Aug 19 18:05:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/macports.sh
+l127914@pn1249300.lanl.gov:~ $ sudo xcode-select --install
+Password:
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates
+[1]   Done                    cp ${HOME}/${bash_file} ${alt_vault}
+[2]   Done                    cp ${HOME}/${extras} ${alt_vault}
+[3]-  Done                    cp ${HOME}/.vimrc ${alt_vault}
+[4]+  Done                    cp ${HOME}/.gitconfig ${alt_vault}
+l127914@pn1249300.lanl.gov:~ $ mkdir sandbox
+l127914@pn1249300.lanl.gov:~ $ cd sandbox/
+l127914@pn1249300.lanl.gov:sandbox $ docker run -it devcafe/cmake-cookbook_ubuntu-18.04
+Unable to find image 'devcafe/cmake-cookbook_ubuntu-18.04:latest' locally
+latest: Pulling from devcafe/cmake-cookbook_ubuntu-18.04
+c64513b74145: Pull complete 
+01b8b12bad90: Pull complete 
+c5d85cf7a05f: Pull complete 
+b6b268720157: Pull complete 
+e12192999ff1: Pull complete 
+8accc523e5b4: Pull complete 
+efcd1d905fb7: Pull complete 
+c62cc0c9c9ae: Pull complete 
+4dc40d78ae16: Pull complete 
+5ab1a3cb2051: Pull complete 
+e977689d49fd: Pull complete 
+Digest: sha256:5f995aaa94b4b032f8bc5bcec98fe51c36884952672e47f503a855d58502de15
+Status: Downloaded newer image for devcafe/cmake-cookbook_ubuntu-18.04:latest
+
+Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. mightybuilder@fe2abfe04769:~$ 
+mightybuilder@fe2abfe04769:~$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
+bash: syntax error near unexpected token `('
+mightybuilder@fe2abfe04769:~$ git clone https://github.com/dev-cafe/cmake-cookbook.git
+Cloning into 'cmake-cookbook'...
+remote: Enumerating objects: 14014, done.
+remote: Total 14014 (delta 0), reused 0 (delta 0), pack-reused 14014
+Receiving objects: 100% (14014/14014), 88.25 MiB | 13.10 MiB/s, done.
+Resolving deltas: 100% (7118/7118), done.
+mightybuilder@fe2abfe04769:~$ 
+mightybuilder@fe2abfe04769:~$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
+bash: syntax error near unexpected token `('
+mightybuilder@fe2abfe04769:~$ vi .mighty-builder-bash
+mightybuilder@fe2abfe04769:~$ vi .vimrc
+mightybuilder@fe2abfe04769:~$ . .mighty-builder-bash 
+Tue Aug 20 03:54:15 UTC 2019, .mighty-builder-bash
+bash: /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/platforms.sh: No such file or directory
+bash: /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/master.sh: No such file or directory
+bash: /home/mightybuilder/.bash-platform-specific.sh: No such file or directory
+mightybuilder@fe2abfe04769:~$ cd .ssh
+bash: cd: .ssh: No such file or directory
+mightybuilder@fe2abfe04769:~$ mkdir ssh
+mightybuilder@fe2abfe04769:~$ mv -f ssh .ssh
+mightybuilder@fe2abfe04769:~$ cd .ssh/
+mightybuilder@fe2abfe04769:~/.ssh$ alias make_key_rsa='ssh-keygen -t rsa -b 4096 -o -a 100 -C “dantopa@lanl.gov”'
+mightybuilder@fe2abfe04769:~/.ssh$ make_key_rsa 
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/mightybuilder/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/mightybuilder/.ssh/id_rsa.
+Your public key has been saved in /home/mightybuilder/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:0ifHH92Df7Ti1mwDmdt1J0T/I7PQ39R1yTKTErjY3s0 “dantopa@lanl.gov”
+The key's randomart image is:
++---[RSA 4096]----+
+|          .      |
+|         . .  .  |
+|        o . ..o..|
+|       o + . *o++|
+|      . S = *oB.B|
+|       . = + EooX|
+|            o.@=B|
+|            .+.Bo|
+|            ... .|
++----[SHA256]-----+
+mightybuilder@fe2abfe04769:~/.ssh$ vi text-id-rsa
+mightybuilder@fe2abfe04769:~/.ssh$ cat ~/.ssh/id_rsa.pub"
+> alias make_key_rsa='ssh-keygen -t rsa -b 4096 -o -a 100 -C “dantopa@l
+> ^C
+mightybuilder@fe2abfe04769:~/.ssh$ cat ~/.ssh/id_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDIssFRKOfaa3MJGO9dO1H3jGeXHbzLW0ZFG7e9+jXvjy7XHdBcd0MErZFBsdEhpiI2bbvtiwzII18h8UagiLokC1ZCkWxZDN+BVVllKP+eODAncb4Twhl5oaYywBFhoxLEmxszg+JieEHqcmOhXWfLilGnuWwAJidI7iK5HR3C4oB4TGK9LuXJQwGc75UKezYFolR4Z1U1NdXY3puQdBEM3afucG+ENuwvnOydj9LxAAiAHult4WYRZwJZe/hjT7tZD51j1vxBJV7fWhPMVuA5yMBg+5YbKWUrHxVitwSrRAT5cODlsn+ChZ7Ub+BOzk50Npkgbtmgca5HfzgATAeLlTieF8FrN8Lg4P74TCUDQV19x4f02WsRp+rxZpY2FeFsrneZu7nIsfRxXR0QZrOsIGUyfNqZlzvuMNVc8p0OYDdM7qK97L8Gegmog+h9ZRLBsfRd7SmQkaru/KGcVoUFKNlprZ5Q0i4WXIf7TLPBFSPp8yh20txmStCbl7g75v5sCRMqWC0pbJGquMvv1c8bin5pJbeUqDpHAc4RTo0ustTkMAWBI7bU922UDigSoBcpT+8P9xg26XEQg52rO9bbS6ex6wQZ34UT2EtE0UYs08qLnB+gr1UGhlEfcB0NlWI2JWml0bsvZg1GLKaCX1Z7d3QyMDI19WwovP638INSIw== “dantopa@lanl.gov”
+mightybuilder@fe2abfe04769:~/.ssh$ cd
+mightybuilder@fe2abfe04769:~$ mkdir repos
+mightybuilder@fe2abfe04769:~$ cd repos/
+mightybuilder@fe2abfe04769:~/repos$ mkdir gitlab
+mightybuilder@fe2abfe04769:~/repos$ cd gitlab/
+mightybuilder@fe2abfe04769:~/repos/gitlab$ git clone git@gitlab.lanl.gov:dantopa/bash-scripts.git
+Cloning into 'bash-scripts'...
+The authenticity of host 'gitlab.lanl.gov (128.165.148.2)' can't be established.
+ECDSA key fingerprint is SHA256:ggHIXoO3nPD94dQ3GgS3mDGL+dNJtpVYDKH/xDGdNdk.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'gitlab.lanl.gov,128.165.148.2' (ECDSA) to the list of known hosts.
+remote: Enumerating objects: 109, done.
+remote: Counting objects: 100% (109/109), done.
+remote: Compressing objects: 100% (61/61), done.
+remote: Total 1002 (delta 57), reused 96 (delta 47)
+Receiving objects: 100% (1002/1002), 9.38 MiB | 17.53 MiB/s, done.
+Resolving deltas: 100% (642/642), done.
+mightybuilder@fe2abfe04769:~/repos/gitlab$ cd
+mightybuilder@fe2abfe04769:~$ . .mighty-builder-bash 
+Tue Aug 20 04:00:20 UTC 2019, .mighty-builder-bash
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /home/mightybuilder/repos/gitlab/node-queries/mighty-builder/log.in-fe2abfe04769/dir-configuration
+directory of core scripts = ${core} = /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/master.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/info.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+[2]   Done                    proc_probes "cmdline" "parameters passed to the kernel when it is started"
+[3]   Done                    proc_probes "cpuinfo" "type of processor used"
+[4]   Done                    proc_probes "crypto" "lists all installed cryptographic ciphers used by the Linux kernel"
+[5]   Done                    proc_probes "devices" "displays the various character and block devices currently configured"
+[6]   Exit 1                  proc_probes "driver" "information for specific drivers in use by the kernel"
+[7]   Done                    proc_probes "dma" "registered ISA DMA channels in use"
+[8]   Done                    proc_probes "execdomains" "execution domains currently supported by the Linux kernel,"
+[10]   Done                    proc_probes "filesystems" "file system types currently supported by the kernel"
+[19]   Done                    proc_probes "misc" "miscellaneous drivers registered on the miscellaneous major device, which is device number 10"
+[1]   Done                    proc_probes "buddyinfo" "used primarily for diagnosing memory fragmentation issues"
+[12]   Done                    proc_probes "iomem" "current map of the system's memory for each physical device"
+[15]   Done                    proc_probes "loadavg" "load average in regard to both the CPU and IO over time"
+[20]   Done                    proc_probes "modules" "all modules loaded into the kernel"
+[25]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[9]   Done                    proc_probes "fb" "frame buffer devices"
+[11]   Done                    proc_probes "interrupts" "the number of interrupts per IRQ on the x86 architecture"
+[13]   Done                    proc_probes "ioports" "currently registered port regions used for input or output communication"
+[14]   Exit 1                  proc_probes "kmsg" "messages generated by the kernel"
+[17]   Exit 1                  proc_probes "mdstat" "current information for multiple-disk, RAID configurations"
+[18]   Done                    proc_probes "meminfo" "valuable information about the system's RAM usage"
+[22]   Done                    proc_probes "mtrr" "current Memory Type Range Registers (MTRRs) in use with the system"
+[24]   Exit 1                  proc_probes "scsi/scsi" "list of every recognized SCSI device"
+[26]   Done                    proc_probes "stat" "statistics about the system since last restart"
+[28]   Done                    proc_probes "swaps" "measures swap space and its utilization"
+[29]   Done                    proc_probes "uptime" "uptime since restart"
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+bash: gonode: command not found
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/git.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/permissions-and-groups.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+cp: cannot stat '/home/mightybuilder/.gitconfig': No such file or directory
+cp: cannot stat '/home/mightybuilder/.libraries-mighty-builder.sh': No such file or directory
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/bookmarks-projects.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/info.sh
+[16]   Done                    proc_probes "locks" "files currently locked by the kernel"
+[21]   Done                    proc_probes "mounts" "all mounts in use"
+[23]   Done                    proc_probes "partitions" "partition block allocation information"
+[27]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[30]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[31]   Done                    proc_probes "version" "version of the Linux kernel, gcc version used to compile the kernel, time of kernel compilation, kernel compiler's user name "
+[32]   Done                    source ${core}/info-git.sh
+[33]+  Done                    source "${core}/copy-configuration.sh"
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+[1]   Done                    proc_probes "buddyinfo" "used primarily for diagnosing memory fragmentation issues"
+[2]   Done                    proc_probes "cmdline" "parameters passed to the kernel when it is started"
+[3]   Done                    proc_probes "cpuinfo" "type of processor used"
+[4]   Done                    proc_probes "crypto" "lists all installed cryptographic ciphers used by the Linux kernel"
+[5]   Done                    proc_probes "devices" "displays the various character and block devices currently configured"
+[6]   Exit 1                  proc_probes "driver" "information for specific drivers in use by the kernel"
+[7]   Done                    proc_probes "dma" "registered ISA DMA channels in use"
+[9]   Done                    proc_probes "fb" "frame buffer devices"
+[10]   Done                    proc_probes "filesystems" "file system types currently supported by the kernel"
+[15]   Done                    proc_probes "loadavg" "load average in regard to both the CPU and IO over time"
+[21]   Done                    proc_probes "mounts" "all mounts in use"
+[29]   Done                    proc_probes "uptime" "uptime since restart"
+[8]   Done                    proc_probes "execdomains" "execution domains currently supported by the Linux kernel,"
+[12]   Done                    proc_probes "iomem" "current map of the system's memory for each physical device"
+[14]   Exit 1                  proc_probes "kmsg" "messages generated by the kernel"
+[17]   Exit 1                  proc_probes "mdstat" "current information for multiple-disk, RAID configurations"
+[18]   Done                    proc_probes "meminfo" "valuable information about the system's RAM usage"
+[20]   Done                    proc_probes "modules" "all modules loaded into the kernel"
+[23]   Done                    proc_probes "partitions" "partition block allocation information"
+[25]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[30]-  Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[31]+  Done                    proc_probes "version" "version of the Linux kernel, gcc version used to compile the kernel, time of kernel compilation, kernel compiler's user name "
+[11]   Done                    proc_probes "interrupts" "the number of interrupts per IRQ on the x86 architecture"
+[13]   Done                    proc_probes "ioports" "currently registered port regions used for input or output communication"
+[22]   Done                    proc_probes "mtrr" "current Memory Type Range Registers (MTRRs) in use with the system"
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/spack.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/uname.sh
+/home/mightybuilder/repos/gitlab/node-queries
+fatal: not a git repository (or any of the parent directories): .git
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/modules.sh
+fatal: not a git repository (or any of the parent directories): .git
+[19]   Done                    proc_probes "misc" "miscellaneous drivers registered on the miscellaneous major device, which is device number 10"
+[24]   Exit 1                  proc_probes "scsi/scsi" "list of every recognized SCSI device"
+[26]   Done                    proc_probes "stat" "statistics about the system since last restart"
+[27]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[28]   Done                    proc_probes "swaps" "measures swap space and its utilization"
+[29]-  Done                    source ${core}/info-git.sh
+[31]+  Exit 127                module available >> ${my_log} 2>&1
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/alias.sh
+[16]   Done                    proc_probes "locks" "files currently locked by the kernel"
+[30]-  Done                    source "${core}/uname.sh"
+[31]+  Exit 127                module list >> ${my_log} 2>&1
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/rsync.sh
+Tue Aug 20 04:00:20 UTC 2019, /home/mightybuilder/repos/gitlab/bash-scripts/core-scripts/environment.sh
+bash: /home/mightybuilder/.bash-platform-specific.sh: No such file or directory
+mightybuilder@fe2abfe04769:~ $ cd cmake-cookbook/
+mightybuilder@fe2abfe04769:cmake-cookbook $ pipenv install --three
+Creating a virtualenv for this project...
+Pipfile: /home/mightybuilder/cmake-cookbook/Pipfile
+Using /opt/conda/bin/python3 (3.6.6) to create virtualenv...
+⠋Running virtualenv with interpreter /opt/conda/bin/python3
+Using base prefix '/opt/conda'
+New python executable in /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3
+Also creating executable in /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python
+Installing setuptools, pip, wheel...done.
+Setting project for cmake-cookbook-3GSOBQuY to /home/mightybuilder/cmake-cookbook
+
+Virtualenv location: /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY
+Installing dependencies from Pipfile.lock (096ebe)...
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 27/27 — 00:00:11
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+mightybuilder@fe2abfe04769:cmake-cookbook $ 
+lar software with modern CMake (p. 10). Packt Publishing. Kindle Edition.  Building, testing, and packaging modul
+bash: syntax error near unexpected token `('
+mightybuilder@fe2abfe04769:cmake-cookbook $ pipenv run python testing/collect_tests.py 'chapter-*/recipe-*'
+
+recipe: Compiling a single source file into an executable
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-01/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-01/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Switching generators
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-02/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-02/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-02/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Building and linking static and shared libraries
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-03/cxx-objlib-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-03/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Controlling compilation with conditionals
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Presenting options to the user
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Specifying the compiler
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-06/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Switching the build type
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-07/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Release ... OK
+
+recipe: Controlling compiler flags
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-08/cxx-example
+C++ compiler flags: -fno-exceptions -fno-rtti
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Setting the standard for the language
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-09/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-09/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Using control flow constructs
+
+  /home/mightybuilder/cmake-cookbook/chapter-01/recipe-10/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Discovering the operating system
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-01/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Dealing with platform-dependent source code
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-02/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Dealing with compiler-dependent source code
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-03/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Discovering the host processor architecture
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Discovering the host processor instruction set
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Enabling vectorization for the Eigen library
+
+  /home/mightybuilder/cmake-cookbook/chapter-02/recipe-06/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the Python interpreter
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-01/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the Python library
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-02/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+/home/mightybuilder/cmake-cookbook/chapter-03/recipe-02/c-example/hello-embedded-python.c: In function ‘main’:
+/home/mightybuilder/cmake-cookbook/chapter-03/recipe-02/c-example/hello-embedded-python.c:4:21: warning: passing argument 1 of ‘Py_SetProgramName’ from incompatible pointer type [-Wincompatible-pointer-types]
+   Py_SetProgramName(argv[0]); /* optional but recommended */
+                     ^~~~
+In file included from /usr/include/python3.6m/Python.h:119:0,
+                 from /home/mightybuilder/cmake-cookbook/chapter-03/recipe-02/c-example/hello-embedded-python.c:1:
+/usr/include/python3.6m/pylifecycle.h:10:18: note: expected ‘wchar_t * {aka int *}’ but argument is of type ‘char *’
+ PyAPI_FUNC(void) Py_SetProgramName(wchar_t *);
+                  ^~~~~~~~~~~~~~~~~
+  building configuration Debug ... OK
+
+recipe: Detecting Python modules and packages
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the BLAS and LAPACK math libraries
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-04/cxx-example
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the OpenMP parallel environment
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-05/cxx-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-05/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-05/fortran-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the MPI parallel environment
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-06/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-06/c-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-06/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the Eigen library
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-07/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-07/cxx-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting the Boost libraries
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-08/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting external libraries: I. Using `pkg-config`
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-09/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-09/c-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Detecting external libraries: II. Writing a find-module
+
+  /home/mightybuilder/cmake-cookbook/chapter-03/recipe-10/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Creating a simple unit test
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Defining a unit test using the Catch2 library
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-02/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Defining a unit test and linking against Google Test
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-03/cxx-example-3.5
+Cloning into 'googletest-src'...
+Note: checking out 'release-1.8.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at ec44c6c1 Merge pull request #821 from mazong1123/master
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Defining a unit test and linking against Boost test
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Using dynamic analysis to detect memory defects
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Testing expected failures
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-06/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Using timeouts for long tests
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-07/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Running tests in parallel
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-08/using-cost-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-08/without-cost-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Running a subset of tests
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-09/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Using test fixtures
+
+  /home/mightybuilder/cmake-cookbook/chapter-04/recipe-10/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Using platform-independent file operations
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Running a custom command at configure time
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-02/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Running a custom command at build time: I. Using `add_custom_command`
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-03/cxx-example
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Running a custom command at build time: II. Using `add_custom_target`
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-04/cxx-example
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Running custom commands for specific targets at build time
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-05/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Probing compilation and linking
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-06/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-06/cxx-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Probing compiler flags
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-07/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Probing execution
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-08/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-08/c-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Fine-tuning configuration and compilation with generator expressions
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-09/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-05/recipe-09/cxx-example-asan
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Generating sources at configure time
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-01/fortran-c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Generating source code at configure time using Python
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-02/fortran-c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Generating source code at build time using Python
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Recording the project version information for reproducibility
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-04/c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-04/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Recording the project version from a file
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Recording the Git hash at configure time
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-06/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Recording the Git hash at build time
+
+  /home/mightybuilder/cmake-cookbook/chapter-06/recipe-07/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Code reuse with functions and macros
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Splitting CMake sources into modules
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-02/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Writing a function to test and set compiler flags
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-03/c-cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Defining a function or macro with named arguments
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Redefining functions and macros
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-05/example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Deprecating functions, macros, and variables
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-06/example
+CMake Deprecation Warning at CMakeLists.txt:26 (message):
+  custom_include_guard is deprecated - use built-in include_guard instead
+Call Stack (most recent call first):
+  cmake/custom.cmake:1 (custom_include_guard)
+  CMakeLists.txt:34 (include)
+
+
+CMake Deprecation Warning at CMakeLists.txt:19 (message):
+  variable included_modules is deprecated
+Call Stack (most recent call first):
+  CMakeLists.txt:9999 (deprecate_variable)
+  CMakeLists.txt:36 (message)
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Limiting scope with `add_subdirectory`
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-07/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Avoiding global variables using `target_sources`
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-08/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Organizing Fortran projects
+
+  /home/mightybuilder/cmake-cookbook/chapter-07/recipe-09/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Using the superbuild pattern
+
+  /home/mightybuilder/cmake-cookbook/chapter-08/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Managing dependencies with a superbuild: I. The Boost libraries
+
+  /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example
+cmake -H"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example" -B"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-20-04-13-05" -G"Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug" -DCMAKE_DISABLE_FIND_PACKAGE_Boost="ON"
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- recipe-02 staged install: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-20-04-13-05/stage
+-- Boost 1.61 could not be located, Building Boost 1.61.0 instead.
+--   Libraries to be built: filesystem, system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-20-04-13-05
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+cmake --build "/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-20-04-13-05" --config Debug -- 
+Scanning dependencies of target boost_external
+[  6%] Creating directories for 'boost_external'
+[ 12%] Performing download step (download, verify and extract) for 'boost_external'
+-- Downloading...
+   dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-20-04-13-05/subprojects/Download/boost_external/boost_1_61_0.zip'
+   timeout='none'
+-- Using src='https://sourceforge.net/projects/boost/files/boost/1.61.0/boost_1_61_0.zip'
+-- verifying file...
+       file='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-20-04-13-05/subprojects/Download/boost_external/boost_1_61_0.zip'
+-- Downloading... done
+-- extracting...
+     src='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-20-04-13-05/subprojects/Download/boost_external/boost_1_61_0.zip'
+     dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-20-04-13-05/subprojects/Source/boost_external'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 18%] No patch step for 'boost_external'
+[ 25%] No update step for 'boost_external'
+[ 31%] Performing configure step for 'boost_external'
+Building Boost.Build engine with toolset gcc... tools/build/src/engine/bin.linuxx86_64/b2
+Unicode/ICU support for Boost.Regex?... not found.
+Generating Boost.Build configuration in project-config.jam...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+    
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+     
+   - Getting started guide: 
+     http://www.boost.org/more/getting_started/unix-variants.html
+     
+   - Boost.Build documentation:
+     http://www.boost.org/build/doc/html/index.html
+
+[ 37%] Performing build step for 'boost_external'
+-- boost_external build command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-20-04-13-05/subprojects/Stamp/boost_external/boost_external-build-*.log
+[ 43%] Performing install step for 'boost_external'
+-- boost_external install command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-20-04-13-05/subprojects/Stamp/boost_external/boost_external-install-*.log
+[ 50%] Completed 'boost_external'
+[ 50%] Built target boost_external
+Scanning dependencies of target recipe-02_core
+[ 56%] Creating directories for 'recipe-02_core'
+[ 62%] No download step for 'recipe-02_core'
+[ 68%] No patch step for 'recipe-02_core'
+[ 75%] No update step for 'recipe-02_core'
+[ 81%] Performing configure step for 'recipe-02_core'
+loading initial cache file /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-20-04-13-05/subprojects/tmp/recipe-02_core/recipe-02_core-cache-Debug.cmake
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Boost version: 1.61.0
+-- Found the following Boost libraries:
+--   filesystem
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-20-04-13-05/subprojects/Build/recipe-02_core
+[ 87%] Performing build step for 'recipe-02_core'
+Scanning dependencies of target path-info
+[ 50%] Building CXX object CMakeFiles/path-info.dir/path-info.cpp.o
+[100%] Linking CXX executable path-info
+[100%] Built target path-info
+[ 93%] No install step for 'recipe-02_core'
+[100%] Completed 'recipe-02_core'
+[100%] Built target recipe-02_core
+  building configuration Debug ... OK
+
+recipe: Managing dependencies with a superbuild: II. The FFTW library
+
+  /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example
+cmake -H"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example" -B"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10" -G"Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug" -DCMAKE_DISABLE_FIND_PACKAGE_FFTW3="ON"
+-- The C compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- recipe-03 staged install: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10/stage
+-- Suitable FFTW3 could not be located. Downloading and building!
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+cmake --build "/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10" --config Debug -- 
+Scanning dependencies of target fftw3_external
+[  6%] Creating directories for 'fftw3_external'
+[ 12%] Performing download step (download, verify and extract) for 'fftw3_external'
+-- Downloading...
+   dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10/subprojects/Download/fftw3_external/fftw-3.3.8.tar.gz'
+   timeout='none'
+-- Using src='http://www.fftw.org/fftw-3.3.8.tar.gz'
+-- verifying file...
+       file='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10/subprojects/Download/fftw3_external/fftw-3.3.8.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10/subprojects/Download/fftw3_external/fftw-3.3.8.tar.gz'
+     dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10/subprojects/Source/fftw3_external'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 18%] No patch step for 'fftw3_external'
+[ 25%] No update step for 'fftw3_external'
+[ 31%] Performing configure step for 'fftw3_external'
+-- fftw3_external configure command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10/subprojects/Stamp/fftw3_external/fftw3_external-configure-*.log
+[ 37%] Performing build step for 'fftw3_external'
+-- fftw3_external build command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10/subprojects/Stamp/fftw3_external/fftw3_external-build-*.log
+[ 43%] Performing install step for 'fftw3_external'
+-- fftw3_external install command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10/subprojects/Stamp/fftw3_external/fftw3_external-install-*.log
+[ 50%] Completed 'fftw3_external'
+[ 50%] Built target fftw3_external
+Scanning dependencies of target recipe-03_core
+[ 56%] Creating directories for 'recipe-03_core'
+[ 62%] No download step for 'recipe-03_core'
+[ 68%] No patch step for 'recipe-03_core'
+[ 75%] No update step for 'recipe-03_core'
+[ 81%] Performing configure step for 'recipe-03_core'
+loading initial cache file /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10/subprojects/tmp/recipe-03_core/recipe-03_core-cache-Debug.cmake
+-- The C compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found FFTW3: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10/stage/lib/libfftw3.so.3 (found version 3.3.7)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-20-04-17-10/subprojects/Build/recipe-03_core
+[ 87%] Performing build step for 'recipe-03_core'
+Scanning dependencies of target fftw_example
+[ 50%] Building C object CMakeFiles/fftw_example.dir/fftw_example.c.o
+[100%] Linking C executable fftw_example
+[100%] Built target fftw_example
+[ 93%] No install step for 'recipe-03_core'
+[100%] Completed 'recipe-03_core'
+[100%] Built target recipe-03_core
+  building configuration Debug ... OK
+
+recipe: Managing dependencies with a superbuild: III. The Google Test framework
+
+  /home/mightybuilder/cmake-cookbook/chapter-08/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-08/recipe-04/cxx-example-3.5
+Cloning into 'googletest-src'...
+Note: checking out 'release-1.8.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at ec44c6c1 Merge pull request #821 from mazong1123/master
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Managing your project as a superbuild
+
+  /home/mightybuilder/cmake-cookbook/chapter-08/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+Cloning into 'message_external'...
+Already on 'master'
+  building configuration Debug ... OK
+
+recipe: Building Fortran projects that use C/C++ libraries
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-01/fortran-c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-01/fortran-cxx-example
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-01/fortran-uuid-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-01/fortran-uuid-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Building C/C++ projects that use Fortran libraries
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-02/cxx-example
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Building C++ and Python projects using Cython
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Building C++ and Python projects using Boost.Python
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Building C++ and Python projects using pybind11
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Mixing C, C++, Fortran, and Python using Python CFFI
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-06/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-06/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Installing your project
+
+  /home/mightybuilder/cmake-cookbook/chapter-10/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+  install configuration Debug ... OK
+
+recipe: Generating export headers
+
+  /home/mightybuilder/cmake-cookbook/chapter-10/recipe-02/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+  install configuration Debug ... OK
+
+recipe: Exporting your targets
+
+  /home/mightybuilder/cmake-cookbook/chapter-10/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  install configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Installing a superbuild
+
+  /home/mightybuilder/cmake-cookbook/chapter-10/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+Cloning into 'message_external'...
+Already on 'master'
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+  install configuration Debug ... OK
+
+recipe: Generating source and binary packages
+
+  /home/mightybuilder/cmake-cookbook/chapter-11/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  install configuration Debug ... OK
+  test configuration Debug ... OK
+CPackRPM: Will use GENERATED spec file: /home/mightybuilder/cmake-cookbook/chapter-11/recipe-01/cxx-example/build-2019-08-20-04-26-10/_CPack_Packages/Linux/RPM/SPECS/recipe-01.spec
+  package configuration Debug ... OK
+
+recipe: Distributing a C++/Python project built with CMake/pybind11 via PyPI
+
+  /home/mightybuilder/cmake-cookbook/chapter-11/recipe-02/cxx-example
+
+Running a custom.sh script
+Creating a virtualenv for this project...
+Pipfile: /home/mightybuilder/cmake-cookbook/chapter-11/recipe-02/cxx-example/build-2019-08-20-04-26-25/venv/Pipfile
+Using /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3 (3.6.6) to create virtualenv...
+Running virtualenv with interpreter /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3
+Using real prefix '/opt/conda'
+New python executable in /home/mightybuilder/.local/share/virtualenvs/venv-LGpG3-I5/bin/python3
+Also creating executable in /home/mightybuilder/.local/share/virtualenvs/venv-LGpG3-I5/bin/python
+Installing setuptools, pip, wheel...done.
+Setting project for venv-LGpG3-I5 to /home/mightybuilder/cmake-cookbook/chapter-11/recipe-02/cxx-example/build-2019-08-20-04-26-25/venv
+
+Virtualenv location: /home/mightybuilder/.local/share/virtualenvs/venv-LGpG3-I5
+Creating a Pipfile for this project...
+Pipfile.lock not found, creating...
+Locking [dev-packages] dependencies...
+Locking [packages] dependencies...
+Updated Pipfile.lock (0d5d03)!
+  custom.sh ... OK
+
+recipe: Distributing a C/Fortran/Python project built with CMake/CFFI via PyPI
+
+  /home/mightybuilder/cmake-cookbook/chapter-11/recipe-03/cxx-example
+
+Running a custom.sh script
+Creating a virtualenv for this project...
+Pipfile: /home/mightybuilder/cmake-cookbook/chapter-11/recipe-03/cxx-example/build-2019-08-20-04-27-42/venv/Pipfile
+Using /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3 (3.6.6) to create virtualenv...
+Running virtualenv with interpreter /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3
+Using real prefix '/opt/conda'
+New python executable in /home/mightybuilder/.local/share/virtualenvs/venv-l8K3XK91/bin/python3
+Also creating executable in /home/mightybuilder/.local/share/virtualenvs/venv-l8K3XK91/bin/python
+Installing setuptools, pip, wheel...done.
+Setting project for venv-l8K3XK91 to /home/mightybuilder/cmake-cookbook/chapter-11/recipe-03/cxx-example/build-2019-08-20-04-27-42/venv
+
+Virtualenv location: /home/mightybuilder/.local/share/virtualenvs/venv-l8K3XK91
+Creating a Pipfile for this project...
+Pipfile.lock not found, creating...
+Locking [dev-packages] dependencies...
+Locking [packages] dependencies...
+Updated Pipfile.lock (0d5d03)!
+/home/mightybuilder/.local/share/virtualenvs/venv-l8K3XK91/lib/python3.6/site-packages/cffi/cparser.py:150: UserWarning: String literal found in cdef() or type source. String literals are ignored here, but you should remove them anyway because some character sequences confuse pre-parsing.
+  warnings.warn("String literal found in cdef() or type source. "
+  custom.sh ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-11/recipe-03/fortran-example
+
+Running a custom.sh script
+Creating a virtualenv for this project...
+Pipfile: /home/mightybuilder/cmake-cookbook/chapter-11/recipe-03/fortran-example/build-2019-08-20-04-28-26/venv/Pipfile
+Using /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3 (3.6.6) to create virtualenv...
+Running virtualenv with interpreter /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3
+Using real prefix '/opt/conda'
+New python executable in /home/mightybuilder/.local/share/virtualenvs/venv-RgeC5Sqv/bin/python3
+Also creating executable in /home/mightybuilder/.local/share/virtualenvs/venv-RgeC5Sqv/bin/python
+Installing setuptools, pip, wheel...done.
+Setting project for venv-RgeC5Sqv to /home/mightybuilder/cmake-cookbook/chapter-11/recipe-03/fortran-example/build-2019-08-20-04-28-26/venv
+
+Virtualenv location: /home/mightybuilder/.local/share/virtualenvs/venv-RgeC5Sqv
+Creating a Pipfile for this project...
+Pipfile.lock not found, creating...
+Locking [dev-packages] dependencies...
+Locking [packages] dependencies...
+Updated Pipfile.lock (0d5d03)!
+/home/mightybuilder/.local/share/virtualenvs/venv-RgeC5Sqv/lib/python3.6/site-packages/cffi/cparser.py:150: UserWarning: String literal found in cdef() or type source. String literals are ignored here, but you should remove them anyway because some character sequences confuse pre-parsing.
+  warnings.warn("String literal found in cdef() or type source. "
+  custom.sh ... OK
+
+recipe: Distributing a simple project as Conda package
+
+  /home/mightybuilder/cmake-cookbook/chapter-11/recipe-04/cxx-example
+
+Running a custom.sh script
+bash "/home/mightybuilder/cmake-cookbook/chapter-11/recipe-04/cxx-example/custom.sh" "/home/mightybuilder/cmake-cookbook/chapter-11/recipe-04/cxx-example/build-2019-08-20-04-29-12"
+Adding in variants from internal_defaults
+Attempting to finalize metadata for conda-example-simple
+Solving environment: ...working... done
+Solving environment: ...working... done
+BUILD START: ['conda-example-simple-0.0.0-h6bb024c_0.tar.bz2']
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:          0.1-main               
+    binutils_impl_linux-64: 2.31.1-h6176602_1      
+    binutils_linux-64:      2.31.1-h6176602_8      
+    bzip2:                  1.0.8-h7b6447c_0       
+    ca-certificates:        2019.5.15-1            
+    cmake:                  3.14.0-h52cb24c_0      
+    expat:                  2.2.6-he6710b0_0       
+    gcc_impl_linux-64:      7.3.0-habb00fd_1       
+    gcc_linux-64:           7.3.0-h553295d_8       
+    gxx_impl_linux-64:      7.3.0-hdf63c60_1       
+    gxx_linux-64:           7.3.0-h553295d_8       
+    krb5:                   1.16.1-h173b8e3_7      
+    libcurl:                7.65.2-h20c2e04_0      
+    libedit:                3.1.20181209-hc058e9b_0
+    libgcc-ng:              9.1.0-hdf63c60_0       
+    libssh2:                1.8.2-h1ba5d50_0       
+    libstdcxx-ng:           9.1.0-hdf63c60_0       
+    ncurses:                6.1-he6710b0_1         
+    openssl:                1.1.1c-h7b6447c_1      
+    rhash:                  1.3.8-h1ba5d50_0       
+    tk:                     8.6.8-hbc83047_0       
+    xz:                     5.2.4-h14c3975_4       
+    zlib:                   1.2.11-h7b6447c_3      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+INFO: activate-binutils_linux-64.sh made the following environmental changes:
++ADDR2LINE=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-addr2line
++AR=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-ar
++AS=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-as
++CXXFILT=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++filt
++ELFEDIT=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-elfedit
++GPROF=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-gprof
++HOST=x86_64-conda_cos6-linux-gnu
++LD=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-ld
++LD_GOLD=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-ld.gold
++NM=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-nm
++OBJCOPY=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-objcopy
++OBJDUMP=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-objdump
++RANLIB=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-ranlib
++READELF=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-readelf
++SIZE=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-size
++STRINGS=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-strings
++STRIP=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-strip
+INFO: activate-gcc_linux-64.sh made the following environmental changes:
++CC=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc
++CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1566275355419/work=/usr/local/src/conda/conda-example-simple-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl=/usr/local/src/conda-prefix
++CMAKE_PREFIX_PATH=:/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl:/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr
++CPP=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-cpp
++CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/include
++DEBUG_CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1566275355419/work=/usr/local/src/conda/conda-example-simple-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl=/usr/local/src/conda-prefix
++DEBUG_CPPFLAGS=-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -I/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/include
++GCC=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc
++GCC_AR=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc-ar
++GCC_NM=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc-nm
++GCC_RANLIB=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc-ranlib
++LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/lib -Wl,-rpath-link,/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/lib -L/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/lib
++_CONDA_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_x86_64_conda_cos6_linux_gnu
+INFO: activate-gxx_linux-64.sh made the following environmental changes:
++CXX=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++
++CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1566275355419/work=/usr/local/src/conda/conda-example-simple-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl=/usr/local/src/conda-prefix
++DEBUG_CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1566275355419/work=/usr/local/src/conda/conda-example-simple-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl=/usr/local/src/conda-prefix
++GXX=/opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-g++
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working CXX compiler: /opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++
+-- Check for working CXX compiler: /opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /opt/conda/conda-bld/conda-example-simple_1566275355419/work/build_conda
+Scanning dependencies of target hello-conda
+[ 50%] Building CXX object CMakeFiles/hello-conda.dir/example.cpp.o
+[100%] Linking CXX executable hello-conda
+[100%] Built target hello-conda
+Install the project...
+-- Install configuration: ""
+-- Installing: /opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/hello-conda
+Copying /home/mightybuilder/cmake-cookbook/chapter-11/recipe-04/cxx-example/build-2019-08-20-04-29-12 to /opt/conda/conda-bld/conda-example-simple_1566275355419/work
+source tree in: /opt/conda/conda-bld/conda-example-simple_1566275355419/work
+
+Resource usage statistics from building conda-example-simple:
+   Process count: 8
+   CPU time: Sys=0:00:00.1, User=0:00:00.2
+   Memory: 40.0M
+   Disk usage: 380B
+   Time elapsed: 0:00:04.1
+
+Packaging conda-example-simple
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:          0.1-main               
+    binutils_impl_linux-64: 2.31.1-h6176602_1      
+    binutils_linux-64:      2.31.1-h6176602_8      
+    bzip2:                  1.0.8-h7b6447c_0       
+    ca-certificates:        2019.5.15-1            
+    cmake:                  3.14.0-h52cb24c_0      
+    expat:                  2.2.6-he6710b0_0       
+    gcc_impl_linux-64:      7.3.0-habb00fd_1       
+    gcc_linux-64:           7.3.0-h553295d_8       
+    gxx_impl_linux-64:      7.3.0-hdf63c60_1       
+    gxx_linux-64:           7.3.0-h553295d_8       
+    krb5:                   1.16.1-h173b8e3_7      
+    libcurl:                7.65.2-h20c2e04_0      
+    libedit:                3.1.20181209-hc058e9b_0
+    libgcc-ng:              9.1.0-hdf63c60_0       
+    libssh2:                1.8.2-h1ba5d50_0       
+    libstdcxx-ng:           9.1.0-hdf63c60_0       
+    ncurses:                6.1-he6710b0_1         
+    openssl:                1.1.1c-h7b6447c_1      
+    rhash:                  1.3.8-h1ba5d50_0       
+    tk:                     8.6.8-hbc83047_0       
+    xz:                     5.2.4-h14c3975_4       
+    zlib:                   1.2.11-h7b6447c_3      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Packaging conda-example-simple-0.0.0-h6bb024c_0
+number of files: 1
+Warning: rpath /opt/conda/conda-bld/conda-example-simple_1566275355419/_build_env/lib is outside prefix /opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl (removing it)
+patchelf: file: /opt/conda/conda-bld/conda-example-simple_1566275355419/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/hello-conda
+    setting rpath to: $ORIGIN/../lib
+   INFO (conda-example-simple,bin/hello-conda): Needed DSO x86_64-conda_cos6-linux-gnu/sysroot/lib/libc.so.6 found in CDT/compiler package defaults::gcc_impl_linux-64-7.3.0-habb00fd_1
+   INFO (conda-example-simple,bin/hello-conda): Needed DSO x86_64-conda_cos6-linux-gnu/sysroot/lib/libstdc++.so.6 found in CDT/compiler package defaults::libstdcxx-ng-9.1.0-hdf63c60_0
+Fixing permissions
+updating: conda-example-simple-0.0.0-h6bb024c_0.tar.bz2
+TEST START: /opt/conda/conda-bld/linux-64/conda-example-simple-0.0.0-h6bb024c_0.tar.bz2
+Updating index at /opt/conda/conda-bld/linux-64 to make package installable with dependencies
+Updating index at /opt/conda/conda-bld/noarch to make package installable with dependencies
+Nothing to test for: /opt/conda/conda-bld/linux-64/conda-example-simple-0.0.0-h6bb024c_0.tar.bz2
+Renaming work directory,  /opt/conda/conda-bld/conda-example-simple_1566275355419/work  to  /opt/conda/conda-bld/conda-example-simple_1566275355419/work_moved_conda-example-simple-0.0.0-h6bb024c_0_linux-64_main_build_loop
+# Automatic uploading is disabled
+# If you want to upload package(s) to anaconda.org later, type:
+
+anaconda upload /opt/conda/conda-bld/linux-64/conda-example-simple-0.0.0-h6bb024c_0.tar.bz2
+
+# To have conda build upload to anaconda.org automatically, use
+# $ conda config --set anaconda_upload yes
+
+anaconda_upload is not set.  Not uploading wheels: []
+####################################################################################
+Resource usage summary:
+
+Total time: 0:03:29.3
+CPU usage: sys=0:00:00.1, user=0:00:00.2
+Maximum memory usage observed: 40.0M
+Total disk usage observed (not including envs): 380B
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/conda
+
+  added / updated specs: 
+    - conda-example-simple
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    conda-example-simple-0.0.0 |       h6bb024c_0           7 KB  local
+
+The following NEW packages will be INSTALLED:
+
+    conda-example-simple: 0.0.0-h6bb024c_0 local
+
+The following packages will be UPDATED:
+
+    ca-certificates:      2018.03.07-0           --> 2019.5.15-1
+
+
+Downloading and Extracting Packages
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+hello from your conda package!
+Cache location: /opt/conda/pkgs
+Will remove the following tarballs:
+
+/opt/conda/pkgs
+---------------
+libcurl-7.65.2-h20c2e04_0.tar.bz2            588 KB
+tk-8.6.8-hbc83047_0.tar.bz2                  3.1 MB
+gxx_linux-64-7.3.0-h553295d_8.tar.bz2        148 KB
+gcc_linux-64-7.3.0-h553295d_8.tar.bz2        149 KB
+binutils_linux-64-2.31.1-h6176602_8.tar.bz2     148 KB
+ncurses-6.1-he6710b0_1.tar.bz2               958 KB
+gxx_impl_linux-64-7.3.0-hdf63c60_1.tar.bz2    18.7 MB
+libssh2-1.8.2-h1ba5d50_0.tar.bz2             250 KB
+expat-2.2.6-he6710b0_0.tar.bz2               187 KB
+bzip2-1.0.8-h7b6447c_0.tar.bz2               105 KB
+conda-example-simple-0.0.0-h6bb024c_0.tar.bz2       7 KB
+openssl-1.1.1c-h7b6447c_1.tar.bz2            3.8 MB
+rhash-1.3.8-h1ba5d50_0.tar.bz2               235 KB
+ca-certificates-2019.5.15-1.tar.bz2          134 KB
+zlib-1.2.11-h7b6447c_3.tar.bz2               120 KB
+krb5-1.16.1-h173b8e3_7.tar.bz2               1.4 MB
+binutils_impl_linux-64-2.31.1-h6176602_1.tar.bz2    16.5 MB
+gcc_impl_linux-64-7.3.0-habb00fd_1.tar.bz2    73.2 MB
+cmake-3.14.0-h52cb24c_0.tar.bz2              9.5 MB
+libedit-3.1.20181209-hc058e9b_0.tar.bz2      188 KB
+libstdcxx-ng-9.1.0-hdf63c60_0.tar.bz2        4.0 MB
+_libgcc_mutex-0.1-main.tar.bz2                 3 KB
+libgcc-ng-9.1.0-hdf63c60_0.tar.bz2           8.1 MB
+
+---------------------------------------------------
+Total:                                     141.6 MB
+
+Removed libcurl-7.65.2-h20c2e04_0.tar.bz2
+Removed tk-8.6.8-hbc83047_0.tar.bz2
+Removed gxx_linux-64-7.3.0-h553295d_8.tar.bz2
+Removed gcc_linux-64-7.3.0-h553295d_8.tar.bz2
+Removed binutils_linux-64-2.31.1-h6176602_8.tar.bz2
+Removed ncurses-6.1-he6710b0_1.tar.bz2
+Removed gxx_impl_linux-64-7.3.0-hdf63c60_1.tar.bz2
+Removed libssh2-1.8.2-h1ba5d50_0.tar.bz2
+Removed expat-2.2.6-he6710b0_0.tar.bz2
+Removed bzip2-1.0.8-h7b6447c_0.tar.bz2
+Removed conda-example-simple-0.0.0-h6bb024c_0.tar.bz2
+Removed openssl-1.1.1c-h7b6447c_1.tar.bz2
+Removed rhash-1.3.8-h1ba5d50_0.tar.bz2
+Removed ca-certificates-2019.5.15-1.tar.bz2
+Removed zlib-1.2.11-h7b6447c_3.tar.bz2
+Removed krb5-1.16.1-h173b8e3_7.tar.bz2
+Removed binutils_impl_linux-64-2.31.1-h6176602_1.tar.bz2
+Removed gcc_impl_linux-64-7.3.0-habb00fd_1.tar.bz2
+Removed cmake-3.14.0-h52cb24c_0.tar.bz2
+Removed libedit-3.1.20181209-hc058e9b_0.tar.bz2
+Removed libstdcxx-ng-9.1.0-hdf63c60_0.tar.bz2
+Removed _libgcc_mutex-0.1-main.tar.bz2
+Removed libgcc-ng-9.1.0-hdf63c60_0.tar.bz2
+Cache location: /opt/conda/pkgs
+Will remove the following packages:
+/opt/conda/pkgs
+---------------
+
+pip-10.0.1-py36_0                            7.1 MB
+xz-5.2.4-h14c3975_4                          1.2 MB
+gxx_impl_linux-64-7.3.0-hdf63c60_1          61.0 MB
+libstdcxx-ng-9.1.0-hdf63c60_0               12.6 MB
+gcc_impl_linux-64-7.3.0-habb00fd_1         220.1 MB
+libgcc-ng-9.1.0-hdf63c60_0                  25.6 MB
+rhash-1.3.8-h1ba5d50_0                       635 KB
+libedit-3.1.20181209-hc058e9b_0              818 KB
+binutils_impl_linux-64-2.31.1-h6176602_1    52.0 MB
+_libgcc_mutex-0.1-main                         7 KB
+bzip2-1.0.8-h7b6447c_0                       575 KB
+ncurses-6.1-he6710b0_1                       5.1 MB
+krb5-1.16.1-h173b8e3_7                       5.0 MB
+cmake-3.14.0-h52cb24c_0                     28.2 MB
+libcurl-7.65.2-h20c2e04_0                    2.1 MB
+tk-8.6.8-hbc83047_0                          9.8 MB
+expat-2.2.6-he6710b0_0                       826 KB
+openssl-1.1.1c-h7b6447c_1                   13.4 MB
+gcc_linux-64-7.3.0-h553295d_8                727 KB
+zlib-1.2.11-h7b6447c_3                       416 KB
+gxx_linux-64-7.3.0-h553295d_8                723 KB
+libssh2-1.8.2-h1ba5d50_0                     1.0 MB
+binutils_linux-64-2.31.1-h6176602_8          720 KB
+
+---------------------------------------------------
+Total:                                     449.6 MB
+
+removing pip-10.0.1-py36_0
+removing xz-5.2.4-h14c3975_4
+removing gxx_impl_linux-64-7.3.0-hdf63c60_1
+removing libstdcxx-ng-9.1.0-hdf63c60_0
+removing gcc_impl_linux-64-7.3.0-habb00fd_1
+removing libgcc-ng-9.1.0-hdf63c60_0
+removing rhash-1.3.8-h1ba5d50_0
+removing libedit-3.1.20181209-hc058e9b_0
+removing binutils_impl_linux-64-2.31.1-h6176602_1
+removing _libgcc_mutex-0.1-main
+removing bzip2-1.0.8-h7b6447c_0
+removing ncurses-6.1-he6710b0_1
+removing krb5-1.16.1-h173b8e3_7
+removing cmake-3.14.0-h52cb24c_0
+removing libcurl-7.65.2-h20c2e04_0
+removing tk-8.6.8-hbc83047_0
+removing expat-2.2.6-he6710b0_0
+removing openssl-1.1.1c-h7b6447c_1
+removing gcc_linux-64-7.3.0-h553295d_8
+removing zlib-1.2.11-h7b6447c_3
+removing gxx_linux-64-7.3.0-h553295d_8
+removing libssh2-1.8.2-h1ba5d50_0
+removing binutils_linux-64-2.31.1-h6176602_8
+source cache (/opt/conda/conda-bld/src_cache)
+Size:                                           0 B
+
+git cache (/opt/conda/conda-bld/git_cache)
+Size:                                           0 B
+
+hg cache (/opt/conda/conda-bld/hg_cache)
+Size:                                           0 B
+
+svn cache (/opt/conda/conda-bld/svn_cache)
+Size:                                           0 B
+
+Total:                                          0 B
+Removing /opt/conda/conda-bld/src_cache
+Removing /opt/conda/conda-bld/git_cache
+Removing /opt/conda/conda-bld/hg_cache
+Removing /opt/conda/conda-bld/svn_cache
+INFO:conda_build.variants:Adding in variants from internal_defaults
+INFO:conda_build.metadata:Attempting to finalize metadata for conda-example-simple
+INFO:conda_build.build:Packaging conda-example-simple
+INFO:conda_build.build:Packaging conda-example-simple-0.0.0-h6bb024c_0
+Importing conda-verify failed.  Please be sure to test your packages.  conda install conda-verify to make this message go away.
+WARNING:conda_build.build:Importing conda-verify failed.  Please be sure to test your packages.  conda install conda-verify to make this message go away.
+INFO:conda_build.build:Updating index at /opt/conda/conda-bld/linux-64 to make package installable with dependencies
+INFO:conda_build.build:Updating index at /opt/conda/conda-bld/noarch to make package installable with dependencies
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.10
+  latest version: 4.7.11
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+conda-example-simple | 7 KB      |            |   0% 
+conda-example-simple | 7 KB      | ########## | 100% 
+  custom.sh ... OK
+
+recipe: Distributing a project with dependencies as Conda package
+
+  /home/mightybuilder/cmake-cookbook/chapter-11/recipe-05/cxx-example
+
+Running a custom.sh script
+bash "/home/mightybuilder/cmake-cookbook/chapter-11/recipe-05/cxx-example/custom.sh" "/home/mightybuilder/cmake-cookbook/chapter-11/recipe-05/cxx-example/build-2019-08-20-04-33-00"
+Adding in variants from internal_defaults
+Attempting to finalize metadata for conda-example-dgemm
+Solving environment: ...working... done
+Solving environment: ...working... done
+Solving environment: ...working... done
+BUILD START: ['conda-example-dgemm-0.0.0-h6bb024c_0.tar.bz2']
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    blas:         1.0-mkl   
+    intel-openmp: 2018.0.3-0
+    mkl:          2018.0.3-1
+    mkl-devel:    2018.0.3-1
+    mkl-include:  2018.0.3-1
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Solving environment: ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:          0.1-main               
+    binutils_impl_linux-64: 2.31.1-h6176602_1      
+    binutils_linux-64:      2.31.1-h6176602_8      
+    bzip2:                  1.0.8-h7b6447c_0       
+    ca-certificates:        2019.5.15-1            
+    cmake:                  3.14.0-h52cb24c_0      
+    expat:                  2.2.6-he6710b0_0       
+    gcc_impl_linux-64:      7.3.0-habb00fd_1       
+    gcc_linux-64:           7.3.0-h553295d_8       
+    gxx_impl_linux-64:      7.3.0-hdf63c60_1       
+    gxx_linux-64:           7.3.0-h553295d_8       
+    krb5:                   1.16.1-h173b8e3_7      
+    libcurl:                7.65.2-h20c2e04_0      
+    libedit:                3.1.20181209-hc058e9b_0
+    libgcc-ng:              9.1.0-hdf63c60_0       
+    libssh2:                1.8.2-h1ba5d50_0       
+    libstdcxx-ng:           9.1.0-hdf63c60_0       
+    ncurses:                6.1-he6710b0_1         
+    openssl:                1.1.1c-h7b6447c_1      
+    rhash:                  1.3.8-h1ba5d50_0       
+    tk:                     8.6.8-hbc83047_0       
+    xz:                     5.2.4-h14c3975_4       
+    zlib:                   1.2.11-h7b6447c_3      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+INFO: activate-binutils_linux-64.sh made the following environmental changes:
++ADDR2LINE=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-addr2line
++AR=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-ar
++AS=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-as
++CXXFILT=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++filt
++ELFEDIT=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-elfedit
++GPROF=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-gprof
++HOST=x86_64-conda_cos6-linux-gnu
++LD=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-ld
++LD_GOLD=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-ld.gold
++NM=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-nm
++OBJCOPY=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-objcopy
++OBJDUMP=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-objdump
++RANLIB=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-ranlib
++READELF=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-readelf
++SIZE=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-size
++STRINGS=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-strings
++STRIP=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-strip
+INFO: activate-gcc_linux-64.sh made the following environmental changes:
++CC=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc
++CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/work=/usr/local/src/conda/conda-example-dgemm-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla=/usr/local/src/conda-prefix
++CMAKE_PREFIX_PATH=:/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla:/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr
++CPP=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-cpp
++CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include
++DEBUG_CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/work=/usr/local/src/conda/conda-example-dgemm-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla=/usr/local/src/conda-prefix
++DEBUG_CPPFLAGS=-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -I/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include
++GCC=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc
++GCC_AR=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc-ar
++GCC_NM=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc-nm
++GCC_RANLIB=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc-ranlib
++LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/lib -Wl,-rpath-link,/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/lib -L/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/lib
++_CONDA_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_x86_64_conda_cos6_linux_gnu
+INFO: activate-gxx_linux-64.sh made the following environmental changes:
++CXX=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++
++CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/work=/usr/local/src/conda/conda-example-dgemm-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla=/usr/local/src/conda-prefix
++DEBUG_CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/work=/usr/local/src/conda/conda-example-dgemm-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla=/usr/local/src/conda-prefix
++GXX=/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-g++
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working CXX compiler: /opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++
+-- Check for working CXX compiler: /opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- MKL header file FOUND: /opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include
+-- MKL single dynamic library FOUND: /opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/lib/libmkl_rt.so
+-- 
+ Properties for TARGET IntelMKL:
+   IntelMKL.INTERFACE_COMPILE_OPTIONS = "$<$<OR:$<CXX_COMPILER_ID:GNU>,$<CXX_COMPILER_ID:AppleClang>>:-m64>"
+   IntelMKL.INTERFACE_INCLUDE_DIRECTORIES = "/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include"
+   IntelMKL.INTERFACE_LINK_LIBRARIES = "/opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/lib/libmkl_rt.so;$<$<OR:$<CXX_COMPILER_ID:GNU>,$<CXX_COMPILER_ID:AppleClang>>:Threads::Threads>;$<$<OR:$<CXX_COMPILER_ID:GNU>,$<CXX_COMPILER_ID:AppleClang>>:m>"
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /opt/conda/conda-bld/conda-example-dgemm_1566275581588/work/build_conda
+Scanning dependencies of target dgemm-example
+[ 50%] Building CXX object CMakeFiles/dgemm-example.dir/example.cpp.o
+[100%] Linking CXX executable dgemm-example
+[100%] Built target dgemm-example
+Install the project...
+-- Install configuration: ""
+-- Installing: /opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/dgemm-example
+Copying /home/mightybuilder/cmake-cookbook/chapter-11/recipe-05/cxx-example/build-2019-08-20-04-33-00 to /opt/conda/conda-bld/conda-example-dgemm_1566275581588/work
+source tree in: /opt/conda/conda-bld/conda-example-dgemm_1566275581588/work
+
+Resource usage statistics from building conda-example-dgemm:
+   Process count: 9
+   CPU time: Sys=0:00:00.1, User=0:00:00.4
+   Memory: 63.9M
+   Disk usage: 420B
+   Time elapsed: 0:00:08.2
+
+Packaging conda-example-dgemm
+Packaging conda-example-dgemm-0.0.0-h6bb024c_0
+number of files: 1
+Warning: rpath /opt/conda/conda-bld/conda-example-dgemm_1566275581588/_build_env/lib is outside prefix /opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla (removing it)
+patchelf: file: /opt/conda/conda-bld/conda-example-dgemm_1566275581588/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/dgemm-example
+    setting rpath to: $ORIGIN/../lib
+   INFO (conda-example-dgemm,bin/dgemm-example): Needed DSO x86_64-conda_cos6-linux-gnu/sysroot/lib/libstdc++.so.6 found in CDT/compiler package defaults::libstdcxx-ng-9.1.0-hdf63c60_0
+   INFO (conda-example-dgemm,bin/dgemm-example): Needed DSO x86_64-conda_cos6-linux-gnu/sysroot/lib/libc.so.6 found in CDT/compiler package defaults::gcc_impl_linux-64-7.3.0-habb00fd_1
+   INFO (conda-example-dgemm,bin/dgemm-example): Needed DSO x86_64-conda_cos6-linux-gnu/sysroot/lib/libm.so.6 found in CDT/compiler package defaults::gcc_impl_linux-64-7.3.0-habb00fd_1
+   INFO (conda-example-dgemm,bin/dgemm-example): Needed DSO lib/libmkl_rt.so found in defaults::mkl-2018.0.3-1
+   INFO (conda-example-dgemm,bin/dgemm-example): Needed DSO x86_64-conda_cos6-linux-gnu/sysroot/lib/libgcc_s.so.1 found in CDT/compiler package defaults::gcc_impl_linux-64-7.3.0-habb00fd_1
+Fixing permissions
+updating: conda-example-dgemm-0.0.0-h6bb024c_0.tar.bz2
+TEST START: /opt/conda/conda-bld/linux-64/conda-example-dgemm-0.0.0-h6bb024c_0.tar.bz2
+Updating index at /opt/conda/conda-bld/linux-64 to make package installable with dependencies
+Updating index at /opt/conda/conda-bld/noarch to make package installable with dependencies
+Nothing to test for: /opt/conda/conda-bld/linux-64/conda-example-dgemm-0.0.0-h6bb024c_0.tar.bz2
+Renaming work directory,  /opt/conda/conda-bld/conda-example-dgemm_1566275581588/work  to  /opt/conda/conda-bld/conda-example-dgemm_1566275581588/work_moved_conda-example-dgemm-0.0.0-h6bb024c_0_linux-64_main_build_loop
+# Automatic uploading is disabled
+# If you want to upload package(s) to anaconda.org later, type:
+
+anaconda upload /opt/conda/conda-bld/linux-64/conda-example-dgemm-0.0.0-h6bb024c_0.tar.bz2
+
+# To have conda build upload to anaconda.org automatically, use
+# $ conda config --set anaconda_upload yes
+
+anaconda_upload is not set.  Not uploading wheels: []
+####################################################################################
+Resource usage summary:
+
+Total time: 0:05:33.0
+CPU usage: sys=0:00:00.1, user=0:00:00.4
+Maximum memory usage observed: 63.9M
+Total disk usage observed (not including envs): 420B
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/conda
+
+  added / updated specs: 
+    - conda-example-dgemm
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    mkl-2019.4                 |              243       204.1 MB
+    conda-example-dgemm-0.0.0  |       h6bb024c_0           9 KB  local
+    intel-openmp-2019.4        |              243         876 KB
+    ------------------------------------------------------------
+                                           Total:       204.9 MB
+
+The following NEW packages will be INSTALLED:
+
+    blas:                1.0-mkl               
+    conda-example-dgemm: 0.0.0-h6bb024c_0 local
+    intel-openmp:        2019.4-243            
+    mkl:                 2019.4-243            
+
+
+Downloading and Extracting Packages
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+MKL DGEMM example worked!
+Cache location: /opt/conda/pkgs
+Will remove the following tarballs:
+
+/opt/conda/pkgs
+---------------
+libcurl-7.65.2-h20c2e04_0.tar.bz2            588 KB
+tk-8.6.8-hbc83047_0.tar.bz2                  3.1 MB
+mkl-2019.4-243.tar.bz2                     204.1 MB
+gxx_linux-64-7.3.0-h553295d_8.tar.bz2        148 KB
+gcc_linux-64-7.3.0-h553295d_8.tar.bz2        149 KB
+binutils_linux-64-2.31.1-h6176602_8.tar.bz2     148 KB
+conda-example-dgemm-0.0.0-h6bb024c_0.tar.bz2       9 KB
+ncurses-6.1-he6710b0_1.tar.bz2               958 KB
+gxx_impl_linux-64-7.3.0-hdf63c60_1.tar.bz2    18.7 MB
+libssh2-1.8.2-h1ba5d50_0.tar.bz2             250 KB
+mkl-2018.0.3-1.tar.bz2                     198.7 MB
+mkl-include-2018.0.3-1.tar.bz2               570 KB
+expat-2.2.6-he6710b0_0.tar.bz2               187 KB
+bzip2-1.0.8-h7b6447c_0.tar.bz2               105 KB
+blas-1.0-mkl.tar.bz2                           6 KB
+openssl-1.1.1c-h7b6447c_1.tar.bz2            3.8 MB
+rhash-1.3.8-h1ba5d50_0.tar.bz2               235 KB
+intel-openmp-2019.4-243.tar.bz2              876 KB
+zlib-1.2.11-h7b6447c_3.tar.bz2               120 KB
+krb5-1.16.1-h173b8e3_7.tar.bz2               1.4 MB
+binutils_impl_linux-64-2.31.1-h6176602_1.tar.bz2    16.5 MB
+gcc_impl_linux-64-7.3.0-habb00fd_1.tar.bz2    73.2 MB
+cmake-3.14.0-h52cb24c_0.tar.bz2              9.5 MB
+libedit-3.1.20181209-hc058e9b_0.tar.bz2      188 KB
+intel-openmp-2018.0.3-0.tar.bz2              705 KB
+xz-5.2.4-h14c3975_4.tar.bz2                  366 KB
+libstdcxx-ng-9.1.0-hdf63c60_0.tar.bz2        4.0 MB
+_libgcc_mutex-0.1-main.tar.bz2                 3 KB
+libgcc-ng-9.1.0-hdf63c60_0.tar.bz2           8.1 MB
+mkl-devel-2018.0.3-1.tar.bz2                   6 KB
+
+---------------------------------------------------
+Total:                                     546.7 MB
+
+Removed libcurl-7.65.2-h20c2e04_0.tar.bz2
+Removed tk-8.6.8-hbc83047_0.tar.bz2
+Removed mkl-2019.4-243.tar.bz2
+Removed gxx_linux-64-7.3.0-h553295d_8.tar.bz2
+Removed gcc_linux-64-7.3.0-h553295d_8.tar.bz2
+Removed binutils_linux-64-2.31.1-h6176602_8.tar.bz2
+Removed conda-example-dgemm-0.0.0-h6bb024c_0.tar.bz2
+Removed ncurses-6.1-he6710b0_1.tar.bz2
+Removed gxx_impl_linux-64-7.3.0-hdf63c60_1.tar.bz2
+Removed libssh2-1.8.2-h1ba5d50_0.tar.bz2
+Removed mkl-2018.0.3-1.tar.bz2
+Removed mkl-include-2018.0.3-1.tar.bz2
+Removed expat-2.2.6-he6710b0_0.tar.bz2
+Removed bzip2-1.0.8-h7b6447c_0.tar.bz2
+Removed blas-1.0-mkl.tar.bz2
+Removed openssl-1.1.1c-h7b6447c_1.tar.bz2
+Removed rhash-1.3.8-h1ba5d50_0.tar.bz2
+Removed intel-openmp-2019.4-243.tar.bz2
+Removed zlib-1.2.11-h7b6447c_3.tar.bz2
+Removed krb5-1.16.1-h173b8e3_7.tar.bz2
+Removed binutils_impl_linux-64-2.31.1-h6176602_1.tar.bz2
+Removed gcc_impl_linux-64-7.3.0-habb00fd_1.tar.bz2
+Removed cmake-3.14.0-h52cb24c_0.tar.bz2
+Removed libedit-3.1.20181209-hc058e9b_0.tar.bz2
+Removed intel-openmp-2018.0.3-0.tar.bz2
+Removed xz-5.2.4-h14c3975_4.tar.bz2
+Removed libstdcxx-ng-9.1.0-hdf63c60_0.tar.bz2
+Removed _libgcc_mutex-0.1-main.tar.bz2
+Removed libgcc-ng-9.1.0-hdf63c60_0.tar.bz2
+Removed mkl-devel-2018.0.3-1.tar.bz2
+Cache location: /opt/conda/pkgs
+Will remove the following packages:
+/opt/conda/pkgs
+---------------
+
+xz-5.2.4-h14c3975_4                          1.2 MB
+gxx_impl_linux-64-7.3.0-hdf63c60_1          61.0 MB
+mkl-include-2018.0.3-1                      10.4 MB
+libstdcxx-ng-9.1.0-hdf63c60_0               12.6 MB
+gcc_impl_linux-64-7.3.0-habb00fd_1         220.1 MB
+libgcc-ng-9.1.0-hdf63c60_0                  25.6 MB
+rhash-1.3.8-h1ba5d50_0                       635 KB
+libedit-3.1.20181209-hc058e9b_0              818 KB
+binutils_impl_linux-64-2.31.1-h6176602_1    52.0 MB
+_libgcc_mutex-0.1-main                         7 KB
+bzip2-1.0.8-h7b6447c_0                       575 KB
+ncurses-6.1-he6710b0_1                       5.1 MB
+krb5-1.16.1-h173b8e3_7                       5.0 MB
+mkl-devel-2018.0.3-1                          16 KB
+cmake-3.14.0-h52cb24c_0                     28.2 MB
+libcurl-7.65.2-h20c2e04_0                    2.1 MB
+tk-8.6.8-hbc83047_0                          9.8 MB
+expat-2.2.6-he6710b0_0                       826 KB
+openssl-1.1.1c-h7b6447c_1                   13.4 MB
+gcc_linux-64-7.3.0-h553295d_8                727 KB
+zlib-1.2.11-h7b6447c_3                       416 KB
+gxx_linux-64-7.3.0-h553295d_8                723 KB
+libssh2-1.8.2-h1ba5d50_0                     1.0 MB
+blas-1.0-mkl                                  15 KB
+binutils_linux-64-2.31.1-h6176602_8          720 KB
+mkl-2018.0.3-1                             733.2 MB
+intel-openmp-2018.0.3-0                      2.1 MB
+
+---------------------------------------------------
+Total:                                      1.16 GB
+
+removing xz-5.2.4-h14c3975_4
+removing gxx_impl_linux-64-7.3.0-hdf63c60_1
+removing mkl-include-2018.0.3-1
+removing libstdcxx-ng-9.1.0-hdf63c60_0
+removing gcc_impl_linux-64-7.3.0-habb00fd_1
+removing libgcc-ng-9.1.0-hdf63c60_0
+removing rhash-1.3.8-h1ba5d50_0
+removing libedit-3.1.20181209-hc058e9b_0
+removing binutils_impl_linux-64-2.31.1-h6176602_1
+removing _libgcc_mutex-0.1-main
+removing bzip2-1.0.8-h7b6447c_0
+removing ncurses-6.1-he6710b0_1
+removing krb5-1.16.1-h173b8e3_7
+removing mkl-devel-2018.0.3-1
+removing cmake-3.14.0-h52cb24c_0
+removing libcurl-7.65.2-h20c2e04_0
+removing tk-8.6.8-hbc83047_0
+removing expat-2.2.6-he6710b0_0
+removing openssl-1.1.1c-h7b6447c_1
+removing gcc_linux-64-7.3.0-h553295d_8
+removing zlib-1.2.11-h7b6447c_3
+removing gxx_linux-64-7.3.0-h553295d_8
+removing libssh2-1.8.2-h1ba5d50_0
+removing blas-1.0-mkl
+removing binutils_linux-64-2.31.1-h6176602_8
+removing mkl-2018.0.3-1
+removing intel-openmp-2018.0.3-0
+source cache (/opt/conda/conda-bld/src_cache)
+Size:                                           0 B
+
+git cache (/opt/conda/conda-bld/git_cache)
+Size:                                           0 B
+
+hg cache (/opt/conda/conda-bld/hg_cache)
+Size:                                           0 B
+
+svn cache (/opt/conda/conda-bld/svn_cache)
+Size:                                           0 B
+
+Total:                                          0 B
+Removing /opt/conda/conda-bld/src_cache
+Removing /opt/conda/conda-bld/git_cache
+Removing /opt/conda/conda-bld/hg_cache
+Removing /opt/conda/conda-bld/svn_cache
+INFO:conda_build.variants:Adding in variants from internal_defaults
+INFO:conda_build.metadata:Attempting to finalize metadata for conda-example-dgemm
+INFO:conda_build.build:Packaging conda-example-dgemm
+INFO:conda_build.build:Packaging conda-example-dgemm-0.0.0-h6bb024c_0
+Importing conda-verify failed.  Please be sure to test your packages.  conda install conda-verify to make this message go away.
+WARNING:conda_build.build:Importing conda-verify failed.  Please be sure to test your packages.  conda install conda-verify to make this message go away.
+INFO:conda_build.build:Updating index at /opt/conda/conda-bld/linux-64 to make package installable with dependencies
+INFO:conda_build.build:Updating index at /opt/conda/conda-bld/noarch to make package installable with dependencies
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.10
+  latest version: 4.7.11
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+mkl-2019.4           | 204.1 MB  |            |   0% 
+mkl-2019.4           | 204.1 MB  |            |   0% 
+mkl-2019.4           | 204.1 MB  |            |   1% 
+mkl-2019.4           | 204.1 MB  | 1          |   1% 
+mkl-2019.4           | 204.1 MB  | 1          |   2% 
+mkl-2019.4           | 204.1 MB  | 2          |   2% 
+mkl-2019.4           | 204.1 MB  | 3          |   3% 
+mkl-2019.4           | 204.1 MB  | 3          |   4% 
+mkl-2019.4           | 204.1 MB  | 4          |   4% 
+mkl-2019.4           | 204.1 MB  | 4          |   5% 
+mkl-2019.4           | 204.1 MB  | 5          |   6% 
+mkl-2019.4           | 204.1 MB  | 6          |   6% 
+mkl-2019.4           | 204.1 MB  | 6          |   7% 
+mkl-2019.4           | 204.1 MB  | 7          |   8% 
+mkl-2019.4           | 204.1 MB  | 8          |   8% 
+mkl-2019.4           | 204.1 MB  | 9          |   9% 
+mkl-2019.4           | 204.1 MB  | 9          |  10% 
+mkl-2019.4           | 204.1 MB  | #          |  10% 
+mkl-2019.4           | 204.1 MB  | #1         |  11% 
+mkl-2019.4           | 204.1 MB  | #1         |  12% 
+mkl-2019.4           | 204.1 MB  | #2         |  13% 
+mkl-2019.4           | 204.1 MB  | #3         |  13% 
+mkl-2019.4           | 204.1 MB  | #4         |  14% 
+mkl-2019.4           | 204.1 MB  | #4         |  15% 
+mkl-2019.4           | 204.1 MB  | #5         |  15% 
+mkl-2019.4           | 204.1 MB  | #5         |  16% 
+mkl-2019.4           | 204.1 MB  | #6         |  17% 
+mkl-2019.4           | 204.1 MB  | #7         |  17% 
+mkl-2019.4           | 204.1 MB  | #8         |  18% 
+mkl-2019.4           | 204.1 MB  | #8         |  19% 
+mkl-2019.4           | 204.1 MB  | #9         |  19% 
+mkl-2019.4           | 204.1 MB  | ##         |  20% 
+mkl-2019.4           | 204.1 MB  | ##         |  21% 
+mkl-2019.4           | 204.1 MB  | ##1        |  22% 
+mkl-2019.4           | 204.1 MB  | ##2        |  22% 
+mkl-2019.4           | 204.1 MB  | ##2        |  23% 
+mkl-2019.4           | 204.1 MB  | ##3        |  24% 
+mkl-2019.4           | 204.1 MB  | ##4        |  24% 
+mkl-2019.4           | 204.1 MB  | ##5        |  25% 
+mkl-2019.4           | 204.1 MB  | ##5        |  26% 
+mkl-2019.4           | 204.1 MB  | ##6        |  27% 
+mkl-2019.4           | 204.1 MB  | ##7        |  27% 
+mkl-2019.4           | 204.1 MB  | ##8        |  28% 
+mkl-2019.4           | 204.1 MB  | ##8        |  29% 
+mkl-2019.4           | 204.1 MB  | ##9        |  29% 
+mkl-2019.4           | 204.1 MB  | ###        |  30% 
+mkl-2019.4           | 204.1 MB  | ###        |  31% 
+mkl-2019.4           | 204.1 MB  | ###1       |  32% 
+mkl-2019.4           | 204.1 MB  | ###2       |  32% 
+mkl-2019.4           | 204.1 MB  | ###3       |  33% 
+mkl-2019.4           | 204.1 MB  | ###3       |  34% 
+mkl-2019.4           | 204.1 MB  | ###4       |  34% 
+mkl-2019.4           | 204.1 MB  | ###5       |  35% 
+mkl-2019.4           | 204.1 MB  | ###5       |  36% 
+mkl-2019.4           | 204.1 MB  | ###6       |  37% 
+mkl-2019.4           | 204.1 MB  | ###7       |  37% 
+mkl-2019.4           | 204.1 MB  | ###7       |  38% 
+mkl-2019.4           | 204.1 MB  | ###8       |  39% 
+mkl-2019.4           | 204.1 MB  | ###9       |  39% 
+mkl-2019.4           | 204.1 MB  | ####       |  40% 
+mkl-2019.4           | 204.1 MB  | ####1      |  41% 
+mkl-2019.4           | 204.1 MB  | ####2      |  43% 
+mkl-2019.4           | 204.1 MB  | ####3      |  43% 
+mkl-2019.4           | 204.1 MB  | ####4      |  44% 
+mkl-2019.4           | 204.1 MB  | ####5      |  45% 
+mkl-2019.4           | 204.1 MB  | ####5      |  46% 
+mkl-2019.4           | 204.1 MB  | ####6      |  47% 
+mkl-2019.4           | 204.1 MB  | ####7      |  47% 
+mkl-2019.4           | 204.1 MB  | ####7      |  48% 
+mkl-2019.4           | 204.1 MB  | ####8      |  49% 
+mkl-2019.4           | 204.1 MB  | ####9      |  49% 
+mkl-2019.4           | 204.1 MB  | #####      |  50% 
+mkl-2019.4           | 204.1 MB  | #####      |  51% 
+mkl-2019.4           | 204.1 MB  | #####1     |  52% 
+mkl-2019.4           | 204.1 MB  | #####2     |  52% 
+mkl-2019.4           | 204.1 MB  | #####2     |  53% 
+mkl-2019.4           | 204.1 MB  | #####3     |  54% 
+mkl-2019.4           | 204.1 MB  | #####4     |  54% 
+mkl-2019.4           | 204.1 MB  | #####4     |  55% 
+mkl-2019.4           | 204.1 MB  | #####5     |  56% 
+mkl-2019.4           | 204.1 MB  | #####6     |  56% 
+mkl-2019.4           | 204.1 MB  | #####6     |  57% 
+mkl-2019.4           | 204.1 MB  | #####7     |  58% 
+mkl-2019.4           | 204.1 MB  | #####8     |  58% 
+mkl-2019.4           | 204.1 MB  | #####8     |  59% 
+mkl-2019.4           | 204.1 MB  | #####9     |  59% 
+mkl-2019.4           | 204.1 MB  | #####9     |  60% 
+mkl-2019.4           | 204.1 MB  | ######     |  61% 
+mkl-2019.4           | 204.1 MB  | ######1    |  61% 
+mkl-2019.4           | 204.1 MB  | ######2    |  62% 
+mkl-2019.4           | 204.1 MB  | ######2    |  63% 
+mkl-2019.4           | 204.1 MB  | ######3    |  63% 
+mkl-2019.4           | 204.1 MB  | ######4    |  64% 
+mkl-2019.4           | 204.1 MB  | ######4    |  65% 
+mkl-2019.4           | 204.1 MB  | ######5    |  66% 
+mkl-2019.4           | 204.1 MB  | ######6    |  66% 
+mkl-2019.4           | 204.1 MB  | ######7    |  67% 
+mkl-2019.4           | 204.1 MB  | ######7    |  68% 
+mkl-2019.4           | 204.1 MB  | ######8    |  69% 
+mkl-2019.4           | 204.1 MB  | ######9    |  69% 
+mkl-2019.4           | 204.1 MB  | #######    |  70% 
+mkl-2019.4           | 204.1 MB  | #######    |  71% 
+mkl-2019.4           | 204.1 MB  | #######1   |  71% 
+mkl-2019.4           | 204.1 MB  | #######2   |  72% 
+mkl-2019.4           | 204.1 MB  | #######3   |  73% 
+mkl-2019.4           | 204.1 MB  | #######3   |  74% 
+mkl-2019.4           | 204.1 MB  | #######5   |  75% 
+mkl-2019.4           | 204.1 MB  | #######5   |  76% 
+mkl-2019.4           | 204.1 MB  | #######6   |  76% 
+mkl-2019.4           | 204.1 MB  | #######6   |  77% 
+mkl-2019.4           | 204.1 MB  | #######6   |  77% 
+mkl-2019.4           | 204.1 MB  | #######7   |  77% 
+mkl-2019.4           | 204.1 MB  | #######7   |  77% 
+mkl-2019.4           | 204.1 MB  | #######7   |  77% 
+mkl-2019.4           | 204.1 MB  | #######7   |  77% 
+mkl-2019.4           | 204.1 MB  | #######7   |  77% 
+mkl-2019.4           | 204.1 MB  | #######7   |  77% 
+mkl-2019.4           | 204.1 MB  | #######7   |  77% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######7   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  78% 
+mkl-2019.4           | 204.1 MB  | #######8   |  79% 
+mkl-2019.4           | 204.1 MB  | #######8   |  79% 
+mkl-2019.4           | 204.1 MB  | #######8   |  79% 
+mkl-2019.4           | 204.1 MB  | #######8   |  79% 
+mkl-2019.4           | 204.1 MB  | #######8   |  79% 
+mkl-2019.4           | 204.1 MB  | #######8   |  79% 
+mkl-2019.4           | 204.1 MB  | #######8   |  79% 
+mkl-2019.4           | 204.1 MB  | #######8   |  79% 
+mkl-2019.4           | 204.1 MB  | #######8   |  79% 
+mkl-2019.4           | 204.1 MB  | #######8   |  79% 
+mkl-2019.4           | 204.1 MB  | #######8   |  79% 
+mkl-2019.4           | 204.1 MB  | #######8   |  79% 
+mkl-2019.4           | 204.1 MB  | #######8   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  79% 
+mkl-2019.4           | 204.1 MB  | #######9   |  80% 
+mkl-2019.4           | 204.1 MB  | #######9   |  80% 
+mkl-2019.4           | 204.1 MB  | #######9   |  80% 
+mkl-2019.4           | 204.1 MB  | #######9   |  80% 
+mkl-2019.4           | 204.1 MB  | #######9   |  80% 
+mkl-2019.4           | 204.1 MB  | #######9   |  80% 
+mkl-2019.4           | 204.1 MB  | #######9   |  80% 
+mkl-2019.4           | 204.1 MB  | #######9   |  80% 
+mkl-2019.4           | 204.1 MB  | #######9   |  80% 
+mkl-2019.4           | 204.1 MB  | #######9   |  80% 
+mkl-2019.4           | 204.1 MB  | #######9   |  80% 
+mkl-2019.4           | 204.1 MB  | #######9   |  80% 
+mkl-2019.4           | 204.1 MB  | #######9   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  80% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########   |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  81% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########1  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  82% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########2  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  83% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########3  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  84% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########4  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  85% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########5  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  86% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########6  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  87% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########7  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  88% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########8  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  89% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | ########9  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  90% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########  |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  91% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########1 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  92% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########2 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  93% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########3 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  94% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########4 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  95% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########5 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  96% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########6 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  97% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########7 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  98% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########8 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 |  99% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | #########9 | 100% 
+mkl-2019.4           | 204.1 MB  | ########## | 100% 
+
+conda-example-dgemm- | 9 KB      |            |   0% 
+conda-example-dgemm- | 9 KB      | ########## | 100% 
+
+intel-openmp-2019.4  | 876 KB    |            |   0% 
+intel-openmp-2019.4  | 876 KB    | #######3   |  74% 
+intel-openmp-2019.4  | 876 KB    | #########5 |  96% 
+intel-openmp-2019.4  | 876 KB    | ########## | 100% 
+  custom.sh ... OK
+
+recipe: Building documentation using Doxygen
+
+  /home/mightybuilder/cmake-cookbook/chapter-12/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+/home/mightybuilder/cmake-cookbook/chapter-12/recipe-01/cxx-example/src/Message.hpp:24: warning: Member operator<<(std::ostream &os, Message &obj) (friend) of class Message is not documented.
+  docs configuration Debug ... OK
+
+recipe: Building documentation using Sphinx
+
+  /home/mightybuilder/cmake-cookbook/chapter-12/recipe-02/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  docs configuration Debug ... OK
+
+recipe: Combining Doxygen and Sphinx
+
+  /home/mightybuilder/cmake-cookbook/chapter-12/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+/home/mightybuilder/cmake-cookbook/chapter-12/recipe-03/cxx-example/src/Message.hpp:24: warning: Member operator<<(std::ostream &os, Message &obj) (friend) of class Message is not documented.
+  docs configuration Debug ... OK
+
+recipe: Cross-compiling a hello world example
+
+  /home/mightybuilder/cmake-cookbook/chapter-13/recipe-01/cxx-example
+  configuring ... OK
+  building configuration Debug ... OK
+  install configuration Debug ... OK
+
+recipe: Cross-compiling a Windows binary with OpenMP parallelization
+
+  /home/mightybuilder/cmake-cookbook/chapter-13/recipe-02/cxx-example
+  configuring ... OK
+  building configuration Debug ... OK
+  install configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-13/recipe-02/fortran-example
+  configuring ... OK
+  building configuration Debug ... OK
+  install configuration Debug ... OK
+
+recipe: Deploying tests to the CDash dashboard
+
+  /home/mightybuilder/cmake-cookbook/chapter-14/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+ Cannot find any coverage files. Ignoring Coverage request.
+   Error when uploading file: /home/mightybuilder/cmake-cookbook/chapter-14/recipe-01/cxx-example/build-2019-08-20-04-42-16/Testing/20190820-0442/Build.xml
+   Error message was: Operation too slow. Less than 1 bytes/sec transferred the last 120 seconds
+   Problems when submitting via HTTP
+Errors while running CTest
+make[3]: *** [CMakeFiles/Experimental] Error 64
+make[2]: *** [CMakeFiles/Experimental.dir/all] Error 2
+make[1]: *** [CMakeFiles/Experimental.dir/rule] Error 2
+make: *** [Experimental] Error 2
+  Experimental configuration Debug ... FAILED
+cmake --build "/home/mightybuilder/cmake-cookbook/chapter-14/recipe-01/cxx-example/build-2019-08-20-04-42-16" --config Debug --target Experimental
+ cmake --build "/home/mightybuilder/cmake-cookbook/chapter-14/recipe-01/cxx-example/build-2019-08-20-04-42-16" --config Debug --target ExperimentalScanning dependencies of target Experimental
+   Site: fe2abfe04769
+   Build name: Linux-g++
+Create new tag: 20190820-0442 - Experimental
+Configure project
+   Each . represents 1024 bytes of output
+    . Size of output: 0K
+Build project
+   Each symbol represents 1024 bytes of output.
+   '!' represents an error and '*' a warning.
+    . Size of output: 0K
+   0 Compiler errors
+   0 Compiler warnings
+Test project /home/mightybuilder/cmake-cookbook/chapter-14/recipe-01/cxx-example/build-2019-08-20-04-42-16
+    Start 1: test_short
+1/2 Test #1: test_short .......................   Passed    0.01 sec
+    Start 2: test_long
+2/2 Test #2: test_long ........................   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.02 sec
+Performing coverage
+Submit files (using http)
+   Using HTTP submit method
+   Drop site:http://my.cdash.org/submit.php?project=cmake-cookbook
+   Submit failed, waiting 5 seconds...
+   Retry submission: Attempt 1 of 3
+   Submit failed, waiting 5 seconds...
+   Retry submission: Attempt 2 of 3
+   Submit failed, waiting 5 seconds...
+   Retry submission: Attempt 3 of 3
+CMakeFiles/Experimental.dir/build.make:57: recipe for target 'CMakeFiles/Experimental' failed
+CMakeFiles/Makefile2:808: recipe for target 'CMakeFiles/Experimental.dir/all' failed
+CMakeFiles/Makefile2:815: recipe for target 'CMakeFiles/Experimental.dir/rule' failed
+Makefile:428: recipe for target 'Experimental' failed
+ Cannot find any coverage files. Ignoring Coverage request.
+   Error when uploading file: /home/mightybuilder/cmake-cookbook/chapter-14/recipe-01/cxx-example/build-2019-08-20-04-42-16/Testing/20190820-0442/Build.xml
+   Error message was: Operation too slow. Less than 1 bytes/sec transferred the last 120 seconds
+   Problems when submitting via HTTP
+Errors while running CTest
+make[3]: *** [CMakeFiles/Experimental] Error 64
+make[2]: *** [CMakeFiles/Experimental.dir/all] Error 2
+make[1]: *** [CMakeFiles/Experimental.dir/rule] Error 2
+make: *** [Experimental] Error 2
+
+
+recipe: Reporting test coverage to the CDash dashboard
+
+  /home/mightybuilder/cmake-cookbook/chapter-14/recipe-02/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+   Error when uploading file: /home/mightybuilder/cmake-cookbook/chapter-14/recipe-02/cxx-example/build-2019-08-20-04-51-06/Testing/20190820-0451/Build.xml
+   Error message was: Operation too slow. Less than 1 bytes/sec transferred the last 120 seconds
+   Problems when submitting via HTTP
+Errors while running CTest
+make[3]: *** [CMakeFiles/Experimental] Error 64
+make[2]: *** [CMakeFiles/Experimental.dir/all] Error 2
+make[1]: *** [CMakeFiles/Experimental.dir/rule] Error 2
+make: *** [Experimental] Error 2
+  Experimental configuration Debug ... FAILED
+cmake --build "/home/mightybuilder/cmake-cookbook/chapter-14/recipe-02/cxx-example/build-2019-08-20-04-51-06" --config Debug --target Experimental
+ cmake --build "/home/mightybuilder/cmake-cookbook/chapter-14/recipe-02/cxx-example/build-2019-08-20-04-51-06" --config Debug --target ExperimentalScanning dependencies of target Experimental
+   Site: fe2abfe04769
+   Build name: Linux-g++
+Create new tag: 20190820-0451 - Experimental
+Configure project
+   Each . represents 1024 bytes of output
+    . Size of output: 0K
+Build project
+   Each symbol represents 1024 bytes of output.
+   '!' represents an error and '*' a warning.
+    . Size of output: 0K
+   0 Compiler errors
+   0 Compiler warnings
+Test project /home/mightybuilder/cmake-cookbook/chapter-14/recipe-02/cxx-example/build-2019-08-20-04-51-06
+    Start 1: test_short
+1/2 Test #1: test_short .......................   Passed    0.01 sec
+    Start 2: test_long
+2/2 Test #2: test_long ........................   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.02 sec
+Performing coverage
+   Processing coverage (each . represents one file):
+    ...
+   Accumulating results (each . represents one file):
+    ...
+	Covered LOC:         14
+	Not covered LOC:     7
+	Total LOC:           21
+	Percentage Coverage: 66.67%
+Submit files (using http)
+   Using HTTP submit method
+   Drop site:http://my.cdash.org/submit.php?project=cmake-cookbook
+   Submit failed, waiting 5 seconds...
+   Retry submission: Attempt 1 of 3
+   Submit failed, waiting 5 seconds...
+   Retry submission: Attempt 2 of 3
+   Submit failed, waiting 5 seconds...
+   Retry submission: Attempt 3 of 3
+CMakeFiles/Experimental.dir/build.make:57: recipe for target 'CMakeFiles/Experimental' failed
+CMakeFiles/Makefile2:808: recipe for target 'CMakeFiles/Experimental.dir/all' failed
+CMakeFiles/Makefile2:815: recipe for target 'CMakeFiles/Experimental.dir/rule' failed
+Makefile:428: recipe for target 'Experimental' failed
+   Error when uploading file: /home/mightybuilder/cmake-cookbook/chapter-14/recipe-02/cxx-example/build-2019-08-20-04-51-06/Testing/20190820-0451/Build.xml
+   Error message was: Operation too slow. Less than 1 bytes/sec transferred the last 120 seconds
+   Problems when submitting via HTTP
+Errors while running CTest
+make[3]: *** [CMakeFiles/Experimental] Error 64
+make[2]: *** [CMakeFiles/Experimental.dir/all] Error 2
+make[1]: *** [CMakeFiles/Experimental.dir/rule] Error 2
+make: *** [Experimental] Error 2
+
+
+recipe: Using the AddressSanitizer and reporting memory defects to CDash
+
+  /home/mightybuilder/cmake-cookbook/chapter-14/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+   Error when uploading file: /home/mightybuilder/cmake-cookbook/chapter-14/recipe-03/cxx-example/build/Testing/20190820-0500/Build.xml
+   Error message was: Operation too slow. Less than 1 bytes/sec transferred the last 120 seconds
+   Problems when submitting via HTTP
+  dashboard.cmake ... FAILED
+ctest -C Debug -S "/home/mightybuilder/cmake-cookbook/chapter-14/recipe-03/cxx-example/dashboard.cmake" -DCTEST_CMAKE_GENERATOR="Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug"
+ ctest -C Debug -S "/home/mightybuilder/cmake-cookbook/chapter-14/recipe-03/cxx-example/dashboard.cmake" -DCTEST_CMAKE_GENERATOR="Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug"   Each . represents 1024 bytes of output
+    . Size of output: 0K
+   Each symbol represents 1024 bytes of output.
+   '!' represents an error and '*' a warning.
+    . Size of output: 1K
+   Error when uploading file: /home/mightybuilder/cmake-cookbook/chapter-14/recipe-03/cxx-example/build/Testing/20190820-0500/Build.xml
+   Error message was: Operation too slow. Less than 1 bytes/sec transferred the last 120 seconds
+   Problems when submitting via HTTP
+
+
+  /home/mightybuilder/cmake-cookbook/chapter-14/recipe-03/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+Cannot find memory tester output file: /home/mightybuilder/cmake-cookbook/chapter-14/recipe-03/fortran-example/build/Testing/Temporary/MemoryChecker.1.log.*
+   Error when uploading file: /home/mightybuilder/cmake-cookbook/chapter-14/recipe-03/fortran-example/build/Testing/20190820-0502/Build.xml
+   Error message was: Operation too slow. Less than 1 bytes/sec transferred the last 120 seconds
+   Problems when submitting via HTTP
+  dashboard.cmake ... FAILED
+ctest -C Debug -S "/home/mightybuilder/cmake-cookbook/chapter-14/recipe-03/fortran-example/dashboard.cmake" -DCTEST_CMAKE_GENERATOR="Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug"
+ ctest -C Debug -S "/home/mightybuilder/cmake-cookbook/chapter-14/recipe-03/fortran-example/dashboard.cmake" -DCTEST_CMAKE_GENERATOR="Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug"   Each . represents 1024 bytes of output
+    . Size of output: 0K
+   Each symbol represents 1024 bytes of output.
+   '!' represents an error and '*' a warning.
+    . Size of output: 0K
+Cannot find memory tester output file: /home/mightybuilder/cmake-cookbook/chapter-14/recipe-03/fortran-example/build/Testing/Temporary/MemoryChecker.1.log.*
+   Error when uploading file: /home/mightybuilder/cmake-cookbook/chapter-14/recipe-03/fortran-example/build/Testing/20190820-0502/Build.xml
+   Error message was: Operation too slow. Less than 1 bytes/sec transferred the last 120 seconds
+   Problems when submitting via HTTP
+
+
+recipe: Using the ThreadSanitizer and reporting data races to CDash
+
+  /home/mightybuilder/cmake-cookbook/chapter-14/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+   Error when uploading file: /home/mightybuilder/cmake-cookbook/chapter-14/recipe-04/cxx-example/build/Testing/20190820-0504/Build.xml
+   Error message was: Operation too slow. Less than 1 bytes/sec transferred the last 120 seconds
+   Problems when submitting via HTTP
+  dashboard.cmake ... FAILED
+ctest -C Debug -S "/home/mightybuilder/cmake-cookbook/chapter-14/recipe-04/cxx-example/dashboard.cmake" -DCTEST_CMAKE_GENERATOR="Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug"
+ ctest -C Debug -S "/home/mightybuilder/cmake-cookbook/chapter-14/recipe-04/cxx-example/dashboard.cmake" -DCTEST_CMAKE_GENERATOR="Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug"   Each . represents 1024 bytes of output
+    . Size of output: 0K
+   Each symbol represents 1024 bytes of output.
+   '!' represents an error and '*' a warning.
+    . Size of output: 0K
+   Error when uploading file: /home/mightybuilder/cmake-cookbook/chapter-14/recipe-04/cxx-example/build/Testing/20190820-0504/Build.xml
+   Error message was: Operation too slow. Less than 1 bytes/sec transferred the last 120 seconds
+   Problems when submitting via HTTP
+
+mightybuilder@fe2abfe04769:cmake-cookbook $ 
+lar software with modern CMake (p. 10). Packt Publishing. Kindle Edition.  Building, testing, and packaging modul
+bash: syntax error near unexpected token `('
+mightybuilder@fe2abfe04769:cmake-cookbook $ history
+    1  Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
+    2  git clone https://github.com/dev-cafe/cmake-cookbook.git
+    3  Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
+    4  vi .mighty-builder-bash
+    5  vi .vimrc
+    6  . .mighty-builder-bash 
+    7  cd .ssh
+    8  mkdir ssh
+    9  mv -f ssh .ssh
+   10  cd .ssh/
+   11  alias make_key_rsa='ssh-keygen -t rsa -b 4096 -o -a 100 -C “dantopa@lanl.gov”'
+   12  make_key_rsa 
+   13  vi text-id-rsa
+   14  cat ~/.ssh/id_rsa.pub"
+alias make_key_rsa='ssh-keygen -t rsa -b 4096 -o -a 100 -C “dantopa@l
+   15  cat ~/.ssh/id_rsa.pub 
+   16  cd
+   17  mkdir repos
+   18  cd repos/
+   19  mkdir gitlab
+   20  cd gitlab/
+   21  git clone git@gitlab.lanl.gov:dantopa/bash-scripts.git
+   22  cd
+   23  . .mighty-builder-bash 
+   24  cd cmake-cookbook/
+   25  pipenv install --three
+   26  Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
+   27  pipenv run python testing/collect_tests.py 'chapter-*/recipe-*'
+   28  Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
+   29  history
+mightybuilder@fe2abfe04769:cmake-cookbook $ docker images
+bash: docker: command not found
+mightybuilder@fe2abfe04769:cmake-cookbook $ 
