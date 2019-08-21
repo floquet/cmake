@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mightybuilder/repos/github/cmake/demo/proj-001/bad-hal.cpp
+cstdlib
+-
+iostream
+-
+string
+-
+

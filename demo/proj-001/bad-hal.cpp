@@ -1,4 +1,4 @@
-#include <cstdlib> # EXIT_SUCCESS
+#include <cstdlib>
 #include <iostream>
 #include <string>
 
