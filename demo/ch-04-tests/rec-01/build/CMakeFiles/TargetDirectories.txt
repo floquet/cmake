@@ -1,0 +1,6 @@
+/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/CMakeFiles/rebuild_cache.dir
+/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/CMakeFiles/edit_cache.dir
+/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/CMakeFiles/sum_up.dir
+/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/CMakeFiles/test.dir
+/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/CMakeFiles/sum_integers.dir
+/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/CMakeFiles/cpp_test.dir

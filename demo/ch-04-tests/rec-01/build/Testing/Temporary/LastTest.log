@@ -1,0 +1,63 @@
+Start testing: Aug 22 05:35 UTC
+----------------------------------------------------------
+1/4 Testing: bash_test
+1/4 Test: bash_test
+Command: "/bin/bash" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/test.sh" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/sum_up"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build
+"bash_test" start time: Aug 22 05:35 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"bash_test" end time: Aug 22 05:35 UTC
+"bash_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: cpp_test
+2/4 Test: cpp_test
+Command: "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/cpp_test"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build
+"cpp_test" start time: Aug 22 05:35 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cpp_test" end time: Aug 22 05:35 UTC
+"cpp_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: python_test_long
+3/4 Test: python_test_long
+Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/test.py" "--executable" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/sum_up"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build
+"python_test_long" start time: Aug 22 05:35 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"python_test_long" end time: Aug 22 05:35 UTC
+"python_test_long" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: python_test_short
+4/4 Test: python_test_short
+Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/test.py" "--short" "--executable" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/sum_up"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build
+"python_test_short" start time: Aug 22 05:35 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"python_test_short" end time: Aug 22 05:35 UTC
+"python_test_short" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 22 05:35 UTC
