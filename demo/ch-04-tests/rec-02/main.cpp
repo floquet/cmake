@@ -18,7 +18,26 @@ int main( int argc, char *argv[ ] ) {
     std::cout << sum << std::endl;
 }
 
-// mightybuilder@fe2abfe04769:build $ cmake --build .
+// mightybuilder@b26a044b056a:rec-02 $ date
+// Wed Aug 28 19:28:43 UTC 2019
+
+// mightybuilder@b26a044b056a:rec-02 $ pwd
+// /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02
+
+// mightybuilder@b26a044b056a:rec-02 $ quick
+// rm -rf build/ && mkdir build && cd build && cmake ..
+// -- The CXX compiler identification is GNU 7.3.0
+// -- Check for working CXX compiler: /usr/bin/c++
+// -- Check for working CXX compiler: /usr/bin/c++ -- works
+// -- Detecting CXX compiler ABI info
+// -- Detecting CXX compiler ABI info - done
+// -- Detecting CXX compile features
+// -- Detecting CXX compile features - done
+// -- Configuring done
+// -- Generating done
+// -- Build files have been written to: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/build
+
+// mightybuilder@b26a044b056a:build $ cmake --build .
 // Scanning dependencies of target sum_integers
 // [ 16%] Building CXX object CMakeFiles/sum_integers.dir/sum_integers.cpp.o
 // [ 33%] Linking CXX static library libsum_integers.a
@@ -31,6 +50,11 @@ int main( int argc, char *argv[ ] ) {
 // [ 83%] Building CXX object CMakeFiles/cpp_test.dir/test.cpp.o
 // [100%] Linking CXX executable cpp_test
 // [100%] Built target cpp_test
-
-// mightybuilder@fe2abfe04769:build $ ./sum_up 1 2 3 4 5
-// 15
+// mightybuilder@b26a044b056a:build $ ctest
+// Test project /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/build
+//     Start 1: catch_test
+// 1/1 Test #1: catch_test .......................   Passed    0.01 sec
+//
+// 100% tests passed, 0 tests failed out of 1
+//
+// Total Test time (real) =   0.01 sec
