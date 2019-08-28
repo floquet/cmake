@@ -10,6 +10,10 @@ find_package ( PythonInterp REQUIRED )
 # define tests
 enable_testing( )
 
+# in lieu of $ctest --parallel 4
+set ( CTEST_PARALLEL_LEVEL "4" )
+message ( "Environment variable CTEST_PARALLEL_LEVEL: ${CTEST_PARALLEL_LEVEL}" )
+
 add_test ( a ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/test/a.py )
 add_test ( b ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/test/b.py )
 add_test ( c ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/test/c.py )

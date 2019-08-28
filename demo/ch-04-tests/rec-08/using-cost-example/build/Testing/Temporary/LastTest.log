@@ -1,0 +1,153 @@
+Start testing: Aug 28 21:04 UTC
+----------------------------------------------------------
+10/10 Testing: j
+10/10 Test: j
+Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/test/j.py"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/build
+"j" start time: Aug 28 21:04 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   4.55 sec
+----------------------------------------------------------
+Test Passed.
+"j" end time: Aug 28 21:04 UTC
+"j" time elapsed: 00:00:04
+----------------------------------------------------------
+
+9/10 Testing: i
+9/10 Test: i
+Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/test/i.py"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/build
+"i" start time: Aug 28 21:04 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   3.54 sec
+----------------------------------------------------------
+Test Passed.
+"i" end time: Aug 28 21:04 UTC
+"i" time elapsed: 00:00:03
+----------------------------------------------------------
+
+8/10 Testing: h
+8/10 Test: h
+Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/test/h.py"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/build
+"h" start time: Aug 28 21:04 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   2.54 sec
+----------------------------------------------------------
+Test Passed.
+"h" end time: Aug 28 21:04 UTC
+"h" time elapsed: 00:00:02
+----------------------------------------------------------
+
+5/10 Testing: e
+5/10 Test: e
+Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/test/e.py"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/build
+"e" start time: Aug 28 21:04 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.54 sec
+----------------------------------------------------------
+Test Passed.
+"e" end time: Aug 28 21:04 UTC
+"e" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/10 Testing: f
+6/10 Test: f
+Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/test/f.py"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/build
+"f" start time: Aug 28 21:04 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.55 sec
+----------------------------------------------------------
+Test Passed.
+"f" end time: Aug 28 21:04 UTC
+"f" time elapsed: 00:00:01
+----------------------------------------------------------
+
+7/10 Testing: g
+7/10 Test: g
+Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/test/g.py"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/build
+"g" start time: Aug 28 21:04 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.55 sec
+----------------------------------------------------------
+Test Passed.
+"g" end time: Aug 28 21:04 UTC
+"g" time elapsed: 00:00:01
+----------------------------------------------------------
+
+1/10 Testing: a
+1/10 Test: a
+Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/test/a.py"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/build
+"a" start time: Aug 28 21:04 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"a" end time: Aug 28 21:04 UTC
+"a" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: b
+2/10 Test: b
+Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/test/b.py"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/build
+"b" start time: Aug 28 21:04 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.54 sec
+----------------------------------------------------------
+Test Passed.
+"b" end time: Aug 28 21:04 UTC
+"b" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: c
+3/10 Test: c
+Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/test/c.py"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/build
+"c" start time: Aug 28 21:04 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.54 sec
+----------------------------------------------------------
+Test Passed.
+"c" end time: Aug 28 21:04 UTC
+"c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: d
+4/10 Test: d
+Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/test/d.py"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/build
+"d" start time: Aug 28 21:04 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.54 sec
+----------------------------------------------------------
+Test Passed.
+"d" end time: Aug 28 21:04 UTC
+"d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 28 21:04 UTC
