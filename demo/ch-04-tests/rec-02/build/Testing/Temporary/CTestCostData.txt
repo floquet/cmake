@@ -1,6 +1,0 @@
-bash_test 2 0.00470801
-cpp_test 2 0.00333908
-python_test_long 0 0
-python_test_short 2 0.0622032
----
-python_test_long
