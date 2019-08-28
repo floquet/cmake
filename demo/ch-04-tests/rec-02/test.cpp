@@ -103,6 +103,57 @@
 // ===============================================================================
 // All tests passed (2 assertions in 2 test cases)
 
+// mightybuilder@b26a044b056a:build $ ./cpp_test -help
+//
+// Catch v2.0.1
+// usage:
+//   cpp_test [<test name|pattern|tags> ... ] options
+//
+// where options are:
+//   -?, -h, --help                                  display usage information
+//   -l, --list-tests                                list all/matching test
+//                                                   cases
+//   -t, --list-tags                                 list all/matching tags
+//   -s, --success                                   include successful tests in
+//                                                   output
+//   -b, --break                                     break into debugger on
+//                                                   failure
+//   -e, --nothrow                                   skip exception tests
+//   -i, --invisibles                                show invisibles (tabs,
+//                                                   newlines)
+//   -o, --out <filename>                            output filename
+//   -r, --reporter <name>                           reporter to use (defaults
+//                                                   to console)
+//   -n, --name <name>                               suite name
+//   -a, --abort                                     abort at first failure
+//   -x, --abortx <no. failures>                     abort after x failures
+//   -w, --warn <warning name>                       enable warnings
+//   -d, --durations <yes|no>                        show test durations
+//   -f, --input-file <filename>                     load test names to run from
+//                                                   a file
+//   -#, --filenames-as-tags                         adds a tag for the filename
+//   -c, --section <section name>                    specify section to run
+//   -v, --verbosity <quiet|normal|high>             set output verbosity
+//   --list-test-names-only                          list all/matching test
+//                                                   cases names only
+//   --list-reporters                                list all reporters
+//   --order <decl|lex|rand>                         test case order (defaults
+//                                                   to decl)
+//   --rng-seed <'time'|number>                      set a specific seed for
+//                                                   random numbers
+//   --use-colour <yes|no>                           should output be colourised
+//   --libidentify                                   report name and version
+//                                                   according to libidentify
+//                                                   standard
+//   --wait-for-keypress <start|exit|both>           waits for a keypress before
+//                                                   exiting
+//   --benchmark-resolution-multiple <multiplier>    multiple of clock
+//                                                   resolution to run
+//                                                   benchmarks
+//
+// For more detailed usage please see the project docs
+//
+// mightybuilder@b26a044b056a:build $ ./cpp_test --success --use-colour yes
 
 // Force Failure
 
