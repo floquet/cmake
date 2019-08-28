@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-01/cxx-example/src/main.cpp
+sum_integers.hpp
+/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-01/cxx-example/src/sum_integers.hpp
+iostream
+-
+string
+-
+vector
+-
+
+/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-01/cxx-example/src/sum_integers.hpp
+vector
+-
+

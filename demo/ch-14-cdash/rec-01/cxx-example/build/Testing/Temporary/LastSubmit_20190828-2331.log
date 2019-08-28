@@ -1,0 +1,9 @@
+Upload files:
+0	Build.xml
+1	Configure.xml
+2	Test.xml
+Using drop method: http
+	Upload file: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-01/cxx-example/build/Testing/20190828-2331/Build.xml to b26a044b056a___Linux-c++___20190828-2331-Experimental___XML___Build.xml
+   Error when uploading file: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-01/cxx-example/build/Testing/20190828-2331/Build.xml
+   Error message was: Operation too slow. Less than 1 bytes/sec transferred the last 120 seconds
+   Problems when submitting via HTTP
