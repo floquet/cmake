@@ -1,17 +1,17 @@
-Start testing: Aug 22 05:35 UTC
+Start testing: Aug 28 19:01 UTC
 ----------------------------------------------------------
 1/4 Testing: bash_test
 1/4 Test: bash_test
 Command: "/bin/bash" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/test.sh" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/sum_up"
 Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build
-"bash_test" start time: Aug 22 05:35 UTC
+"bash_test" start time: Aug 28 19:01 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
-Test Passed.
-"bash_test" end time: Aug 22 05:35 UTC
+Test Failed.
+"bash_test" end time: Aug 28 19:01 UTC
 "bash_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -19,14 +19,14 @@ Test Passed.
 2/4 Test: cpp_test
 Command: "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/cpp_test"
 Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build
-"cpp_test" start time: Aug 22 05:35 UTC
+"cpp_test" start time: Aug 28 19:01 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"cpp_test" end time: Aug 22 05:35 UTC
+"cpp_test" end time: Aug 28 19:01 UTC
 "cpp_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -34,30 +34,48 @@ Test Passed.
 3/4 Test: python_test_long
 Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/test.py" "--executable" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/sum_up"
 Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build
-"python_test_long" start time: Aug 22 05:35 UTC
+"python_test_long" start time: Aug 28 19:01 UTC
 Output:
 ----------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/test.py", line 26, in <module>
+    result = execute_cpp_code( [str( i ) for i in range( 1, 1000001 )] )
+  File "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/test.py", line 16, in execute_cpp_code
+    result = subprocess.check_output( [args.executable] + integers )
+  File "/opt/conda/lib/python3.6/subprocess.py", line 336, in check_output
+    **kwargs).stdout
+  File "/opt/conda/lib/python3.6/subprocess.py", line 403, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/opt/conda/lib/python3.6/subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "/opt/conda/lib/python3.6/subprocess.py", line 1344, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 7] Argument list too long: '/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/sum_up'
 <end of output>
-Test time =   0.12 sec
+Test time =   1.38 sec
 ----------------------------------------------------------
-Test Passed.
-"python_test_long" end time: Aug 22 05:35 UTC
-"python_test_long" time elapsed: 00:00:00
+Test Failed.
+"python_test_long" end time: Aug 28 19:01 UTC
+"python_test_long" time elapsed: 00:00:01
 ----------------------------------------------------------
 
 4/4 Testing: python_test_short
 4/4 Test: python_test_short
 Command: "/opt/conda/bin/python" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/test.py" "--short" "--executable" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/sum_up"
 Directory: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build
-"python_test_short" start time: Aug 22 05:35 UTC
+"python_test_short" start time: Aug 28 19:01 UTC
 Output:
 ----------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/test.py", line 23, in <module>
+    assert result == 5050, 'summing up to 100 failed'
+AssertionError: summing up to 100 failed
 <end of output>
-Test time =   0.12 sec
+Test time =   0.11 sec
 ----------------------------------------------------------
-Test Passed.
-"python_test_short" end time: Aug 22 05:35 UTC
+Test Failed.
+"python_test_short" end time: Aug 28 19:01 UTC
 "python_test_short" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Aug 22 05:35 UTC
+End testing: Aug 28 19:01 UTC
