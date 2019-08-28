@@ -1,0 +1,61 @@
+mightybuilder@b26a044b056a:rec-08 $ cd using-cost-example/
+mightybuilder@b26a044b056a:using-cost-example $ quick
+rm -rf build/ && mkdir build && cd build && cmake ..
+-- Found PythonInterp: /opt/conda/bin/python (found version "3.6.6") 
+Environment variable CTEST_PARALLEL_LEVEL: 4
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/build
+mightybuilder@b26a044b056a:build $ ctest
+Test project /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/build
+      Start 10: j
+ 1/10 Test #10: j ................................   Passed    4.54 sec
+      Start  9: i
+ 2/10 Test  #9: i ................................   Passed    3.54 sec
+      Start  8: h
+ 3/10 Test  #8: h ................................   Passed    2.54 sec
+      Start  5: e
+ 4/10 Test  #5: e ................................   Passed    1.55 sec
+      Start  6: f
+ 5/10 Test  #6: f ................................   Passed    1.55 sec
+      Start  7: g
+ 6/10 Test  #7: g ................................   Passed    1.54 sec
+      Start  1: a
+ 7/10 Test  #1: a ................................   Passed    0.54 sec
+      Start  2: b
+ 8/10 Test  #2: b ................................   Passed    0.54 sec
+      Start  3: c
+ 9/10 Test  #3: c ................................   Passed    0.55 sec
+      Start  4: d
+10/10 Test  #4: d ................................   Passed    0.54 sec
+
+100% tests passed, 0 tests failed out of 10
+
+Total Test time (real) =  17.46 sec
+mightybuilder@b26a044b056a:build $ ctest
+Test project /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-08/using-cost-example/build
+      Start 10: j
+ 1/10 Test #10: j ................................   Passed    4.55 sec
+      Start  9: i
+ 2/10 Test  #9: i ................................   Passed    3.54 sec
+      Start  8: h
+ 3/10 Test  #8: h ................................   Passed    2.54 sec
+      Start  5: e
+ 4/10 Test  #5: e ................................   Passed    1.54 sec
+      Start  6: f
+ 5/10 Test  #6: f ................................   Passed    1.55 sec
+      Start  7: g
+ 6/10 Test  #7: g ................................   Passed    1.55 sec
+      Start  1: a
+ 7/10 Test  #1: a ................................   Passed    0.55 sec
+      Start  2: b
+ 8/10 Test  #2: b ................................   Passed    0.54 sec
+      Start  3: c
+ 9/10 Test  #3: c ................................   Passed    0.54 sec
+      Start  4: d
+10/10 Test  #4: d ................................   Passed    0.54 sec
+
+100% tests passed, 0 tests failed out of 10
+
+Total Test time (real) =  17.45 sec
+

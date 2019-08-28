@@ -1,8 +1,10 @@
-add_executable(test_short test_short.cpp)
-target_link_libraries(test_short sum_integers)
+# cxx-example/tests/CMakeLists.txt
 
-add_executable(test_long test_long.cpp)
-target_link_libraries(test_long sum_integers)
+add_executable( test_short test_short.cpp )
+target_link_libraries( test_short sum_integers )
+
+add_executable( test_long test_long.cpp )
+target_link_libraries( test_long sum_integers )
 
 add_test(
   NAME
