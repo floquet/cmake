@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/sum_integers.cpp" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/CMakeFiles/sum_integers.dir/sum_integers.cpp.o"
+  "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/sum_integers.cpp" "/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/build/CMakeFiles/sum_integers.dir/sum_integers.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

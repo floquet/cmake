@@ -43,10 +43,10 @@ RM = /opt/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01
+CMAKE_SOURCE_DIR = /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build
+CMAKE_BINARY_DIR = /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sum_integers.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/sum_integers.dir/flags.make
 
 CMakeFiles/sum_integers.dir/sum_integers.cpp.o: CMakeFiles/sum_integers.dir/flags.make
 CMakeFiles/sum_integers.dir/sum_integers.cpp.o: ../sum_integers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sum_integers.dir/sum_integers.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sum_integers.dir/sum_integers.cpp.o -c /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/sum_integers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sum_integers.dir/sum_integers.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sum_integers.dir/sum_integers.cpp.o -c /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/sum_integers.cpp
 
 CMakeFiles/sum_integers.dir/sum_integers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sum_integers.dir/sum_integers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/sum_integers.cpp > CMakeFiles/sum_integers.dir/sum_integers.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/sum_integers.cpp > CMakeFiles/sum_integers.dir/sum_integers.cpp.i
 
 CMakeFiles/sum_integers.dir/sum_integers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sum_integers.dir/sum_integers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/sum_integers.cpp -o CMakeFiles/sum_integers.dir/sum_integers.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/sum_integers.cpp -o CMakeFiles/sum_integers.dir/sum_integers.cpp.s
 
 # Object files for target sum_integers
 sum_integers_OBJECTS = \
@@ -80,7 +80,7 @@ sum_integers_EXTERNAL_OBJECTS =
 libsum_integers.a: CMakeFiles/sum_integers.dir/sum_integers.cpp.o
 libsum_integers.a: CMakeFiles/sum_integers.dir/build.make
 libsum_integers.a: CMakeFiles/sum_integers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsum_integers.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsum_integers.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/sum_integers.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sum_integers.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/sum_integers.dir/clean:
 .PHONY : CMakeFiles/sum_integers.dir/clean
 
 CMakeFiles/sum_integers.dir/depend:
-	cd /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01 /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01 /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-01/build/CMakeFiles/sum_integers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02 /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02 /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/build /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/build /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/build/CMakeFiles/sum_integers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sum_integers.dir/depend
 
