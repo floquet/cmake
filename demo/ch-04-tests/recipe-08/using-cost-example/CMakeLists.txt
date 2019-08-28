@@ -9,7 +9,10 @@ project ( recipe-08 LANGUAGES NONE )
 # detect python
 find_package ( PythonInterp REQUIRED )
 
-set (CTEST_PARALLEL_LEVEL 4 )
+set ( CTEST_PARALLEL_LEVEL 4 )
+message ( "Environment variable CTEST_PARALLEL_LEVEL: ${CTEST_PARALLEL_LEVEL}" )
+
+# message("Environment variable USERNAME: $ENV{USERNAME}")
 # define tests
 enable_testing( )
 
