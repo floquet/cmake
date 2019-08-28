@@ -1,682 +1,198 @@
-Last login: Thu Aug  8 12:31:07 on ttys040
-pn1249300:~ l127914$ source ~/.bashrc
-Thu Aug  8 12:31:08 MDT 2019 /Users/l127914/.bashrc
-Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/platforms.sh
-attempting to mkdir /Users/l127914/Documents/repos/gitlab/node-queries/Cauchy-Schwarz/log.in-pn1249300/dir-configuration
-directory of core scripts = ${core} = /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts
-Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/master.sh
-Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
-Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/gcc.sh
-Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
--bash: gonode: command not found
-fatal: not a git repository (or any of the parent directories): .git
-Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/git.sh
-fatal: not a git repository (or any of the parent directories): .git
-Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/ssh.sh
-Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/vim.sh
-Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bash.sh
-Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/finds.sh
-Thu Aug  8 12:31:08 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/cmake.sh
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/permissions-and-groups.sh
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/fortran.sh
-cp: /Users/l127914/.libraries-Cauchy-Schwarz.sh: No such file or directory
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-projects.sh
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/disk.sh
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
-[1]   Done                    source ${core}/info-git.sh
-[2]+  Done                    source "${core}/copy-configuration.sh"
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/uname.sh
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/spack.sh
-/Users/l127914/Documents/repos/gitlab/node-queries
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/modules.sh
-uname: illegal option -- i
-usage: uname [-amnprsv]
-[3]+  Exit 127                module available >> ${my_log} 2>&1
-uname: illegal option -- o
-usage: uname [-amnprsv]
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/alias.sh
-[2]-  Done                    source "${core}/uname.sh"
-[3]+  Exit 127                module list >> ${my_log} 2>&1
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/rsync.sh
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/environment.sh
-[master 90c1eee77] Cauchy-Schwarz-log.in-pn1249300 Thu Aug  8 12:31:09 MDT 2019
- 3 files changed, 7 insertions(+), 1227 deletions(-)
- rewrite Cauchy-Schwarz/log.in-pn1249300/apple_profiler.txt (99%)
-[1]+  Done                    source ${core}/info-git.sh
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/.bash-Cauchy-Schwarz-platform-specific
-Thu Aug  8 12:31:09 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/apple.sh
-Thu Aug  8 12:31:10 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/macports.sh
-l127914@pn1249300.lanl.gov:~ $ cd /usr/local/
-[1]   Done                    cp ${HOME}/${bash_file} ${alt_vault}  (wd: ~)
-(wd now: /usr/local)
-[2]   Done                    cp ${HOME}/${extras} ${alt_vault}  (wd: ~)
-(wd now: /usr/local)
-[3]-  Done                    cp ${HOME}/.vimrc ${alt_vault}  (wd: ~)
-(wd now: /usr/local)
-[4]+  Done                    cp ${HOME}/.gitconfig ${alt_vault}  (wd: ~)
-(wd now: /usr/local)
-l127914@pn1249300.lanl.gov:local $ lss
+Last login: Mon Aug 12 17:30:28 on console
+Mon Aug 12 17:31:16 MDT 2019, /Users/l127914/.profile
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/master-script.sh
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bookmarks.sh
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bookmarks-projects.sh
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bookmarks-bitbucket.sh
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bookmarks-github.sh
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bookmarks-gitlab.sh
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/apple.sh
+-bash: /apple_profiler.txt: Permission denied
+-bash: /apple_profiler.txt: Permission denied
+-bash: /apple_profiler.txt: Permission denied
+-bash: /apple_profiler.txt: Permission denied
+-bash: /apple_profiler.txt: Permission denied
+-bash: /apple_profiler.txt: Permission denied
+-bash: /apple_profiler.txt: Permission denied
+-bash: /apple_profiler.txt: Permission denied
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/bash.sh
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/finds.sh
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/fortran.sh
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/gcc.sh
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/git.sh
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/macports.sh
+Mon Aug 12 17:31:28 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/platforms-H.sh
+attempting to mkdir //log.in-pn1248056/dir-configuration
+mkdir: //log.in-pn1248056/dir-configuration: Permission denied
+directory of core scripts = ${core} = /Users/l127914/repos/bitbucket/mac-bash/core-scripts
+Mon Aug 12 17:31:29 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/prompt.sh
+Mon Aug 12 17:31:29 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/python.sh
+Mon Aug 12 17:31:29 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/record-configuration.sh
+cp: //log.in-pn1248056: Permission denied
+cp: //log.in-pn1248056: Permission denied
+cp: //log.in-pn1248056: Permission denied
+cp: //log.in-pn1248056: Permission denied
+Mon Aug 12 17:31:29 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/ssh.sh
+Mon Aug 12 17:31:29 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/vim.sh
+Mon Aug 12 17:31:29 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/vpn.sh
+Mon Aug 12 17:31:29 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/disk-usage.sh
+Mon Aug 12 17:31:29 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/spack.sh
+Mon Aug 12 17:31:29 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/environment.sh
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+Mon Aug 12 17:31:29 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/alias.sh
+Mon Aug 12 17:31:29 MDT 2019, /Users/l127914/repos/bitbucket/mac-bash/core-scripts/uname.sh
+-bash: //log.in-pn1248056/alias_assignments.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/alias_assignments.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/alias_assignments.txt: No such file or directory
+-bash: //log.in-pn1248056/alias_assignments.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/environment-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+Mon Aug 12 17:31:29 MDT 2019, /Users/l127914/.bash-platform-specific
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+[6]   Done                    source "${core}/environment.sh"
+l127914@pn1248056.lanl.gov:~ $ cp: //log.in-pn1248056/dir-configuration: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+-bash: //log.in-pn1248056/uname-variables.txt: No such file or directory
+ 
+[5]-  Done                    source "${core}/uname.sh"
+[7]+  Exit 1                  cp ${HOME}/${extras} ${vault}
+l127914@pn1248056.lanl.gov:~ $ docker run hello world
+Unable to find image 'hello:latest' locally
+docker: Error response from daemon: pull access denied for hello, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+l127914@pn1248056.lanl.gov:~ $ docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+1b930d010525: Pull complete 
+Digest: sha256:6540fc08ee6e6b7b63468dc3317e3303aae178cb8a45ed3123180328bcc1d20f
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+l127914@pn1248056.lanl.gov:~ $ docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+l127914@pn1248056.lanl.gov:~ $ docker info
+Client:
+ Debug Mode: false
+
+Server:
+ Containers: 1
+  Running: 0
+  Paused: 0
+  Stopped: 1
+ Images: 1
+ Server Version: 19.03.1
+ Storage Driver: overlay2
+  Backing Filesystem: extfs
+  Supports d_type: true
+  Native Overlay Diff: true
+ Logging Driver: json-file
+ Cgroup Driver: cgroupfs
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
+ Swarm: inactive
+ Runtimes: runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 894b81a4b802e4eb2a91d1ce216b8817763c29fb
+ runc version: 425e105d5a03fabd737a126ad93d62a9eeede87f
+ init version: fec3683
+ Security Options:
+  seccomp
+   Profile: default
+ Kernel Version: 4.9.184-linuxkit
+ Operating System: Docker Desktop
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 4
+ Total Memory: 1.952GiB
+ Name: docker-desktop
+ ID: CROB:GU2W:OSJO:FPR2:PGYJ:67H2:3HSP:MZZ4:AWI4:EPJ7:4IYS:R576
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: true
+  File Descriptors: 30
+  Goroutines: 47
+  System Time: 2019-08-12T23:33:07.407208052Z
+  EventsListeners: 2
+ HTTP Proxy: gateway.docker.internal:3128
+ HTTPS Proxy: gateway.docker.internal:3129
+ Registry: https://index.docker.io/v1/
+ Labels:
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+ Live Restore Enabled: false
+ Product License: Community Engine
+
+l127914@pn1248056.lanl.gov:~ $ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+hello-world         latest              fce289e99eb9        7 months ago        1.84kB
+l127914@pn1248056.lanl.gov:~ $ docker run hello-world
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+l127914@pn1248056.lanl.gov:~ $ date
+Mon Aug 12 17:34:08 MDT 2019
+l127914@pn1248056.lanl.gov:~ $ cd Documents/sandbox/
+l127914@pn1248056.lanl.gov:sandbox $ lss
 total 0
-drwxr-xr-x   22 root     wheel   704B Aug  6 20:45 .
-drwxr-xr-x@  11 root     wheel   352B Aug  6 15:32 ..
--rw-r--r--    1 root     wheel     0B Aug  8 09:41 .com.apple.installer.keep
-drwxrwxr-x    2 l127914  admin    64B Aug  6 20:45 Caskroom
-drwxrwxr-x   28 l127914  admin   896B Aug  6 23:21 Cellar
-drwxrwxr-x    2 l127914  admin    64B Aug  6 20:45 Frameworks
-drwxrwxr-x   20 l127914  admin   640B Aug  6 20:45 Homebrew
-drwxr-xr-x    7 root     wheel   224B Jul 31 10:12 MacGPG2
-drwxrwxr-x  273 l127914  admin   8.5K Aug  6 23:25 bin
-drwxr-xr-x   17 root     wheel   544B Jul 31 10:12 cuda
-drwxrwxr-x    9 l127914  admin   288B Aug  6 23:21 etc
-drwxr-xr-x    7 root     wheel   224B Jul 31 10:11 gfortran
-drwxrwxr-x  364 l127914  admin    11K Aug  6 23:25 include
-drwxr-xr-x    3 root     wheel    96B Jul 31 10:12 jamf
-drwxrwxr-x  340 l127914  admin    11K Aug  6 23:21 lib
-drwxr-xr-x    7 root     wheel   224B Jul 31 10:10 libexec
-drwxrwxr-x   33 l127914  admin   1.0K Aug  6 23:25 opt
-drwxr-xr-x    3 root     wheel    96B Jul 31 10:11 remotedesktop
-drwxrwxr-t    4 l127914  admin   128B Jul 31 10:10 sbin
-drwxrwxr-x   33 l127914  admin   1.0K Aug  6 23:21 share
-drwxr-xr-x    5 root     wheel   160B Jul 31 10:12 texlive
-drwxrwxr-x    3 l127914  admin    96B Aug  6 20:45 var
-l127914@pn1249300.lanl.gov:local $ cd Cellar/
-l127914@pn1249300.lanl.gov:Cellar $ lss
-total 0
-drwxrwxr-x  28 l127914  admin   896B Aug  6 23:21 .
-drwxr-xr-x  22 root     wheel   704B Aug  6 20:45 ..
-drwxr-xr-x   3 l127914  staff    96B Aug  6 20:56 cmake
-drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 gcc
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:17 gcc@7
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:16 gcc@8
-drwxr-xr-x   3 l127914  staff    96B Aug  6 20:55 gettext
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:18 git
-drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 gmp
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:20 hdf5
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:20 hwloc
-drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 isl
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:20 libevent
-drwxr-xr-x   3 l127914  staff    96B Aug  6 20:55 libidn2
-drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 libmpc
-drwxr-xr-x   3 l127914  staff    96B Aug  6 20:55 libunistring
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:20 metis
-drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 mpfr
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:20 netcdf
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:21 open-mpi
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:21 openblas
-drwxr-xr-x   3 l127914  staff    96B Aug  6 20:55 openssl
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:18 pcre2
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:21 petsc
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:21 scalapack
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:21 suite-sparse
-drwxr-xr-x   3 l127914  staff    96B Aug  6 23:20 szip
-drwxr-xr-x   3 l127914  staff    96B Aug  6 20:55 wget
-l127914@pn1249300.lanl.gov:Cellar $ cd gcc
-l127914@pn1249300.lanl.gov:gcc $ lss
-total 0
-drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 .
-drwxrwxr-x  28 l127914  admin   896B Aug  6 23:21 ..
-drwxr-xr-x  13 l127914  staff   416B Aug  6 20:58 9.1.0
-l127914@pn1249300.lanl.gov:gcc $ cd 9.1.0/
-l127914@pn1249300.lanl.gov:9.1.0 $ lss
-total 3080
-drwxr-xr-x  13 l127914  staff   416B Aug  6 20:58 .
-drwxr-xr-x   3 l127914  staff    96B Aug  6 20:58 ..
-drwxr-xr-x   3 l127914  staff    96B May  3 02:19 .brew
--rw-r--r--   1 l127914  staff    18K May  3 02:19 COPYING
--rw-r--r--   1 l127914  staff   611K May  3 02:19 ChangeLog
--rw-r--r--   1 l127914  staff   1.0K Aug  6 20:58 INSTALL_RECEIPT.json
--rw-r--r--   1 l127914  staff   898K May  3 02:19 NEWS
--rw-r--r--   1 l127914  staff   1.0K May  3 02:19 README
-drwxr-xr-x  22 l127914  staff   704B May  3 02:19 bin
-drwxr-xr-x   3 l127914  staff    96B May  3 02:19 include
-drwxr-xr-x   3 l127914  staff    96B May  3 02:19 lib
-drwxr-xr-x   3 l127914  staff    96B May  3 02:19 libexec
-drwxr-xr-x   4 l127914  staff   128B May  3 02:19 share
-l127914@pn1249300.lanl.gov:9.1.0 $ pwd
-/usr/local/Cellar/gcc/9.1.0
-l127914@pn1249300.lanl.gov:9.1.0 $ cd bin
-l127914@pn1249300.lanl.gov:bin $ lss
-total 33848
-drwxr-xr-x  22 l127914  staff   704B May  3 02:19 .
-drwxr-xr-x  13 l127914  staff   416B Aug  6 20:58 ..
--r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 c++-9
--r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 cpp-9
--r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 g++-9
--r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 gcc-9
--r-xr-xr-x   1 l127914  staff    42K May  3 02:19 gcc-ar-9
--r-xr-xr-x   1 l127914  staff    42K May  3 02:19 gcc-nm-9
--r-xr-xr-x   1 l127914  staff    42K May  3 02:19 gcc-ranlib-9
--r-xr-xr-x   1 l127914  staff   990K May  3 02:19 gcov-9
--r-xr-xr-x   1 l127914  staff   689K May  3 02:19 gcov-dump-9
--r-xr-xr-x   1 l127914  staff   727K May  3 02:19 gcov-tool-9
-lrwxr-xr-x   1 l127914  staff    10B May  3 02:19 gfortran -> gfortran-9
--r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 gfortran-9
--r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 x86_64-apple-darwin18-c++-9
--r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 x86_64-apple-darwin18-g++-9
--r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 x86_64-apple-darwin18-gcc-9
--r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 x86_64-apple-darwin18-gcc-9.1.0
--r-xr-xr-x   1 l127914  staff    42K May  3 02:19 x86_64-apple-darwin18-gcc-ar-9
--r-xr-xr-x   1 l127914  staff    42K May  3 02:19 x86_64-apple-darwin18-gcc-nm-9
--r-xr-xr-x   1 l127914  staff    42K May  3 02:19 x86_64-apple-darwin18-gcc-ranlib-9
--r-xr-xr-x   1 l127914  staff   1.4M May  3 02:19 x86_64-apple-darwin18-gfortran-9
-l127914@pn1249300.lanl.gov:bin $ cd ..
-l127914@pn1249300.lanl.gov:9.1.0 $ gosandbox
--bash: gosandbox: command not found
-l127914@pn1249300.lanl.gov:9.1.0 $ sr
-Thu Aug  8 14:51:30 MDT 2019 /Users/l127914/.Cauchy-Schwarz-bash
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/platforms.sh
-attempting to mkdir /Users/l127914/Documents/repos/gitlab/node-queries/Cauchy-Schwarz/log.in-pn1249300/dir-configuration
-directory of core scripts = ${core} = /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/master.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/gcc.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
-/Users/l127914/Documents/repos/gitlab/node-queries
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/git.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/ssh.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/vim.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bash.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/finds.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/cmake.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/permissions-and-groups.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/fortran.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
-cp: /Users/l127914/.libraries-Cauchy-Schwarz.sh: No such file or directory
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
-[master 5f87962b0] Cauchy-Schwarz-log.in-pn1249300 Thu Aug  8 14:51:31 MDT 2019
- 5 files changed, 95 insertions(+), 64 deletions(-)
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-projects.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/disk.sh
-Thu Aug  8 14:51:31 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
-[1]-  Done                    source ${core}/info-git.sh
-[2]+  Done                    source "${core}/copy-configuration.sh"
-Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/uname.sh
-Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
-Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/spack.sh
-/Users/l127914/Documents/repos/gitlab/node-queries
-Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/modules.sh
-uname: illegal option -- i
-usage: uname [-amnprsv]
-[3]+  Exit 127                module available >> ${my_log} 2>&1
-uname: illegal option -- o
-usage: uname [-amnprsv]
-Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/alias.sh
-[2]-  Done                    source "${core}/uname.sh"
-[3]+  Exit 127                module list >> ${my_log} 2>&1
-Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/rsync.sh
-Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/environment.sh
-[master 79b8af658] Cauchy-Schwarz-log.in-pn1249300 Thu Aug  8 14:51:32 MDT 2019
- 1 file changed, 1 insertion(+), 1 deletion(-)
-[1]+  Done                    source ${core}/info-git.sh
-Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/.bash-Cauchy-Schwarz-platform-specific
-Thu Aug  8 14:51:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/apple.sh
-gosThu Aug  8 14:51:33 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/macports.sh
-l127914@pn1249300.lanl.gov:9.1.0 $ gosandbox
-/Users/l127914/Documents/repos/github/cmake/sandbox
-[1]   Done                    cp ${HOME}/${bash_file} ${alt_vault}  (wd: /usr/local/Cellar/gcc/9.1.0)
-(wd now: ~/Documents/repos/github/cmake/sandbox)
-[2]   Done                    cp ${HOME}/${extras} ${alt_vault}  (wd: /usr/local/Cellar/gcc/9.1.0)
-(wd now: ~/Documents/repos/github/cmake/sandbox)
-[3]-  Done                    cp ${HOME}/.vimrc ${alt_vault}  (wd: /usr/local/Cellar/gcc/9.1.0)
-(wd now: ~/Documents/repos/github/cmake/sandbox)
-[4]+  Done                    cp ${HOME}/.gitconfig ${alt_vault}  (wd: /usr/local/Cellar/gcc/9.1.0)
-(wd now: ~/Documents/repos/github/cmake/sandbox)
-l127914@pn1249300.lanl.gov:sandbox $ cd neil/
-l127914@pn1249300.lanl.gov:neil $ lss
-total 16
-drwxr-xr-x  6 l127914  staff   192B Aug  8 14:45 .
-drwxr-xr-x  6 l127914  staff   192B Aug  8 14:38 ..
--rw-r--r--  1 l127914  staff   2.2K Aug  8 14:38 CMakeLists.txt
-drwxr-xr-x  4 l127914  staff   128B Aug  8 14:42 build
--rw-r--r--  1 l127914  staff   255B Aug  8 14:51 compiler.sh
-drwxr-xr-x  3 l127914  staff    96B Aug  8 14:38 src
-l127914@pn1249300.lanl.gov:neil $ . compiler.sh 
-Thu Aug  8 14:51:40 MDT 2019 compiler.sh
-l127914@pn1249300.lanl.gov:neil $ gcc --version
-gcc-9 (Homebrew GCC 9.1.0) 9.1.0
-Copyright (C) 2019 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions.  There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-l127914@pn1249300.lanl.gov:neil $ quick
--- The Fortran compiler identification is unknown
--- Checking whether Fortran compiler has -isysroot
--- Checking whether Fortran compiler has -isysroot - yes
--- Checking whether Fortran compiler supports OSX deployment target flag
--- Checking whether Fortran compiler supports OSX deployment target flag - yes
--- Check for working Fortran compiler: /usr/local/bin/flang
--- Check for working Fortran compiler: /usr/local/bin/flang  -- broken
-CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeTestFortranCompiler.cmake:45 (message):
-  The Fortran compiler
-
-    "/usr/local/bin/flang"
-
-  is not able to compile a simple test program.
-
-  It fails with the following output:
-
-    Change Dir: /Users/l127914/Documents/repos/github/cmake/sandbox/neil/build/CMakeFiles/CMakeTmp
-    
-    Run Build Command(s):/usr/bin/make cmTC_7ca7f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7ca7f.dir/build.make CMakeFiles/cmTC_7ca7f.dir/build
-    Building Fortran object CMakeFiles/cmTC_7ca7f.dir/testFortranCompiler.f.o
-    /usr/local/bin/flang    -c /Users/l127914/Documents/repos/github/cmake/sandbox/neil/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_7ca7f.dir/testFortranCompiler.f.o
-    clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
-    make[1]: *** [CMakeFiles/cmTC_7ca7f.dir/testFortranCompiler.f.o] Error 1
-    make: *** [cmTC_7ca7f/fast] Error 2
-    
-    
-
-  
-
-  CMake will not be able to correctly generate this project.
-Call Stack (most recent call first):
-  CMakeLists.txt:6 (project)
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/l127914/Documents/repos/github/cmake/sandbox/neil/build/CMakeFiles/CMakeOutput.log".
-See also "/Users/l127914/Documents/repos/github/cmake/sandbox/neil/build/CMakeFiles/CMakeError.log".
-l127914@pn1249300.lanl.gov:build $ cmake --version
-cmake version 3.15.1
-
-CMake suite maintained and supported by Kitware (kitware.com/cmake).
-l127914@pn1249300.lanl.gov:build $ cd ..
-l127914@pn1249300.lanl.gov:neil $ cd ..
-l127914@pn1249300.lanl.gov:sandbox $ cd sandbox
--bash: cd: sandbox: No such file or directory
-l127914@pn1249300.lanl.gov:sandbox $ cd recipe-09/
-l127914@pn1249300.lanl.gov:recipe-09 $ lss
-total 24
-drwxr-xr-x  6 l127914  staff   192B Aug  8 12:42 .
-drwxr-xr-x  6 l127914  staff   192B Aug  8 14:38 ..
--rw-r--r--  1 l127914  staff   173B Aug  8 12:42 README.md
--rw-r--r--  1 l127914  staff   102B Aug  8 12:42 abstract.md
-drwxr-xr-x  8 l127914  staff   256B Aug  8 12:44 fortran-example
--rw-r--r--  1 l127914  staff    28B Aug  8 12:42 title.txt
-l127914@pn1249300.lanl.gov:recipe-09 $ cd src
--bash: cd: src: No such file or directory
-l127914@pn1249300.lanl.gov:recipe-09 $ cd fortran-example/
-l127914@pn1249300.lanl.gov:fortran-example $ cd src/
-l127914@pn1249300.lanl.gov:src $ lss
-total 16
-drwxr-xr-x  8 l127914  staff   256B Aug  8 12:42 .
-drwxr-xr-x  8 l127914  staff   256B Aug  8 12:44 ..
--rw-r--r--  1 l127914  staff   240B Aug  8 12:42 CMakeLists.txt
-drwxr-xr-x  6 l127914  staff   192B Aug  8 12:42 evolution
-drwxr-xr-x  4 l127914  staff   128B Aug  8 12:42 initial
-drwxr-xr-x  4 l127914  staff   128B Aug  8 12:42 io
--rw-r--r--  1 l127914  staff   1.0K Aug  8 12:42 main.f90
-drwxr-xr-x  4 l127914  staff   128B Aug  8 12:42 parser
-l127914@pn1249300.lanl.gov:src $ mkdir build && cd build
-l127914@pn1249300.lanl.gov:build $ cmake ..
-CMake Warning (dev) in CMakeLists.txt:
-  No project() command is present.  The top-level CMakeLists.txt file must
-  contain a literal, direct call to the project() command.  Add a line of
-  code such as
-
-    project(ProjectName)
-
-  near the top of the file, but after cmake_minimum_required().
-
-  CMake is pretending there is a "project(Project)" command on the first
-  line.
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
--- The C compiler identification is AppleClang 9.0.0.9000039
--- The CXX compiler identification is AppleClang 9.0.0.9000039
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
--- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
-CMake Warning (dev) in CMakeLists.txt:
-  No cmake_minimum_required command is present.  A line of code such as
-
-    cmake_minimum_required(VERSION 3.15)
-
-  should be added at the top of the file.  The version specified may be lower
-  if you wish to support older CMake versions for this project.  For more
-  information run "cmake --help-policy CMP0000".
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
--- Configuring done
-CMake Error: Cannot determine link language for target "automata".
-CMake Error: CMake can not determine linker language for target: automata
-CMake Error: Cannot determine link language for target "evolution".
-CMake Error: CMake can not determine linker language for target: evolution
-CMake Error: Cannot determine link language for target "initial".
-CMake Error: CMake can not determine linker language for target: initial
-CMake Error: Cannot determine link language for target "io".
-CMake Error: CMake can not determine linker language for target: io
-CMake Error: Cannot determine link language for target "parser".
-CMake Error: CMake can not determine linker language for target: parser
--- Generating done
-CMake Generate step failed.  Build files cannot be regenerated correctly.
-l127914@pn1249300.lanl.gov:build $ cd ..
-l127914@pn1249300.lanl.gov:src $ lss
-total 16
-drwxr-xr-x   9 l127914  staff   288B Aug 12 14:24 .
-drwxr-xr-x   8 l127914  staff   256B Aug  8 12:44 ..
--rw-r--r--   1 l127914  staff   240B Aug  8 12:42 CMakeLists.txt
-drwxr-xr-x  10 l127914  staff   320B Aug 12 14:24 build
-drwxr-xr-x   6 l127914  staff   192B Aug  8 12:42 evolution
-drwxr-xr-x   4 l127914  staff   128B Aug  8 12:42 initial
-drwxr-xr-x   4 l127914  staff   128B Aug  8 12:42 io
--rw-r--r--   1 l127914  staff   1.0K Aug  8 12:42 main.f90
-drwxr-xr-x   4 l127914  staff   128B Aug  8 12:42 parser
-l127914@pn1249300.lanl.gov:src $ rm -rf build/
-l127914@pn1249300.lanl.gov:src $ mkdir build && cd build && cmake ..
-CMake Warning (dev) in CMakeLists.txt:
-  No project() command is present.  The top-level CMakeLists.txt file must
-  contain a literal, direct call to the project() command.  Add a line of
-  code such as
-
-    project(ProjectName)
-
-  near the top of the file, but after cmake_minimum_required().
-
-  CMake is pretending there is a "project(Project)" command on the first
-  line.
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
--- The C compiler identification is AppleClang 9.0.0.9000039
--- The CXX compiler identification is AppleClang 9.0.0.9000039
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
--- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
-CMake Warning (dev) in CMakeLists.txt:
-  No cmake_minimum_required command is present.  A line of code such as
-
-    cmake_minimum_required(VERSION 3.15)
-
-  should be added at the top of the file.  The version specified may be lower
-  if you wish to support older CMake versions for this project.  For more
-  information run "cmake --help-policy CMP0000".
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
--- Configuring done
-CMake Error: Cannot determine link language for target "automata".
-CMake Error: CMake can not determine linker language for target: automata
-CMake Error: Cannot determine link language for target "evolution".
-CMake Error: CMake can not determine linker language for target: evolution
-CMake Error: Cannot determine link language for target "initial".
-CMake Error: CMake can not determine linker language for target: initial
-CMake Error: Cannot determine link language for target "io".
-CMake Error: CMake can not determine linker language for target: io
-CMake Error: Cannot determine link language for target "parser".
-CMake Error: CMake can not determine linker language for target: parser
--- Generating done
-CMake Generate step failed.  Build files cannot be regenerated correctly.
-l127914@pn1249300.lanl.gov:build $ cd ..
-l127914@pn1249300.lanl.gov:src $ lss
-total 16
-drwxr-xr-x   9 l127914  staff   288B Aug 12 14:32 .
-drwxr-xr-x   8 l127914  staff   256B Aug  8 12:44 ..
--rw-r--r--   1 l127914  staff   240B Aug  8 12:42 CMakeLists.txt
-drwxr-xr-x  10 l127914  staff   320B Aug 12 14:32 build
-drwxr-xr-x   6 l127914  staff   192B Aug  8 12:42 evolution
-drwxr-xr-x   4 l127914  staff   128B Aug  8 12:42 initial
-drwxr-xr-x   4 l127914  staff   128B Aug  8 12:42 io
--rw-r--r--   1 l127914  staff   1.0K Aug  8 12:42 main.f90
-drwxr-xr-x   4 l127914  staff   128B Aug  8 12:42 parser
-l127914@pn1249300.lanl.gov:src $ rm -rf build/
-l127914@pn1249300.lanl.gov:src $ cd ..
-l127914@pn1249300.lanl.gov:fortran-example $ lss
-total 16
-drwxr-xr-x  8 l127914  staff   256B Aug  8 12:44 .
-drwxr-xr-x  6 l127914  staff   192B Aug  8 12:42 ..
--rw-r--r--  1 l127914  staff   557B Aug  8 12:42 CMakeLists.txt
-drwxr-xr-x  4 l127914  staff   128B Aug  8 12:44 build
-drwxr-xr-x  5 l127914  staff   160B Aug  8 12:42 external
--rw-r--r--  1 l127914  staff   239B Aug  8 12:42 menu.yml
-drwxr-xr-x  8 l127914  staff   256B Aug 12 14:33 src
-drwxr-xr-x  4 l127914  staff   128B Aug  8 12:42 tests
-l127914@pn1249300.lanl.gov:fortran-example $ rm -rf build/
-l127914@pn1249300.lanl.gov:fortran-example $ mkdir build && cd build && cmake ..
--- The Fortran compiler identification is unknown
--- Checking whether Fortran compiler has -isysroot
--- Checking whether Fortran compiler has -isysroot - yes
--- Checking whether Fortran compiler supports OSX deployment target flag
--- Checking whether Fortran compiler supports OSX deployment target flag - yes
--- Check for working Fortran compiler: /usr/local/bin/flang
--- Check for working Fortran compiler: /usr/local/bin/flang  -- broken
-CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeTestFortranCompiler.cmake:45 (message):
-  The Fortran compiler
-
-    "/usr/local/bin/flang"
-
-  is not able to compile a simple test program.
-
-  It fails with the following output:
-
-    Change Dir: /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp
-    
-    Run Build Command(s):/usr/bin/make cmTC_7aa64/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7aa64.dir/build.make CMakeFiles/cmTC_7aa64.dir/build
-    Building Fortran object CMakeFiles/cmTC_7aa64.dir/testFortranCompiler.f.o
-    /usr/local/bin/flang    -c /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_7aa64.dir/testFortranCompiler.f.o
-    clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
-    make[1]: *** [CMakeFiles/cmTC_7aa64.dir/testFortranCompiler.f.o] Error 1
-    make: *** [cmTC_7aa64/fast] Error 2
-    
-    
-
-  
-
-  CMake will not be able to correctly generate this project.
-Call Stack (most recent call first):
-  CMakeLists.txt:3 (project)
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeOutput.log".
-See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeError.log".
-l127914@pn1249300.lanl.gov:build $ cmake ./
--- The Fortran compiler identification is unknown
--- Checking whether Fortran compiler has -isysroot
--- Checking whether Fortran compiler has -isysroot - yes
--- Checking whether Fortran compiler supports OSX deployment target flag
--- Checking whether Fortran compiler supports OSX deployment target flag - yes
--- Check for working Fortran compiler: /usr/local/bin/flang
--- Check for working Fortran compiler: /usr/local/bin/flang  -- broken
-CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeTestFortranCompiler.cmake:45 (message):
-  The Fortran compiler
-
-    "/usr/local/bin/flang"
-
-  is not able to compile a simple test program.
-
-  It fails with the following output:
-
-    Change Dir: /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp
-    
-    Run Build Command(s):/usr/bin/make cmTC_c75c7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c75c7.dir/build.make CMakeFiles/cmTC_c75c7.dir/build
-    Building Fortran object CMakeFiles/cmTC_c75c7.dir/testFortranCompiler.f.o
-    /usr/local/bin/flang    -c /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_c75c7.dir/testFortranCompiler.f.o
-    clang-4.0: error: unable to execute command: Executable "flang1" doesn't exist!
-    make[1]: *** [CMakeFiles/cmTC_c75c7.dir/testFortranCompiler.f.o] Error 1
-    make: *** [cmTC_c75c7/fast] Error 2
-    
-    
-
-  
-
-  CMake will not be able to correctly generate this project.
-Call Stack (most recent call first):
-  CMakeLists.txt:3 (project)
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeOutput.log".
-See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeError.log".
-l127914@pn1249300.lanl.gov:build $ agai
--bash: agai: command not found
-l127914@pn1249300.lanl.gov:build $ again
-l127914@pn1249300.lanl.gov:build $ which gcc
-/usr/bin/gcc
-l127914@pn1249300.lanl.gov:build $ which gfortran
-/usr/local/bin/gfortran
-l127914@pn1249300.lanl.gov:build $ again
-l127914@pn1249300.lanl.gov:build $ cd ..
-l127914@pn1249300.lanl.gov:fortran-example $ lss
-total 16
-drwxr-xr-x  8 l127914  staff   256B Aug 12 14:44 .
-drwxr-xr-x  6 l127914  staff   192B Aug  8 12:42 ..
--rw-r--r--  1 l127914  staff   596B Aug 12 14:44 CMakeLists.txt
-drwxr-xr-x  2 l127914  staff    64B Aug 12 14:44 build
-drwxr-xr-x  5 l127914  staff   160B Aug  8 12:42 external
--rw-r--r--  1 l127914  staff   239B Aug  8 12:42 menu.yml
-drwxr-xr-x  8 l127914  staff   256B Aug 12 14:33 src
-drwxr-xr-x  4 l127914  staff   128B Aug  8 12:42 tests
-l127914@pn1249300.lanl.gov:fortran-example $ rm -rf build/
-l127914@pn1249300.lanl.gov:fortran-example $ mkdir build && cd build
-l127914@pn1249300.lanl.gov:build $ cmake ..
--- The Fortran compiler identification is GNU 9.1.0
--- Checking whether Fortran compiler has -isysroot
--- Checking whether Fortran compiler has -isysroot - yes
--- Checking whether Fortran compiler supports OSX deployment target flag
--- Checking whether Fortran compiler supports OSX deployment target flag - yes
--- Check for working Fortran compiler: /usr/local/bin/gfortran
--- Check for working Fortran compiler: /usr/local/bin/gfortran  -- broken
-CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeTestFortranCompiler.cmake:45 (message):
-  The Fortran compiler
-
-    "/usr/local/bin/gfortran"
-
-  is not able to compile a simple test program.
-
-  It fails with the following output:
-
-    Change Dir: /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp
-    
-    Run Build Command(s):/usr/bin/make cmTC_d3b05/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d3b05.dir/build.make CMakeFiles/cmTC_d3b05.dir/build
-    Building Fortran object CMakeFiles/cmTC_d3b05.dir/testFortranCompiler.f.o
-    /usr/local/bin/gfortran    -c /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_d3b05.dir/testFortranCompiler.f.o
-    Linking Fortran executable cmTC_d3b05
-    /usr/local/Cellar/cmake/3.15.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3b05.dir/link.txt --verbose=1
-    /usr/local/bin/gfortran      CMakeFiles/cmTC_d3b05.dir/testFortranCompiler.f.o  -o cmTC_d3b05 
-    ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd
-    ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd
-    ld: symbol dyld_stub_binder not found (normally in libSystem.dylib).  Needed to perform lazy binding to function __gfortran_set_args for architecture x86_64
-    collect2: error: ld returned 1 exit status
-    make[1]: *** [cmTC_d3b05] Error 1
-    make: *** [cmTC_d3b05/fast] Error 2
-    
-    
-
-  
-
-  CMake will not be able to correctly generate this project.
-Call Stack (most recent call first):
-  CMakeLists.txt:4 (project)
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeOutput.log".
-See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeError.log".
-l127914@pn1249300.lanl.gov:build $ again
-l127914@pn1249300.lanl.gov:build $ cd ..
-l127914@pn1249300.lanl.gov:fortran-example $ quick
-CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:33 (message):
-  Could not find compiler set in environment variable FC:
-
-  /usr/local/bin/gfortran/bin.
-Call Stack (most recent call first):
-  CMakeLists.txt:4 (project)
-
-
-CMake Error: CMAKE_Fortran_COMPILER not set, after EnableLanguage
--- Configuring incomplete, errors occurred!
-See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeOutput.log".
-l127914@pn1249300.lanl.gov:build $ cd ..
-l127914@pn1249300.lanl.gov:fortran-example $ quick
-CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:33 (message):
-  Could not find compiler set in environment variable FC:
-
-  /usr/local/bin/gfortran/bin.
-Call Stack (most recent call first):
-  CMakeLists.txt:4 (project)
-
-
-CMake Error: CMAKE_Fortran_COMPILER not set, after EnableLanguage
--- Configuring incomplete, errors occurred!
-See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeOutput.log".
-l127914@pn1249300.lanl.gov:build $ cd ..
-l127914@pn1249300.lanl.gov:fortran-example $ quick
--- The Fortran compiler identification is GNU 9.1.0
--- Checking whether Fortran compiler has -isysroot
--- Checking whether Fortran compiler has -isysroot - yes
--- Checking whether Fortran compiler supports OSX deployment target flag
--- Checking whether Fortran compiler supports OSX deployment target flag - yes
--- Check for working Fortran compiler: /usr/local/bin/gfortran
--- Check for working Fortran compiler: /usr/local/bin/gfortran  -- broken
-CMake Error at /usr/local/Cellar/cmake/3.15.1/share/cmake/Modules/CMakeTestFortranCompiler.cmake:45 (message):
-  The Fortran compiler
-
-    "/usr/local/bin/gfortran"
-
-  is not able to compile a simple test program.
-
-  It fails with the following output:
-
-    Change Dir: /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp
-    
-    Run Build Command(s):/usr/bin/make cmTC_b4cba/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b4cba.dir/build.make CMakeFiles/cmTC_b4cba.dir/build
-    Building Fortran object CMakeFiles/cmTC_b4cba.dir/testFortranCompiler.f.o
-    /usr/local/bin/gfortran    -c /Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_b4cba.dir/testFortranCompiler.f.o
-    Linking Fortran executable cmTC_b4cba
-    /usr/local/Cellar/cmake/3.15.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4cba.dir/link.txt --verbose=1
-    /usr/local/bin/gfortran      CMakeFiles/cmTC_b4cba.dir/testFortranCompiler.f.o  -o cmTC_b4cba 
-    ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libSystem.tbd
-    ld: warning: ignoring file /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd, file was built for unsupported file format ( 0x2D 0x2D 0x2D 0x20 0x21 0x74 0x61 0x70 0x69 0x2D 0x74 0x62 0x64 0x2D 0x76 0x33 ) which is not the architecture being linked (x86_64): /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libm.tbd
-    ld: symbol dyld_stub_binder not found (normally in libSystem.dylib).  Needed to perform lazy binding to function __gfortran_set_args for architecture x86_64
-    collect2: error: ld returned 1 exit status
-    make[1]: *** [cmTC_b4cba] Error 1
-    make: *** [cmTC_b4cba/fast] Error 2
-    
-    
-
-  
-
-  CMake will not be able to correctly generate this project.
-Call Stack (most recent call first):
-  CMakeLists.txt:4 (project)
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeOutput.log".
-See also "/Users/l127914/Documents/repos/github/cmake/sandbox/recipe-09/fortran-example/build/CMakeFiles/CMakeError.log".
-l127914@pn1249300.lanl.gov:build $ which docker
-/usr/local/bin/docker
-l127914@pn1249300.lanl.gov:build $ $ docker run -it devcafe/cmake-cookbook_ubuntu-18.04
--bash: $: command not found
-l127914@pn1249300.lanl.gov:build $ $ docker run -it devcafe/cmake-cookbook_ubuntu-18.04
--bash: $: command not found
-l127914@pn1249300.lanl.gov:build $ docker run -it devcafe/cmake-cookbook_ubuntu-18.04
+drwxr-xr-x  2 l127914  staff    64B Aug 12 16:01 .
+drwx------+ 7 l127914  staff   224B Aug 12 16:01 ..
+l127914@pn1248056.lanl.gov:sandbox $ docker run -it devcafe/cmake-cookbook_ubuntu-18.04
 Unable to find image 'devcafe/cmake-cookbook_ubuntu-18.04:latest' locally
 latest: Pulling from devcafe/cmake-cookbook_ubuntu-18.04
 c64513b74145: Pull complete 
@@ -693,20 +209,87 @@ e977689d49fd: Pull complete
 Digest: sha256:5f995aaa94b4b032f8bc5bcec98fe51c36884952672e47f503a855d58502de15
 Status: Downloaded newer image for devcafe/cmake-cookbook_ubuntu-18.04:latest
 
-Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. mightybuilder@6c93cf1dceb1:~$ 
-mightybuilder@6c93cf1dceb1:~$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
+Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. mightybuilder@f373fbfe40f9:~$ 
+mightybuilder@f373fbfe40f9:~$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. lss
 bash: syntax error near unexpected token `('
-mightybuilder@6c93cf1dceb1:~$ git clone https://github.com/dev-cafe/cmake-cookbook.git
+mightybuilder@f373fbfe40f9:~$ 
+mightybuilder@f373fbfe40f9:~$ lss
+bash: lss: command not found
+mightybuilder@f373fbfe40f9:~$ ls
+mightybuilder@f373fbfe40f9:~$ git clone https://github.com/dev-cafe/cmake-cookbook.git
 Cloning into 'cmake-cookbook'...
 remote: Enumerating objects: 14014, done.
 remote: Total 14014 (delta 0), reused 0 (delta 0), pack-reused 14014
-Receiving objects: 100% (14014/14014), 88.25 MiB | 18.09 MiB/s, done.
+Receiving objects: 100% (14014/14014), 88.25 MiB | 162.00 KiB/s, done.
 Resolving deltas: 100% (7118/7118), done.
-mightybuilder@6c93cf1dceb1:~$ 
-mightybuilder@6c93cf1dceb1:~$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
+mightybuilder@f373fbfe40f9:~$ cd cmake-cookbook/
+mightybuilder@f373fbfe40f9:~/cmake-cookbook$ pipenv
+Usage: pipenv [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --where             Output project home information.
+  --venv              Output virtualenv information.
+  --py                Output Python interpreter information.
+  --envs              Output Environment Variable options.
+  --rm                Remove the virtualenv.
+  --bare              Minimal output.
+  --completion        Output completion (to be eval'd).
+  --man               Display manpage.
+  --three / --two     Use Python 3/2 when creating virtualenv.
+  --python TEXT       Specify which version of Python virtualenv should use.
+  --site-packages     Enable site-packages for the virtualenv.
+  --pypi-mirror TEXT  Specify a PyPI mirror.
+  --support           Output diagnostic information for use in Github issues.
+  --version           Show the version and exit.
+  -h, --help          Show this message and exit.
+
+
+Usage Examples:
+   Create a new project using Python 3.6, specifically:
+   $ pipenv --python 3.6
+
+   Install all dependencies for a project (including dev):
+   $ pipenv install --dev
+
+   Create a lockfile containing pre-releases:
+   $ pipenv lock --pre
+
+   Show a graph of your installed dependencies:
+   $ pipenv graph
+
+   Check your installed dependencies for security vulnerabilities:
+   $ pipenv check
+
+   Install a local setup.py into your virtual environment/Pipfile:
+   $ pipenv install -e .
+
+   Use a lower-level pip command:
+   $ pipenv run pip freeze
+
+Commands:
+  check      Checks for security vulnerabilities and against PEP 508 markers
+             provided in Pipfile.
+  clean      Uninstalls all packages not specified in Pipfile.lock.
+  graph      Displays currently-installed dependency graph information.
+  install    Installs provided packages and adds them to Pipfile, or (if none
+             is given), installs all packages.
+  lock       Generates Pipfile.lock.
+  open       View a given module in your editor.
+  run        Spawns a command installed into the virtualenv.
+  shell      Spawns a shell within the virtualenv.
+  sync       Installs all packages specified in Pipfile.lock.
+  uninstall  Un-installs a provided package and removes it from Pipfile.
+  update     Runs lock, then sync.
+mightybuilder@f373fbfe40f9:~/cmake-cookbook$ 
+mightybuilder@f373fbfe40f9:~/cmake-cookbook$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. pipenv install --three
 bash: syntax error near unexpected token `('
-mightybuilder@6c93cf1dceb1:~$ cd cmake-cookbook/
-mightybuilder@6c93cf1dceb1:~/cmake-cookbook$ pipenv install --three
+mightybuilder@f373fbfe40f9:~/cmake-cookbook$ 
+mightybuilder@f373fbfe40f9:~/cmake-cookbook$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. pipenv install --three
+bash: syntax error near unexpected token `('
+mightybuilder@f373fbfe40f9:~/cmake-cookbook$ 
+mightybuilder@f373fbfe40f9:~/cmake-cookbook$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
+bash: syntax error near unexpected token `('
+mightybuilder@f373fbfe40f9:~/cmake-cookbook$ pipenv install --three
 Creating a virtualenv for this project...
 Pipfile: /home/mightybuilder/cmake-cookbook/Pipfile
 Using /opt/conda/bin/python3 (3.6.6) to create virtualenv...
@@ -719,16 +302,14 @@ Setting project for cmake-cookbook-3GSOBQuY to /home/mightybuilder/cmake-cookboo
 
 Virtualenv location: /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY
 Installing dependencies from Pipfile.lock (096ebe)...
-  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 27/27 — 00:00:10
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 27/27 — 00:00:58
 To activate this project's virtualenv, run pipenv shell.
 Alternatively, run a command inside the virtualenv with pipenv run.
-mightybuilder@6c93cf1dceb1:~/cmake-cookbook$ 
-mightybuilder@6c93cf1dceb1:~/cmake-cookbook$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. pipenv run python testing/collect_tests.py 'chapter-*/recipe-*'
+mightybuilder@f373fbfe40f9:~/cmake-cookbook$ 
+mightybuilder@f373fbfe40f9:~/cmake-cookbook$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
 bash: syntax error near unexpected token `('
-mightybuilder@6c93cf1dceb1:~/cmake-cookbook$ 
-mightybuilder@6c93cf1dceb1:~/cmake-cookbook$ Bast, Radovan. CMake Cookbook: Building, testing, and packaging modular software with modern CMake (p. 10). Packt Publishing. Kindle Edition. 
-bash: syntax error near unexpected token `('
-mightybuilder@6c93cf1dceb1:~/cmake-cookbook$ pipenv run python testing/collect_tests.py 'chapter-*/recipe-*'
+mightybuilder@f373fbfe40f9:~/cmake-cookbook$ 
+mightybuilder@f373fbfe40f9:~/cmake-cookbook$ pipenv run python testing/collect_tests.py 'chapter-*/recipe-*'
 
 recipe: Compiling a single source file into an executable
 
@@ -1296,7 +877,7 @@ CMake Warning:
 
 
   configuring ... OK
-^[[A  building configuration Debug ... OK
+  building configuration Debug ... OK
   test configuration Debug ... OK
 
 recipe: Defining a unit test and linking against Boost test
@@ -1804,7 +1385,7 @@ CMake Warning:
 recipe: Managing dependencies with a superbuild: I. The Boost libraries
 
   /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example
-cmake -H"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example" -B"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15" -G"Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug" -DCMAKE_DISABLE_FIND_PACKAGE_Boost="ON"
+cmake -H"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example" -B"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-13-00-27-57" -G"Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug" -DCMAKE_DISABLE_FIND_PACKAGE_Boost="ON"
 -- The CXX compiler identification is GNU 7.3.0
 -- Check for working CXX compiler: /usr/bin/g++
 -- Check for working CXX compiler: /usr/bin/g++ -- works
@@ -1812,12 +1393,12 @@ cmake -H"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example" -B
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- recipe-02 staged install: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/stage
+-- recipe-02 staged install: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-13-00-27-57/stage
 -- Boost 1.61 could not be located, Building Boost 1.61.0 instead.
 --   Libraries to be built: filesystem, system
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15
+-- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-13-00-27-57
 CMake Warning:
   Manually-specified variables were not used by the project:
 
@@ -1826,20 +1407,20 @@ CMake Warning:
 
 
   configuring ... OK
-cmake --build "/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15" --config Debug -- 
+cmake --build "/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-13-00-27-57" --config Debug -- 
 Scanning dependencies of target boost_external
 [  6%] Creating directories for 'boost_external'
 [ 12%] Performing download step (download, verify and extract) for 'boost_external'
 -- Downloading...
-   dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Download/boost_external/boost_1_61_0.zip'
+   dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-13-00-27-57/subprojects/Download/boost_external/boost_1_61_0.zip'
    timeout='none'
 -- Using src='https://sourceforge.net/projects/boost/files/boost/1.61.0/boost_1_61_0.zip'
 -- verifying file...
-       file='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Download/boost_external/boost_1_61_0.zip'
+       file='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-13-00-27-57/subprojects/Download/boost_external/boost_1_61_0.zip'
 -- Downloading... done
 -- extracting...
-     src='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Download/boost_external/boost_1_61_0.zip'
-     dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Source/boost_external'
+     src='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-13-00-27-57/subprojects/Download/boost_external/boost_1_61_0.zip'
+     dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-13-00-27-57/subprojects/Source/boost_external'
 -- extracting... [tar xfz]
 -- extracting... [analysis]
 -- extracting... [rename]
@@ -1869,9 +1450,9 @@ Further information:
      http://www.boost.org/build/doc/html/index.html
 
 [ 37%] Performing build step for 'boost_external'
--- boost_external build command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Stamp/boost_external/boost_external-build-*.log
+-- boost_external build command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-13-00-27-57/subprojects/Stamp/boost_external/boost_external-build-*.log
 [ 43%] Performing install step for 'boost_external'
--- boost_external install command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Stamp/boost_external/boost_external-install-*.log
+-- boost_external install command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-13-00-27-57/subprojects/Stamp/boost_external/boost_external-install-*.log
 [ 50%] Completed 'boost_external'
 [ 50%] Built target boost_external
 Scanning dependencies of target recipe-02_core
@@ -1880,7 +1461,7 @@ Scanning dependencies of target recipe-02_core
 [ 68%] No patch step for 'recipe-02_core'
 [ 75%] No update step for 'recipe-02_core'
 [ 81%] Performing configure step for 'recipe-02_core'
-loading initial cache file /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/tmp/recipe-02_core/recipe-02_core-cache-Debug.cmake
+loading initial cache file /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-13-00-27-57/subprojects/tmp/recipe-02_core/recipe-02_core-cache-Debug.cmake
 -- The CXX compiler identification is GNU 7.3.0
 -- Check for working CXX compiler: /usr/bin/g++
 -- Check for working CXX compiler: /usr/bin/g++ -- works
@@ -1894,7 +1475,7 @@ loading initial cache file /home/mightybuilder/cmake-cookbook/chapter-08/recipe-
 --   system
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-12-21-13-15/subprojects/Build/recipe-02_core
+-- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-02/cxx-example/build-2019-08-13-00-27-57/subprojects/Build/recipe-02_core
 [ 87%] Performing build step for 'recipe-02_core'
 Scanning dependencies of target path-info
 [ 50%] Building CXX object CMakeFiles/path-info.dir/path-info.cpp.o
@@ -1908,7 +1489,7 @@ Scanning dependencies of target path-info
 recipe: Managing dependencies with a superbuild: II. The FFTW library
 
   /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example
-cmake -H"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example" -B"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21" -G"Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug" -DCMAKE_DISABLE_FIND_PACKAGE_FFTW3="ON"
+cmake -H"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example" -B"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14" -G"Unix Makefiles" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_Fortran_COMPILER="gfortran" -DCMAKE_BUILD_TYPE="Debug" -DCMAKE_DISABLE_FIND_PACKAGE_FFTW3="ON"
 -- The C compiler identification is GNU 7.3.0
 -- Check for working C compiler: /usr/bin/gcc
 -- Check for working C compiler: /usr/bin/gcc -- works
@@ -1916,11 +1497,11 @@ cmake -H"/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example" -B"/
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
 -- Detecting C compile features - done
--- recipe-03 staged install: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/stage
+-- recipe-03 staged install: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14/stage
 -- Suitable FFTW3 could not be located. Downloading and building!
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21
+-- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14
 CMake Warning:
   Manually-specified variables were not used by the project:
 
@@ -1929,20 +1510,20 @@ CMake Warning:
 
 
   configuring ... OK
-cmake --build "/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21" --config Debug -- 
+cmake --build "/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14" --config Debug -- 
 Scanning dependencies of target fftw3_external
 [  6%] Creating directories for 'fftw3_external'
 [ 12%] Performing download step (download, verify and extract) for 'fftw3_external'
 -- Downloading...
-   dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Download/fftw3_external/fftw-3.3.8.tar.gz'
+   dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14/subprojects/Download/fftw3_external/fftw-3.3.8.tar.gz'
    timeout='none'
 -- Using src='http://www.fftw.org/fftw-3.3.8.tar.gz'
 -- verifying file...
-       file='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Download/fftw3_external/fftw-3.3.8.tar.gz'
+       file='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14/subprojects/Download/fftw3_external/fftw-3.3.8.tar.gz'
 -- Downloading... done
 -- extracting...
-     src='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Download/fftw3_external/fftw-3.3.8.tar.gz'
-     dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Source/fftw3_external'
+     src='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14/subprojects/Download/fftw3_external/fftw-3.3.8.tar.gz'
+     dst='/home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14/subprojects/Source/fftw3_external'
 -- extracting... [tar xfz]
 -- extracting... [analysis]
 -- extracting... [rename]
@@ -1951,11 +1532,11 @@ Scanning dependencies of target fftw3_external
 [ 18%] No patch step for 'fftw3_external'
 [ 25%] No update step for 'fftw3_external'
 [ 31%] Performing configure step for 'fftw3_external'
--- fftw3_external configure command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Stamp/fftw3_external/fftw3_external-configure-*.log
+-- fftw3_external configure command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14/subprojects/Stamp/fftw3_external/fftw3_external-configure-*.log
 [ 37%] Performing build step for 'fftw3_external'
--- fftw3_external build command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Stamp/fftw3_external/fftw3_external-build-*.log
+-- fftw3_external build command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14/subprojects/Stamp/fftw3_external/fftw3_external-build-*.log
 [ 43%] Performing install step for 'fftw3_external'
--- fftw3_external install command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Stamp/fftw3_external/fftw3_external-install-*.log
+-- fftw3_external install command succeeded.  See also /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14/subprojects/Stamp/fftw3_external/fftw3_external-install-*.log
 [ 50%] Completed 'fftw3_external'
 [ 50%] Built target fftw3_external
 Scanning dependencies of target recipe-03_core
@@ -1964,7 +1545,7 @@ Scanning dependencies of target recipe-03_core
 [ 68%] No patch step for 'recipe-03_core'
 [ 75%] No update step for 'recipe-03_core'
 [ 81%] Performing configure step for 'recipe-03_core'
-loading initial cache file /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/tmp/recipe-03_core/recipe-03_core-cache-Debug.cmake
+loading initial cache file /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14/subprojects/tmp/recipe-03_core/recipe-03_core-cache-Debug.cmake
 -- The C compiler identification is GNU 7.3.0
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
@@ -1972,10 +1553,10 @@ loading initial cache file /home/mightybuilder/cmake-cookbook/chapter-08/recipe-
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Found FFTW3: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/stage/lib/libfftw3.so.3 (found version 3.3.7)
+-- Found FFTW3: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14/stage/lib/libfftw3.so.3 (found version 3.3.7)
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-12-21-16-21/subprojects/Build/recipe-03_core
+-- Build files have been written to: /home/mightybuilder/cmake-cookbook/chapter-08/recipe-03/c-example/build-2019-08-13-00-34-14/subprojects/Build/recipe-03_core
 [ 87%] Performing build step for 'recipe-03_core'
 Scanning dependencies of target fftw_example
 [ 50%] Building C object CMakeFiles/fftw_example.dir/fftw_example.c.o
@@ -1996,4 +1577,838 @@ CMake Warning:
 
 
   configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-08/recipe-04/cxx-example-3.5
+Cloning into 'googletest-src'...
+Note: checking out 'release-1.8.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at ec44c6c1 Merge pull request #821 from mazong1123/master
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Managing your project as a superbuild
+
+  /home/mightybuilder/cmake-cookbook/chapter-08/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+Cloning into 'message_external'...
+Already on 'master'
+  building configuration Debug ... OK
+
+recipe: Building Fortran projects that use C/C++ libraries
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-01/fortran-c-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-01/fortran-cxx-example
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-01/fortran-uuid-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-01/fortran-uuid-example-3.5
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Building C/C++ projects that use Fortran libraries
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-02/cxx-example
+  configuring ... OK
+  building configuration Debug ... OK
+
+recipe: Building C++ and Python projects using Cython
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Building C++ and Python projects using Boost.Python
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Building C++ and Python projects using pybind11
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-05/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Mixing C, C++, Fortran, and Python using Python CFFI
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-06/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-09/recipe-06/fortran-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Installing your project
+
+  /home/mightybuilder/cmake-cookbook/chapter-10/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+  install configuration Debug ... OK
+
+recipe: Generating export headers
+
+  /home/mightybuilder/cmake-cookbook/chapter-10/recipe-02/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+  install configuration Debug ... OK
+
+recipe: Exporting your targets
+
+  /home/mightybuilder/cmake-cookbook/chapter-10/recipe-03/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  install configuration Debug ... OK
+  test configuration Debug ... OK
+
+recipe: Installing a superbuild
+
+  /home/mightybuilder/cmake-cookbook/chapter-10/recipe-04/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+Cloning into 'message_external'...
+Already on 'master'
+  building configuration Debug ... OK
+  test configuration Debug ... OK
+  install configuration Debug ... OK
+
+recipe: Generating source and binary packages
+
+  /home/mightybuilder/cmake-cookbook/chapter-11/recipe-01/cxx-example
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_Fortran_COMPILER
+
+
+  configuring ... OK
+  building configuration Debug ... OK
+  install configuration Debug ... OK
+  test configuration Debug ... OK
+CPackRPM: Will use GENERATED spec file: /home/mightybuilder/cmake-cookbook/chapter-11/recipe-01/cxx-example/build-2019-08-13-00-37-18/_CPack_Packages/Linux/RPM/SPECS/recipe-01.spec
+  package configuration Debug ... OK
+
+recipe: Distributing a C++/Python project built with CMake/pybind11 via PyPI
+
+  /home/mightybuilder/cmake-cookbook/chapter-11/recipe-02/cxx-example
+
+Running a custom.sh script
+Creating a virtualenv for this project...
+Pipfile: /home/mightybuilder/cmake-cookbook/chapter-11/recipe-02/cxx-example/build-2019-08-13-00-37-21/venv/Pipfile
+Using /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3 (3.6.6) to create virtualenv...
+Running virtualenv with interpreter /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3
+Using real prefix '/opt/conda'
+New python executable in /home/mightybuilder/.local/share/virtualenvs/venv-__SQY5VM/bin/python3
+Also creating executable in /home/mightybuilder/.local/share/virtualenvs/venv-__SQY5VM/bin/python
+Installing setuptools, pip, wheel...done.
+Setting project for venv-__SQY5VM to /home/mightybuilder/cmake-cookbook/chapter-11/recipe-02/cxx-example/build-2019-08-13-00-37-21/venv
+
+Virtualenv location: /home/mightybuilder/.local/share/virtualenvs/venv-__SQY5VM
+Creating a Pipfile for this project...
+Pipfile.lock not found, creating...
+Locking [dev-packages] dependencies...
+Locking [packages] dependencies...
+Updated Pipfile.lock (0d5d03)!
+  custom.sh ... OK
+
+recipe: Distributing a C/Fortran/Python project built with CMake/CFFI via PyPI
+
+  /home/mightybuilder/cmake-cookbook/chapter-11/recipe-03/cxx-example
+
+Running a custom.sh script
+Creating a virtualenv for this project...
+Pipfile: /home/mightybuilder/cmake-cookbook/chapter-11/recipe-03/cxx-example/build-2019-08-13-00-38-15/venv/Pipfile
+Using /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3 (3.6.6) to create virtualenv...
+Running virtualenv with interpreter /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3
+Using real prefix '/opt/conda'
+New python executable in /home/mightybuilder/.local/share/virtualenvs/venv-FB1cc5qm/bin/python3
+Also creating executable in /home/mightybuilder/.local/share/virtualenvs/venv-FB1cc5qm/bin/python
+Installing setuptools, pip, wheel...done.
+Setting project for venv-FB1cc5qm to /home/mightybuilder/cmake-cookbook/chapter-11/recipe-03/cxx-example/build-2019-08-13-00-38-15/venv
+
+Virtualenv location: /home/mightybuilder/.local/share/virtualenvs/venv-FB1cc5qm
+Creating a Pipfile for this project...
+Pipfile.lock not found, creating...
+Locking [dev-packages] dependencies...
+Locking [packages] dependencies...
+Updated Pipfile.lock (0d5d03)!
+/home/mightybuilder/.local/share/virtualenvs/venv-FB1cc5qm/lib/python3.6/site-packages/cffi/cparser.py:150: UserWarning: String literal found in cdef() or type source. String literals are ignored here, but you should remove them anyway because some character sequences confuse pre-parsing.
+  warnings.warn("String literal found in cdef() or type source. "
+  custom.sh ... OK
+
+  /home/mightybuilder/cmake-cookbook/chapter-11/recipe-03/fortran-example
+
+Running a custom.sh script
+Creating a virtualenv for this project...
+Pipfile: /home/mightybuilder/cmake-cookbook/chapter-11/recipe-03/fortran-example/build-2019-08-13-00-38-25/venv/Pipfile
+Using /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3 (3.6.6) to create virtualenv...
+Running virtualenv with interpreter /home/mightybuilder/.local/share/virtualenvs/cmake-cookbook-3GSOBQuY/bin/python3
+Using real prefix '/opt/conda'
+New python executable in /home/mightybuilder/.local/share/virtualenvs/venv-axsFh6Cy/bin/python3
+Also creating executable in /home/mightybuilder/.local/share/virtualenvs/venv-axsFh6Cy/bin/python
+Installing setuptools, pip, wheel...done.
+Setting project for venv-axsFh6Cy to /home/mightybuilder/cmake-cookbook/chapter-11/recipe-03/fortran-example/build-2019-08-13-00-38-25/venv
+
+Virtualenv location: /home/mightybuilder/.local/share/virtualenvs/venv-axsFh6Cy
+Creating a Pipfile for this project...
+Pipfile.lock not found, creating...
+Locking [dev-packages] dependencies...
+Locking [packages] dependencies...
+Updated Pipfile.lock (0d5d03)!
+/home/mightybuilder/.local/share/virtualenvs/venv-axsFh6Cy/lib/python3.6/site-packages/cffi/cparser.py:150: UserWarning: String literal found in cdef() or type source. String literals are ignored here, but you should remove them anyway because some character sequences confuse pre-parsing.
+  warnings.warn("String literal found in cdef() or type source. "
+  custom.sh ... OK
+
+recipe: Distributing a simple project as Conda package
+
+  /home/mightybuilder/cmake-cookbook/chapter-11/recipe-04/cxx-example
+
+Running a custom.sh script
+bash "/home/mightybuilder/cmake-cookbook/chapter-11/recipe-04/cxx-example/custom.sh" "/home/mightybuilder/cmake-cookbook/chapter-11/recipe-04/cxx-example/build-2019-08-13-00-38-35"
+Adding in variants from internal_defaults
+Attempting to finalize metadata for conda-example-simple
+Solving environment: ...working... done
+Solving environment: ...working... done
+BUILD START: ['conda-example-simple-0.0.0-h6bb024c_0.tar.bz2']
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:          0.1-main               
+    binutils_impl_linux-64: 2.31.1-h6176602_1      
+    binutils_linux-64:      2.31.1-h6176602_8      
+    bzip2:                  1.0.8-h7b6447c_0       
+    ca-certificates:        2019.5.15-1            
+    cmake:                  3.14.0-h52cb24c_0      
+    expat:                  2.2.6-he6710b0_0       
+    gcc_impl_linux-64:      7.3.0-habb00fd_1       
+    gcc_linux-64:           7.3.0-h553295d_8       
+    gxx_impl_linux-64:      7.3.0-hdf63c60_1       
+    gxx_linux-64:           7.3.0-h553295d_8       
+    krb5:                   1.16.1-h173b8e3_7      
+    libcurl:                7.65.2-h20c2e04_0      
+    libedit:                3.1.20181209-hc058e9b_0
+    libgcc-ng:              9.1.0-hdf63c60_0       
+    libssh2:                1.8.2-h1ba5d50_0       
+    libstdcxx-ng:           9.1.0-hdf63c60_0       
+    ncurses:                6.1-he6710b0_1         
+    openssl:                1.1.1c-h7b6447c_1      
+    rhash:                  1.3.8-h1ba5d50_0       
+    tk:                     8.6.8-hbc83047_0       
+    xz:                     5.2.4-h14c3975_4       
+    zlib:                   1.2.11-h7b6447c_3      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+INFO: activate-binutils_linux-64.sh made the following environmental changes:
++ADDR2LINE=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-addr2line
++AR=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-ar
++AS=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-as
++CXXFILT=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++filt
++ELFEDIT=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-elfedit
++GPROF=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-gprof
++HOST=x86_64-conda_cos6-linux-gnu
++LD=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-ld
++LD_GOLD=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-ld.gold
++NM=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-nm
++OBJCOPY=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-objcopy
++OBJDUMP=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-objdump
++RANLIB=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-ranlib
++READELF=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-readelf
++SIZE=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-size
++STRINGS=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-strings
++STRIP=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-strip
+INFO: activate-gcc_linux-64.sh made the following environmental changes:
++CC=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc
++CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1565656716575/work=/usr/local/src/conda/conda-example-simple-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl=/usr/local/src/conda-prefix
++CMAKE_PREFIX_PATH=:/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl:/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr
++CPP=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-cpp
++CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/include
++DEBUG_CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1565656716575/work=/usr/local/src/conda/conda-example-simple-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl=/usr/local/src/conda-prefix
++DEBUG_CPPFLAGS=-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -I/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/include
++GCC=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc
++GCC_AR=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc-ar
++GCC_NM=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc-nm
++GCC_RANLIB=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc-ranlib
++LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/lib -Wl,-rpath-link,/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/lib -L/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/lib
++_CONDA_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_x86_64_conda_cos6_linux_gnu
+INFO: activate-gxx_linux-64.sh made the following environmental changes:
++CXX=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++
++CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1565656716575/work=/usr/local/src/conda/conda-example-simple-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl=/usr/local/src/conda-prefix
++DEBUG_CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1565656716575/work=/usr/local/src/conda/conda-example-simple-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl=/usr/local/src/conda-prefix
++GXX=/opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-g++
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working CXX compiler: /opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++
+-- Check for working CXX compiler: /opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /opt/conda/conda-bld/conda-example-simple_1565656716575/work/build_conda
+Scanning dependencies of target hello-conda
+[ 50%] Building CXX object CMakeFiles/hello-conda.dir/example.cpp.o
+[100%] Linking CXX executable hello-conda
+[100%] Built target hello-conda
+Install the project...
+-- Install configuration: ""
+-- Installing: /opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/hello-conda
+Copying /home/mightybuilder/cmake-cookbook/chapter-11/recipe-04/cxx-example/build-2019-08-13-00-38-35 to /opt/conda/conda-bld/conda-example-simple_1565656716575/work
+source tree in: /opt/conda/conda-bld/conda-example-simple_1565656716575/work
+
+Resource usage statistics from building conda-example-simple:
+   Process count: 1
+   CPU time: unavailable
+   Memory: 1.1M
+   Disk usage: 380B
+   Time elapsed: 0:00:02.0
+
+Packaging conda-example-simple
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:          0.1-main               
+    binutils_impl_linux-64: 2.31.1-h6176602_1      
+    binutils_linux-64:      2.31.1-h6176602_8      
+    bzip2:                  1.0.8-h7b6447c_0       
+    ca-certificates:        2019.5.15-1            
+    cmake:                  3.14.0-h52cb24c_0      
+    expat:                  2.2.6-he6710b0_0       
+    gcc_impl_linux-64:      7.3.0-habb00fd_1       
+    gcc_linux-64:           7.3.0-h553295d_8       
+    gxx_impl_linux-64:      7.3.0-hdf63c60_1       
+    gxx_linux-64:           7.3.0-h553295d_8       
+    krb5:                   1.16.1-h173b8e3_7      
+    libcurl:                7.65.2-h20c2e04_0      
+    libedit:                3.1.20181209-hc058e9b_0
+    libgcc-ng:              9.1.0-hdf63c60_0       
+    libssh2:                1.8.2-h1ba5d50_0       
+    libstdcxx-ng:           9.1.0-hdf63c60_0       
+    ncurses:                6.1-he6710b0_1         
+    openssl:                1.1.1c-h7b6447c_1      
+    rhash:                  1.3.8-h1ba5d50_0       
+    tk:                     8.6.8-hbc83047_0       
+    xz:                     5.2.4-h14c3975_4       
+    zlib:                   1.2.11-h7b6447c_3      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Packaging conda-example-simple-0.0.0-h6bb024c_0
+number of files: 1
+Warning: rpath /opt/conda/conda-bld/conda-example-simple_1565656716575/_build_env/lib is outside prefix /opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl (removing it)
+patchelf: file: /opt/conda/conda-bld/conda-example-simple_1565656716575/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/hello-conda
+    setting rpath to: $ORIGIN/../lib
+   INFO (conda-example-simple,bin/hello-conda): Needed DSO x86_64-conda_cos6-linux-gnu/sysroot/lib/libc.so.6 found in CDT/compiler package defaults::gcc_impl_linux-64-7.3.0-habb00fd_1
+   INFO (conda-example-simple,bin/hello-conda): Needed DSO x86_64-conda_cos6-linux-gnu/sysroot/lib/libstdc++.so.6 found in CDT/compiler package defaults::libstdcxx-ng-9.1.0-hdf63c60_0
+Fixing permissions
+updating: conda-example-simple-0.0.0-h6bb024c_0.tar.bz2
+TEST START: /opt/conda/conda-bld/linux-64/conda-example-simple-0.0.0-h6bb024c_0.tar.bz2
+Updating index at /opt/conda/conda-bld/linux-64 to make package installable with dependencies
+Updating index at /opt/conda/conda-bld/noarch to make package installable with dependencies
+Nothing to test for: /opt/conda/conda-bld/linux-64/conda-example-simple-0.0.0-h6bb024c_0.tar.bz2
+Renaming work directory,  /opt/conda/conda-bld/conda-example-simple_1565656716575/work  to  /opt/conda/conda-bld/conda-example-simple_1565656716575/work_moved_conda-example-simple-0.0.0-h6bb024c_0_linux-64_main_build_loop
+# Automatic uploading is disabled
+# If you want to upload package(s) to anaconda.org later, type:
+
+anaconda upload /opt/conda/conda-bld/linux-64/conda-example-simple-0.0.0-h6bb024c_0.tar.bz2
+
+# To have conda build upload to anaconda.org automatically, use
+# $ conda config --set anaconda_upload yes
+
+anaconda_upload is not set.  Not uploading wheels: []
+####################################################################################
+Resource usage summary:
+
+Total time: 0:05:37.6
+CPU usage: sys=0:00:00.0, user=0:00:00.0
+Maximum memory usage observed: 1.1M
+Total disk usage observed (not including envs): 380B
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/conda
+
+  added / updated specs: 
+    - conda-example-simple
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    conda-example-simple-0.0.0 |       h6bb024c_0           7 KB  local
+
+The following NEW packages will be INSTALLED:
+
+    conda-example-simple: 0.0.0-h6bb024c_0 local
+
+The following packages will be UPDATED:
+
+    ca-certificates:      2018.03.07-0           --> 2019.5.15-1
+
+
+Downloading and Extracting Packages
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+hello from your conda package!
+Cache location: /opt/conda/pkgs
+Will remove the following tarballs:
+
+/opt/conda/pkgs
+---------------
+expat-2.2.6-he6710b0_0.tar.bz2               187 KB
+gxx_impl_linux-64-7.3.0-hdf63c60_1.tar.bz2    18.7 MB
+bzip2-1.0.8-h7b6447c_0.tar.bz2               105 KB
+binutils_impl_linux-64-2.31.1-h6176602_1.tar.bz2    16.5 MB
+ca-certificates-2019.5.15-1.tar.bz2          134 KB
+openssl-1.1.1c-h7b6447c_1.tar.bz2            3.8 MB
+rhash-1.3.8-h1ba5d50_0.tar.bz2               235 KB
+cmake-3.14.0-h52cb24c_0.tar.bz2              9.5 MB
+libstdcxx-ng-9.1.0-hdf63c60_0.tar.bz2        4.0 MB
+_libgcc_mutex-0.1-main.tar.bz2                 3 KB
+gcc_impl_linux-64-7.3.0-habb00fd_1.tar.bz2    73.2 MB
+ncurses-6.1-he6710b0_1.tar.bz2               958 KB
+gxx_linux-64-7.3.0-h553295d_8.tar.bz2        148 KB
+gcc_linux-64-7.3.0-h553295d_8.tar.bz2        149 KB
+zlib-1.2.11-h7b6447c_3.tar.bz2               120 KB
+tk-8.6.8-hbc83047_0.tar.bz2                  3.1 MB
+conda-example-simple-0.0.0-h6bb024c_0.tar.bz2       7 KB
+krb5-1.16.1-h173b8e3_7.tar.bz2               1.4 MB
+libssh2-1.8.2-h1ba5d50_0.tar.bz2             250 KB
+libedit-3.1.20181209-hc058e9b_0.tar.bz2      188 KB
+libcurl-7.65.2-h20c2e04_0.tar.bz2            588 KB
+binutils_linux-64-2.31.1-h6176602_8.tar.bz2     148 KB
+libgcc-ng-9.1.0-hdf63c60_0.tar.bz2           8.1 MB
+
+---------------------------------------------------
+Total:                                     141.6 MB
+
+Removed expat-2.2.6-he6710b0_0.tar.bz2
+Removed gxx_impl_linux-64-7.3.0-hdf63c60_1.tar.bz2
+Removed bzip2-1.0.8-h7b6447c_0.tar.bz2
+Removed binutils_impl_linux-64-2.31.1-h6176602_1.tar.bz2
+Removed ca-certificates-2019.5.15-1.tar.bz2
+Removed openssl-1.1.1c-h7b6447c_1.tar.bz2
+Removed rhash-1.3.8-h1ba5d50_0.tar.bz2
+Removed cmake-3.14.0-h52cb24c_0.tar.bz2
+Removed libstdcxx-ng-9.1.0-hdf63c60_0.tar.bz2
+Removed _libgcc_mutex-0.1-main.tar.bz2
+Removed gcc_impl_linux-64-7.3.0-habb00fd_1.tar.bz2
+Removed ncurses-6.1-he6710b0_1.tar.bz2
+Removed gxx_linux-64-7.3.0-h553295d_8.tar.bz2
+Removed gcc_linux-64-7.3.0-h553295d_8.tar.bz2
+Removed zlib-1.2.11-h7b6447c_3.tar.bz2
+Removed tk-8.6.8-hbc83047_0.tar.bz2
+Removed conda-example-simple-0.0.0-h6bb024c_0.tar.bz2
+Removed krb5-1.16.1-h173b8e3_7.tar.bz2
+Removed libssh2-1.8.2-h1ba5d50_0.tar.bz2
+Removed libedit-3.1.20181209-hc058e9b_0.tar.bz2
+Removed libcurl-7.65.2-h20c2e04_0.tar.bz2
+Removed binutils_linux-64-2.31.1-h6176602_8.tar.bz2
+Removed libgcc-ng-9.1.0-hdf63c60_0.tar.bz2
+Cache location: /opt/conda/pkgs
+Will remove the following packages:
+/opt/conda/pkgs
+---------------
+
+pip-10.0.1-py36_0                            7.1 MB
+xz-5.2.4-h14c3975_4                          1.2 MB
+gcc_impl_linux-64-7.3.0-habb00fd_1         220.1 MB
+libcurl-7.65.2-h20c2e04_0                    2.1 MB
+ncurses-6.1-he6710b0_1                       5.1 MB
+krb5-1.16.1-h173b8e3_7                       5.0 MB
+expat-2.2.6-he6710b0_0                       826 KB
+gxx_impl_linux-64-7.3.0-hdf63c60_1          61.0 MB
+rhash-1.3.8-h1ba5d50_0                       635 KB
+tk-8.6.8-hbc83047_0                          9.8 MB
+libssh2-1.8.2-h1ba5d50_0                     1.0 MB
+binutils_impl_linux-64-2.31.1-h6176602_1    52.0 MB
+cmake-3.14.0-h52cb24c_0                     28.2 MB
+libstdcxx-ng-9.1.0-hdf63c60_0               12.6 MB
+_libgcc_mutex-0.1-main                         7 KB
+binutils_linux-64-2.31.1-h6176602_8          720 KB
+openssl-1.1.1c-h7b6447c_1                   13.4 MB
+gcc_linux-64-7.3.0-h553295d_8                727 KB
+zlib-1.2.11-h7b6447c_3                       416 KB
+bzip2-1.0.8-h7b6447c_0                       575 KB
+libedit-3.1.20181209-hc058e9b_0              818 KB
+gxx_linux-64-7.3.0-h553295d_8                723 KB
+libgcc-ng-9.1.0-hdf63c60_0                  25.6 MB
+
+---------------------------------------------------
+Total:                                     449.6 MB
+
+removing pip-10.0.1-py36_0
+removing xz-5.2.4-h14c3975_4
+removing gcc_impl_linux-64-7.3.0-habb00fd_1
+removing libcurl-7.65.2-h20c2e04_0
+removing ncurses-6.1-he6710b0_1
+removing krb5-1.16.1-h173b8e3_7
+removing expat-2.2.6-he6710b0_0
+removing gxx_impl_linux-64-7.3.0-hdf63c60_1
+removing rhash-1.3.8-h1ba5d50_0
+removing tk-8.6.8-hbc83047_0
+removing libssh2-1.8.2-h1ba5d50_0
+removing binutils_impl_linux-64-2.31.1-h6176602_1
+removing cmake-3.14.0-h52cb24c_0
+removing libstdcxx-ng-9.1.0-hdf63c60_0
+removing _libgcc_mutex-0.1-main
+removing binutils_linux-64-2.31.1-h6176602_8
+removing openssl-1.1.1c-h7b6447c_1
+removing gcc_linux-64-7.3.0-h553295d_8
+removing zlib-1.2.11-h7b6447c_3
+removing bzip2-1.0.8-h7b6447c_0
+removing libedit-3.1.20181209-hc058e9b_0
+removing gxx_linux-64-7.3.0-h553295d_8
+removing libgcc-ng-9.1.0-hdf63c60_0
+source cache (/opt/conda/conda-bld/src_cache)
+Size:                                           0 B
+
+git cache (/opt/conda/conda-bld/git_cache)
+Size:                                           0 B
+
+hg cache (/opt/conda/conda-bld/hg_cache)
+Size:                                           0 B
+
+svn cache (/opt/conda/conda-bld/svn_cache)
+Size:                                           0 B
+
+Total:                                          0 B
+Removing /opt/conda/conda-bld/src_cache
+Removing /opt/conda/conda-bld/git_cache
+Removing /opt/conda/conda-bld/hg_cache
+Removing /opt/conda/conda-bld/svn_cache
+INFO:conda_build.variants:Adding in variants from internal_defaults
+INFO:conda_build.metadata:Attempting to finalize metadata for conda-example-simple
+INFO:conda_build.build:Packaging conda-example-simple
+INFO:conda_build.build:Packaging conda-example-simple-0.0.0-h6bb024c_0
+Importing conda-verify failed.  Please be sure to test your packages.  conda install conda-verify to make this message go away.
+WARNING:conda_build.build:Importing conda-verify failed.  Please be sure to test your packages.  conda install conda-verify to make this message go away.
+INFO:conda_build.build:Updating index at /opt/conda/conda-bld/linux-64 to make package installable with dependencies
+INFO:conda_build.build:Updating index at /opt/conda/conda-bld/noarch to make package installable with dependencies
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.10
+  latest version: 4.7.11
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+conda-example-simple | 7 KB      |            |   0% 
+conda-example-simple | 7 KB      | ########## | 100% 
+  custom.sh ... OK
+
+recipe: Distributing a project with dependencies as Conda package
+
+  /home/mightybuilder/cmake-cookbook/chapter-11/recipe-05/cxx-example
+
+Running a custom.sh script
+bash "/home/mightybuilder/cmake-cookbook/chapter-11/recipe-05/cxx-example/custom.sh" "/home/mightybuilder/cmake-cookbook/chapter-11/recipe-05/cxx-example/build-2019-08-13-00-44-20"
+Adding in variants from internal_defaults
+Attempting to finalize metadata for conda-example-dgemm
+Solving environment: ...working... done
+Solving environment: ...working... done
+Solving environment: ...working... done
+BUILD START: ['conda-example-dgemm-0.0.0-h6bb024c_0.tar.bz2']
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    blas:         1.0-mkl   
+    intel-openmp: 2018.0.3-0
+    mkl:          2018.0.3-1
+    mkl-devel:    2018.0.3-1
+    mkl-include:  2018.0.3-1
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Solving environment: ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:          0.1-main               
+    binutils_impl_linux-64: 2.31.1-h6176602_1      
+    binutils_linux-64:      2.31.1-h6176602_8      
+    bzip2:                  1.0.8-h7b6447c_0       
+    ca-certificates:        2019.5.15-1            
+    cmake:                  3.14.0-h52cb24c_0      
+    expat:                  2.2.6-he6710b0_0       
+    gcc_impl_linux-64:      7.3.0-habb00fd_1       
+    gcc_linux-64:           7.3.0-h553295d_8       
+    gxx_impl_linux-64:      7.3.0-hdf63c60_1       
+    gxx_linux-64:           7.3.0-h553295d_8       
+    krb5:                   1.16.1-h173b8e3_7      
+    libcurl:                7.65.2-h20c2e04_0      
+    libedit:                3.1.20181209-hc058e9b_0
+    libgcc-ng:              9.1.0-hdf63c60_0       
+    libssh2:                1.8.2-h1ba5d50_0       
+    libstdcxx-ng:           9.1.0-hdf63c60_0       
+    ncurses:                6.1-he6710b0_1         
+    openssl:                1.1.1c-h7b6447c_1      
+    rhash:                  1.3.8-h1ba5d50_0       
+    tk:                     8.6.8-hbc83047_0       
+    xz:                     5.2.4-h14c3975_4       
+    zlib:                   1.2.11-h7b6447c_3      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+INFO: activate-binutils_linux-64.sh made the following environmental changes:
++ADDR2LINE=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-addr2line
++AR=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-ar
++AS=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-as
++CXXFILT=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++filt
++ELFEDIT=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-elfedit
++GPROF=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-gprof
++HOST=x86_64-conda_cos6-linux-gnu
++LD=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-ld
++LD_GOLD=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-ld.gold
++NM=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-nm
++OBJCOPY=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-objcopy
++OBJDUMP=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-objdump
++RANLIB=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-ranlib
++READELF=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-readelf
++SIZE=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-size
++STRINGS=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-strings
++STRIP=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-strip
+INFO: activate-gcc_linux-64.sh made the following environmental changes:
++CC=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc
++CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/work=/usr/local/src/conda/conda-example-dgemm-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla=/usr/local/src/conda-prefix
++CMAKE_PREFIX_PATH=:/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla:/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr
++CPP=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-cpp
++CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include
++DEBUG_CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/work=/usr/local/src/conda/conda-example-dgemm-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla=/usr/local/src/conda-prefix
++DEBUG_CPPFLAGS=-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -I/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include
++GCC=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc
++GCC_AR=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc-ar
++GCC_NM=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc-nm
++GCC_RANLIB=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-gcc-ranlib
++LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/lib -Wl,-rpath-link,/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/lib -L/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/lib
++_CONDA_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_x86_64_conda_cos6_linux_gnu
+INFO: activate-gxx_linux-64.sh made the following environmental changes:
++CXX=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++
++CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/work=/usr/local/src/conda/conda-example-dgemm-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla=/usr/local/src/conda-prefix
++DEBUG_CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -I/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/work=/usr/local/src/conda/conda-example-dgemm-0.0.0 -fdebug-prefix-map=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla=/usr/local/src/conda-prefix
++GXX=/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-g++
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working CXX compiler: /opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++
+-- Check for working CXX compiler: /opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- MKL header file FOUND: /opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include
+-- MKL single dynamic library FOUND: /opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/lib/libmkl_rt.so
+-- 
+ Properties for TARGET IntelMKL:
+   IntelMKL.INTERFACE_COMPILE_OPTIONS = "$<$<OR:$<CXX_COMPILER_ID:GNU>,$<CXX_COMPILER_ID:AppleClang>>:-m64>"
+   IntelMKL.INTERFACE_INCLUDE_DIRECTORIES = "/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/include"
+   IntelMKL.INTERFACE_LINK_LIBRARIES = "/opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/lib/libmkl_rt.so;$<$<OR:$<CXX_COMPILER_ID:GNU>,$<CXX_COMPILER_ID:AppleClang>>:Threads::Threads>;$<$<OR:$<CXX_COMPILER_ID:GNU>,$<CXX_COMPILER_ID:AppleClang>>:m>"
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /opt/conda/conda-bld/conda-example-dgemm_1565657060825/work/build_conda
+Scanning dependencies of target dgemm-example
+[ 50%] Building CXX object CMakeFiles/dgemm-example.dir/example.cpp.o
+[100%] Linking CXX executable dgemm-example
+[100%] Built target dgemm-example
+Install the project...
+-- Install configuration: ""
+-- Installing: /opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/dgemm-example
+Copying /home/mightybuilder/cmake-cookbook/chapter-11/recipe-05/cxx-example/build-2019-08-13-00-44-20 to /opt/conda/conda-bld/conda-example-dgemm_1565657060825/work
+source tree in: /opt/conda/conda-bld/conda-example-dgemm_1565657060825/work
+
+Resource usage statistics from building conda-example-dgemm:
+   Process count: 8
+   CPU time: Sys=0:00:00.1, User=0:00:00.5
+   Memory: 141.1M
+   Disk usage: 420B
+   Time elapsed: 0:00:04.0
+
+Packaging conda-example-dgemm
+Packaging conda-example-dgemm-0.0.0-h6bb024c_0
+number of files: 1
+Warning: rpath /opt/conda/conda-bld/conda-example-dgemm_1565657060825/_build_env/lib is outside prefix /opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla (removing it)
+patchelf: file: /opt/conda/conda-bld/conda-example-dgemm_1565657060825/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/dgemm-example
+    setting rpath to: $ORIGIN/../lib
+   INFO (conda-example-dgemm,bin/dgemm-example): Needed DSO x86_64-conda_cos6-linux-gnu/sysroot/lib/libc.so.6 found in CDT/compiler package defaults::gcc_impl_linux-64-7.3.0-habb00fd_1
+   INFO (conda-example-dgemm,bin/dgemm-example): Needed DSO x86_64-conda_cos6-linux-gnu/sysroot/lib/libm.so.6 found in CDT/compiler package defaults::gcc_impl_linux-64-7.3.0-habb00fd_1
+   INFO (conda-example-dgemm,bin/dgemm-example): Needed DSO x86_64-conda_cos6-linux-gnu/sysroot/lib/libgcc_s.so.1 found in CDT/compiler package defaults::gcc_impl_linux-64-7.3.0-habb00fd_1
+   INFO (conda-example-dgemm,bin/dgemm-example): Needed DSO x86_64-conda_cos6-linux-gnu/sysroot/lib/libstdc++.so.6 found in CDT/compiler package defaults::libstdcxx-ng-9.1.0-hdf63c60_0
+   INFO (conda-example-dgemm,bin/dgemm-example): Needed DSO lib/libmkl_rt.so found in defaults::mkl-2018.0.3-1
+Fixing permissions
+updating: conda-example-dgemm-0.0.0-h6bb024c_0.tar.bz2
+TEST START: /opt/conda/conda-bld/linux-64/conda-example-dgemm-0.0.0-h6bb024c_0.tar.bz2
+Updating index at /opt/conda/conda-bld/linux-64 to make package installable with dependencies
+Updating index at /opt/conda/conda-bld/noarch to make package installable with dependencies
+Nothing to test for: /opt/conda/conda-bld/linux-64/conda-example-dgemm-0.0.0-h6bb024c_0.tar.bz2
+Renaming work directory,  /opt/conda/conda-bld/conda-example-dgemm_1565657060825/work  to  /opt/conda/conda-bld/conda-example-dgemm_1565657060825/work_moved_conda-example-dgemm-0.0.0-h6bb024c_0_linux-64_main_build_loop
+# Automatic uploading is disabled
+# If you want to upload package(s) to anaconda.org later, type:
+
+anaconda upload /opt/conda/conda-bld/linux-64/conda-example-dgemm-0.0.0-h6bb024c_0.tar.bz2
+
+# To have conda build upload to anaconda.org automatically, use
+# $ conda config --set anaconda_upload yes
+
+anaconda_upload is not set.  Not uploading wheels: []
+####################################################################################
+Resource usage summary:
+
+Total time: 0:13:12.3
+CPU usage: sys=0:00:00.1, user=0:00:00.5
+Maximum memory usage observed: 141.1M
+Total disk usage observed (not including envs): 420B
+Solving environment: ...working... done
 
