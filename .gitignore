@@ -1,6 +1,7 @@
 CMakeCache.txt
 Makefile
 .cmake
+.log
 .a
 .i
 .o
