@@ -11,7 +11,7 @@ nose==1.1.2
 ordereddict==1.1
 pexpect==2.4
 python-modargs==1.4
-requests==0.13.5
+requests>=2.20.0
 wsgiref==0.1.2
 zapps==0.5
 zest.releaser==3.36
