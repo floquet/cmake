@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20190828-2331-Experimental"
+	Name="b26a044b056a"
+	Generator="ctest-3.12.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="7.3.0"
+	OSName="Linux"
+	Hostname="b26a044b056a"
+	OSRelease="4.9.184-linuxkit"
+	OSVersion="#1 SMP Tue Jul 2 22:58:16 UTC 2019"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="62"
+	ProcessorCacheSize="30720"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="1023"
+	TotalPhysicalMemory="1997"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2697.97"
+	>
+	<Testing>
+		<StartDateTime>Aug 28 23:31 UTC</StartDateTime>
+		<StartTestTime>1567035104</StartTestTime>
+		<TestList>
+			<Test>./tests/test_short</Test>
+			<Test>./tests/test_long</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>test_short</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/test_short</FullName>
+			<FullCommandLine>/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-01/cxx-example/build/tests/test_short</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00327369</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-01/cxx-example/build/tests/test_short</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_long</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/test_long</FullName>
+			<FullCommandLine>/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-01/cxx-example/build/tests/test_long</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00392508</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-01/cxx-example/build/tests/test_long</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Aug 28 23:31 UTC</EndDateTime>
+		<EndTestTime>1567035104</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
