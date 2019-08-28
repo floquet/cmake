@@ -11,10 +11,10 @@
     }
     TEST_CASE( "Sum of integers for a longer vector", "[long]" ) {
         std::vector<int> integers;
-            for ( int i = 1; i < 1001; ++i ) {
+            for ( int i = 1; i < 1000001; ++i ) {
                 integers.push_back( i );
             }
-    REQUIRE( sum_integers( integers ) == 500500);
+    REQUIRE( sum_integers( integers ) == 500000500000);
     }
 
 // mightybuilder@b26a044b056a:build $ ctest -V
