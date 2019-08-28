@@ -23,5 +23,5 @@ if args.short:
     assert result == 5050, 'summing up to 100 failed'
 else:
     # we collect [1, 2, ..., 1000] as a list of strings
-    result = execute_cpp_code( [str(i) for i in range( 1, 1001 )] )
-    assert result == 500500, 'summing up to 1000 failed'
+    result = execute_cpp_code( [str(i) for i in range( 1, 100001 )] )
+    assert result == 50005000, 'summing up to 1000 failed'
