@@ -70,6 +70,41 @@
 //
 // Total Test time (real) =   0.01 sec
 
+// mightybuilder@b26a044b056a:build $ ./cpp_test --success
+//
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// cpp_test is a Catch v2.0.1 host application.
+// Run with -? for options
+//
+// -------------------------------------------------------------------------------
+// Sum of integers for a short vector
+// -------------------------------------------------------------------------------
+// /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/test.cpp:8
+// ...............................................................................
+//
+// /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/test.cpp:10:
+// PASSED:
+//   REQUIRE( sum_integers( integers ) == 15 )
+// with expansion:
+//   15 == 15
+//
+// -------------------------------------------------------------------------------
+// Sum of integers for a longer vector
+// -------------------------------------------------------------------------------
+// /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/test.cpp:12
+// ...............................................................................
+//
+// /home/mightybuilder/repos/github/cmake/demo/ch-04-tests/rec-02/test.cpp:17:
+// PASSED:
+//   REQUIRE( sum_integers( integers ) == 500500 )
+// with expansion:
+//   500500 (0x7a314) == 500500 (0x7a314)
+//
+// ===============================================================================
+// All tests passed (2 assertions in 2 test cases)
+
+
+// Force Failure
 
 // mightybuilder@b26a044b056a:build $ again
 // cd ../; rm -rf build; mkdir build;  cd build
