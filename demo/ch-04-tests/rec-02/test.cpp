@@ -14,7 +14,7 @@
             for ( int i = 1; i < 1001; ++i ) {
                 integers.push_back( i );
             }
-    REQUIRE( sum_integers( integers ) == 500500);
+    REQUIRE( sum_integers( integers ) == 500500 );
     }
 
 // mightybuilder@b26a044b056a:build $ ctest -V
