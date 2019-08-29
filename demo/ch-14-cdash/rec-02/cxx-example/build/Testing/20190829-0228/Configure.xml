@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Linux-c++"
-	BuildStamp="20190829-0202-Experimental"
+	BuildStamp="20190829-0228-Experimental"
 	Name="b26a044b056a"
 	Generator="ctest-3.12.1"
 	CompilerName="/usr/bin/c++"
@@ -24,8 +24,8 @@
 	ProcessorClockFrequency="2697.97"
 	>
 	<Configure>
-		<StartDateTime>Aug 29 02:02 UTC</StartDateTime>
-		<StartConfigureTime>1567044130</StartConfigureTime>
+		<StartDateTime>Aug 29 02:28 UTC</StartDateTime>
+		<StartConfigureTime>1567045727</StartConfigureTime>
 		<ConfigureCommand>"/opt/cmake/bin/cmake" "/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example"</ConfigureCommand>
 		<Log>-- Coverage analysis with gcov enabled
 -- Configuring done
@@ -33,8 +33,8 @@
 -- Build files have been written to: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
 </Log>
 		<ConfigureStatus>0</ConfigureStatus>
-		<EndDateTime>Aug 29 02:02 UTC</EndDateTime>
-		<EndConfigureTime>1567044130</EndConfigureTime>
+		<EndDateTime>Aug 29 02:28 UTC</EndDateTime>
+		<EndConfigureTime>1567045728</EndConfigureTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Configure>
 </Site>

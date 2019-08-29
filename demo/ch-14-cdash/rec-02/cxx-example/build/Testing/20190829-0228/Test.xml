@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Linux-c++"
-	BuildStamp="20190829-0202-Experimental"
+	BuildStamp="20190829-0228-Experimental"
 	Name="b26a044b056a"
 	Generator="ctest-3.12.1"
 	CompilerName="/usr/bin/c++"
@@ -24,8 +24,8 @@
 	ProcessorClockFrequency="2697.97"
 	>
 	<Testing>
-		<StartDateTime>Aug 29 02:02 UTC</StartDateTime>
-		<StartTestTime>1567044130</StartTestTime>
+		<StartDateTime>Aug 29 02:28 UTC</StartDateTime>
+		<StartTestTime>1567045731</StartTestTime>
 		<TestList>
 			<Test>./tests/test_short</Test>
 			<Test>./tests/test_long</Test>
@@ -37,7 +37,7 @@
 			<FullCommandLine>/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/tests/test_short</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.00366796</Value>
+					<Value>0.00383891</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -60,7 +60,7 @@
 			<FullCommandLine>/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/tests/test_long</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.00409259</Value>
+					<Value>0.00489003</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -76,8 +76,8 @@
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Aug 29 02:02 UTC</EndDateTime>
-		<EndTestTime>1567044130</EndTestTime>
+		<EndDateTime>Aug 29 02:28 UTC</EndDateTime>
+		<EndTestTime>1567045731</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Linux-c++"
-	BuildStamp="20190829-0202-Experimental"
+	BuildStamp="20190829-0228-Experimental"
 	Name="b26a044b056a"
 	Generator="ctest-3.12.1"
 	CompilerName="/usr/bin/c++"
@@ -24,8 +24,8 @@
 	ProcessorClockFrequency="2697.97"
 	>
 	<Coverage>
-		<StartDateTime>Aug 29 02:02 UTC</StartDateTime>
-		<StartTime>1567044130</StartTime>
+		<StartDateTime>Aug 29 02:28 UTC</StartDateTime>
+		<StartTime>1567045731</StartTime>
 		<File Name="sum_integers.cpp" FullPath="./src/sum_integers.cpp" Covered="true">
 			<LOCTested>5</LOCTested>
 			<LOCUnTested>5</LOCUnTested>
@@ -48,8 +48,8 @@
 		<LOCUntested>7</LOCUntested>
 		<LOC>21</LOC>
 		<PercentCoverage>66.67</PercentCoverage>
-		<EndDateTime>Aug 29 02:02 UTC</EndDateTime>
-		<EndTime>1567044130</EndTime>
+		<EndDateTime>Aug 29 02:28 UTC</EndDateTime>
+		<EndTime>1567045731</EndTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Coverage>
 </Site>
