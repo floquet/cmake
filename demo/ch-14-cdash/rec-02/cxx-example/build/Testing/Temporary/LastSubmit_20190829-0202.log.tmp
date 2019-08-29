@@ -1,0 +1,8 @@
+Upload files:
+0	Build.xml
+1	Configure.xml
+2	Coverage.xml
+3	CoverageLog-0.xml
+4	Test.xml
+Using drop method: http
+	Upload file: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/Testing/20190829-0202/Build.xml to b26a044b056a___Linux-c++___20190829-0202-Experimental___XML___Build.xml

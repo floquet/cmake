@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20190829-0202-Experimental"
+	Name="b26a044b056a"
+	Generator="ctest-3.12.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="7.3.0"
+	OSName="Linux"
+	Hostname="b26a044b056a"
+	OSRelease="4.9.184-linuxkit"
+	OSVersion="#1 SMP Tue Jul 2 22:58:16 UTC 2019"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="62"
+	ProcessorCacheSize="30720"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="1023"
+	TotalPhysicalMemory="1997"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2697.97"
+	>
+	<Coverage>
+		<StartDateTime>Aug 29 02:02 UTC</StartDateTime>
+		<StartTime>1567044130</StartTime>
+		<File Name="sum_integers.cpp" FullPath="./src/sum_integers.cpp" Covered="true">
+			<LOCTested>5</LOCTested>
+			<LOCUnTested>5</LOCUnTested>
+			<PercentCoverage>50.00</PercentCoverage>
+			<CoverageMetric>0.75</CoverageMetric>
+		</File>
+		<File Name="test_long.cpp" FullPath="./tests/test_long.cpp" Covered="true">
+			<LOCTested>5</LOCTested>
+			<LOCUnTested>1</LOCUnTested>
+			<PercentCoverage>83.33</PercentCoverage>
+			<CoverageMetric>0.94</CoverageMetric>
+		</File>
+		<File Name="test_short.cpp" FullPath="./tests/test_short.cpp" Covered="true">
+			<LOCTested>4</LOCTested>
+			<LOCUnTested>1</LOCUnTested>
+			<PercentCoverage>80.00</PercentCoverage>
+			<CoverageMetric>0.93</CoverageMetric>
+		</File>
+		<LOCTested>14</LOCTested>
+		<LOCUntested>7</LOCUntested>
+		<LOC>21</LOC>
+		<PercentCoverage>66.67</PercentCoverage>
+		<EndDateTime>Aug 29 02:02 UTC</EndDateTime>
+		<EndTime>1567044130</EndTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Coverage>
+</Site>

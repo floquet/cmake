@@ -1,0 +1,142 @@
+Performing coverage: 185501658373663
+* Run coverage for: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/src/CMakeFiles/sum_integers.dir
+  Command: /usr/bin/gcov -l -o /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/src/CMakeFiles/sum_integers.dir /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/src/CMakeFiles/sum_integers.dir/sum_integers.cpp.gcda
+  Output: File '/usr/include/c++/7/bits/stl_iterator.h'
+Lines executed:100.00% of 11
+Creating 'sum_integers.cpp.gcda##stl_iterator.h.gcov'
+
+File '/usr/include/c++/7/bits/stl_vector.h'
+Lines executed:100.00% of 4
+Creating 'sum_integers.cpp.gcda##stl_vector.h.gcov'
+
+File '/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/src/sum_integers.cpp'
+Lines executed:50.00% of 10
+Creating 'sum_integers.cpp.gcda##sum_integers.cpp.gcov'
+
+
+  Errors: 
+  Something went wrong. Cannot find file: /usr/include/c++/7/bits/stl_iterator.h in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  Something went wrong. Cannot find file: /usr/include/c++/7/bits/stl_vector.h in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  produced in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/src/sum_integers.cpp
+* Run coverage for: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/tests/CMakeFiles/test_long.dir
+  Command: /usr/bin/gcov -l -o /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/tests/CMakeFiles/test_long.dir /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/tests/CMakeFiles/test_long.dir/test_long.cpp.gcda
+  Output: File '/usr/include/c++/7/bits/stl_algobase.h'
+Lines executed:100.00% of 24
+Creating 'test_long.cpp.gcda##stl_algobase.h.gcov'
+
+File '/usr/include/c++/7/bits/stl_iterator.h'
+Lines executed:100.00% of 13
+Creating 'test_long.cpp.gcda##stl_iterator.h.gcov'
+
+File '/usr/include/c++/7/ext/new_allocator.h'
+Lines executed:91.67% of 12
+Creating 'test_long.cpp.gcda##new_allocator.h.gcov'
+
+File '/usr/include/c++/7/bits/cpp_type_traits.h'
+Lines executed:100.00% of 2
+Creating 'test_long.cpp.gcda##cpp_type_traits.h.gcov'
+
+File '/usr/include/c++/7/bits/stl_uninitialized.h'
+Lines executed:100.00% of 14
+Creating 'test_long.cpp.gcda##stl_uninitialized.h.gcov'
+
+File '/usr/include/c++/7/bits/alloc_traits.h'
+Lines executed:100.00% of 6
+Creating 'test_long.cpp.gcda##alloc_traits.h.gcov'
+
+File '/usr/include/c++/7/bits/stl_construct.h'
+Lines executed:100.00% of 7
+Creating 'test_long.cpp.gcda##stl_construct.h.gcov'
+
+File '/usr/include/c++/7/bits/stl_vector.h'
+Lines executed:100.00% of 52
+Creating 'test_long.cpp.gcda##stl_vector.h.gcov'
+
+File '/usr/include/c++/7/bits/allocator.h'
+Lines executed:100.00% of 4
+Creating 'test_long.cpp.gcda##allocator.h.gcov'
+
+File '/usr/include/c++/7/ext/alloc_traits.h'
+Lines executed:100.00% of 2
+Creating 'test_long.cpp.gcda##alloc_traits.h.gcov'
+
+File '/usr/include/c++/7/bits/stl_numeric.h'
+Lines executed:100.00% of 5
+Creating 'test_long.cpp.gcda##stl_numeric.h.gcov'
+
+File '/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/tests/test_long.cpp'
+Lines executed:83.33% of 6
+Creating 'test_long.cpp.gcda##test_long.cpp.gcov'
+
+
+  Errors: 
+  Something went wrong. Cannot find file: /usr/include/c++/7/bits/stl_algobase.h in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  Something went wrong. Cannot find file: /usr/include/c++/7/ext/new_allocator.h in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  Something went wrong. Cannot find file: /usr/include/c++/7/bits/cpp_type_traits.h in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  Something went wrong. Cannot find file: /usr/include/c++/7/bits/stl_uninitialized.h in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  Something went wrong. Cannot find file: /usr/include/c++/7/bits/alloc_traits.h in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  Something went wrong. Cannot find file: /usr/include/c++/7/bits/stl_construct.h in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  Something went wrong. Cannot find file: /usr/include/c++/7/bits/allocator.h in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  Something went wrong. Cannot find file: /usr/include/c++/7/ext/alloc_traits.h in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  Something went wrong. Cannot find file: /usr/include/c++/7/bits/stl_numeric.h in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  produced in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/tests/test_long.cpp
+* Run coverage for: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/tests/CMakeFiles/test_short.dir
+  Command: /usr/bin/gcov -l -o /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/tests/CMakeFiles/test_short.dir /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/tests/CMakeFiles/test_short.dir/test_short.cpp.gcda
+  Output: File '/usr/include/c++/7/bits/stl_algobase.h'
+Lines executed:100.00% of 16
+Creating 'test_short.cpp.gcda##stl_algobase.h.gcov'
+
+File '/usr/include/c++/7/bits/cpp_type_traits.h'
+Lines executed:100.00% of 2
+Creating 'test_short.cpp.gcda##cpp_type_traits.h.gcov'
+
+File '/usr/include/c++/7/ext/new_allocator.h'
+Lines executed:91.67% of 12
+Creating 'test_short.cpp.gcda##new_allocator.h.gcov'
+
+File '/usr/include/c++/7/bits/stl_uninitialized.h'
+Lines executed:100.00% of 7
+Creating 'test_short.cpp.gcda##stl_uninitialized.h.gcov'
+
+File '/usr/include/c++/7/bits/stl_construct.h'
+Lines executed:100.00% of 7
+Creating 'test_short.cpp.gcda##stl_construct.h.gcov'
+
+File '/usr/include/c++/7/bits/alloc_traits.h'
+Lines executed:100.00% of 4
+Creating 'test_short.cpp.gcda##alloc_traits.h.gcov'
+
+File '/usr/include/c++/7/bits/stl_iterator_base_funcs.h'
+Lines executed:100.00% of 5
+Creating 'test_short.cpp.gcda##stl_iterator_base_funcs.h.gcov'
+
+File '/usr/include/c++/7/bits/allocator.h'
+Lines executed:100.00% of 4
+Creating 'test_short.cpp.gcda##allocator.h.gcov'
+
+File '/usr/include/c++/7/bits/stl_vector.h'
+Lines executed:100.00% of 32
+Creating 'test_short.cpp.gcda##stl_vector.h.gcov'
+
+File '/usr/include/c++/7/bits/stl_iterator_base_types.h'
+Lines executed:100.00% of 2
+Creating 'test_short.cpp.gcda##stl_iterator_base_types.h.gcov'
+
+File '/usr/include/c++/7/initializer_list'
+Lines executed:100.00% of 3
+Creating 'test_short.cpp.gcda##initializer_list.gcov'
+
+File '/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/tests/test_short.cpp'
+Lines executed:80.00% of 5
+Creating 'test_short.cpp.gcda##test_short.cpp.gcov'
+
+
+  Errors: 
+  Something went wrong. Cannot find file: /usr/include/c++/7/bits/stl_iterator_base_funcs.h in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  Something went wrong. Cannot find file: /usr/include/c++/7/bits/stl_iterator_base_types.h in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  Something went wrong. Cannot find file: /usr/include/c++/7/initializer_list in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example or binary dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build
+  produced in source dir: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/tests/test_short.cpp
+	Covered LOC:         14
+	Not covered LOC:     7
+	Total LOC:           21
+	Percentage Coverage: 66.67%
