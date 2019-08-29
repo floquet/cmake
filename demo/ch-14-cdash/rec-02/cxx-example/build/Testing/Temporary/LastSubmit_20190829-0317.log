@@ -1,0 +1,13 @@
+Upload files:
+0	Build.xml
+1	Configure.xml
+2	Coverage.xml
+3	CoverageLog-0.xml
+4	Test.xml
+Using drop method: http
+	Upload file: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/Testing/20190829-0317/Build.xml to 381d0c947555___Linux-c++___20190829-0317-Experimental___XML___Build.xml
+	Upload file: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/Testing/20190829-0317/Configure.xml to 381d0c947555___Linux-c++___20190829-0317-Experimental___XML___Configure.xml
+	Upload file: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/Testing/20190829-0317/Coverage.xml to 381d0c947555___Linux-c++___20190829-0317-Experimental___XML___Coverage.xml
+	Upload file: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/Testing/20190829-0317/CoverageLog-0.xml to 381d0c947555___Linux-c++___20190829-0317-Experimental___XML___CoverageLog-0.xml
+	Upload file: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/Testing/20190829-0317/Test.xml to 381d0c947555___Linux-c++___20190829-0317-Experimental___XML___Test.xml
+   Submission successful
