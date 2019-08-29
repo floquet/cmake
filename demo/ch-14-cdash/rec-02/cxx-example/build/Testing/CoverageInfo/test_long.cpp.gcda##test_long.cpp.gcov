@@ -1,0 +1,21 @@
+        -:    0:Source:/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/tests/test_long.cpp
+        -:    0:Graph:/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/tests/CMakeFiles/test_long.dir/test_long.cpp.gcno
+        -:    0:Data:/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/tests/CMakeFiles/test_long.dir/test_long.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "sum_integers.hpp"
+        -:    2:
+        -:    3:#include <numeric>
+        -:    4:#include <vector>
+        -:    5:
+        1:    6:int main() {
+        -:    7:  // creates vector {1, 2, 3, ..., 999, 1000}
+        2:    8:  std::vector<int> integers(1000);
+        1:    9:  std::iota(integers.begin(), integers.end(), 1);
+        -:   10:
+        1:   11:  if (sum_integers(integers) == 500500) {
+        1:   12:    return 0;
+        -:   13:  } else {
+    #####:   14:    return 1;
+        -:   15:  }
+        -:   16:}

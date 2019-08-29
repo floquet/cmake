@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20190829-0228-Experimental"
+	Name="b26a044b056a"
+	Generator="ctest-3.12.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="7.3.0"
+	OSName="Linux"
+	Hostname="b26a044b056a"
+	OSRelease="4.9.184-linuxkit"
+	OSVersion="#1 SMP Tue Jul 2 22:58:16 UTC 2019"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="62"
+	ProcessorCacheSize="30720"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="1023"
+	TotalPhysicalMemory="1997"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2697.97"
+	>
+	<CoverageLog>
+		<StartDateTime>Aug 29 02:28 UTC</StartDateTime>
+		<StartTime>1567045731</StartTime>
+		<File Name="sum_integers.cpp" FullPath="./src/sum_integers.cpp">
+			<Report>
+				<Line Number="0" Count="-1">#include "sum_integers.hpp"</Line>
+				<Line Number="1" Count="-1"></Line>
+				<Line Number="2" Count="-1">#include &lt;vector&gt;</Line>
+				<Line Number="3" Count="-1"></Line>
+				<Line Number="4" Count="2">int sum_integers( const std::vector&lt;int&gt; integers ) {</Line>
+				<Line Number="5" Count="2">    auto sum = 0;</Line>
+				<Line Number="6" Count="1007">        for ( auto i : integers ) {</Line>
+				<Line Number="7" Count="1005">        sum += i;</Line>
+				<Line Number="8" Count="-1">    }</Line>
+				<Line Number="9" Count="2">    return sum;</Line>
+				<Line Number="10" Count="-1">}</Line>
+				<Line Number="11" Count="-1"></Line>
+				<Line Number="12" Count="0">int sum_integers_unused( const std::vector&lt;int&gt; integers ) {</Line>
+				<Line Number="13" Count="0">    auto sum = 0;</Line>
+				<Line Number="14" Count="0">        for ( auto i : integers ) {</Line>
+				<Line Number="15" Count="0">            sum += i;</Line>
+				<Line Number="16" Count="-1">        }</Line>
+				<Line Number="17" Count="0">    return sum;</Line>
+				<Line Number="18" Count="-1">}</Line>
+			</Report>
+		</File>
+		<File Name="test_long.cpp" FullPath="./tests/test_long.cpp">
+			<Report>
+				<Line Number="0" Count="-1">#include "sum_integers.hpp"</Line>
+				<Line Number="1" Count="-1"></Line>
+				<Line Number="2" Count="-1">#include &lt;numeric&gt;</Line>
+				<Line Number="3" Count="-1">#include &lt;vector&gt;</Line>
+				<Line Number="4" Count="-1"></Line>
+				<Line Number="5" Count="1">int main() {</Line>
+				<Line Number="6" Count="-1">  // creates vector {1, 2, 3, ..., 999, 1000}</Line>
+				<Line Number="7" Count="2">  std::vector&lt;int&gt; integers(1000);</Line>
+				<Line Number="8" Count="1">  std::iota(integers.begin(), integers.end(), 1);</Line>
+				<Line Number="9" Count="-1"></Line>
+				<Line Number="10" Count="1">  if (sum_integers(integers) == 500500) {</Line>
+				<Line Number="11" Count="1">    return 0;</Line>
+				<Line Number="12" Count="-1">  } else {</Line>
+				<Line Number="13" Count="0">    return 1;</Line>
+				<Line Number="14" Count="-1">  }</Line>
+				<Line Number="15" Count="-1">}</Line>
+			</Report>
+		</File>
+		<File Name="test_short.cpp" FullPath="./tests/test_short.cpp">
+			<Report>
+				<Line Number="0" Count="-1">#include "sum_integers.hpp"</Line>
+				<Line Number="1" Count="-1"></Line>
+				<Line Number="2" Count="-1">#include &lt;vector&gt;</Line>
+				<Line Number="3" Count="-1"></Line>
+				<Line Number="4" Count="1">int main() {</Line>
+				<Line Number="5" Count="1">  auto integers = {1, 2, 3, 4, 5};</Line>
+				<Line Number="6" Count="-1"></Line>
+				<Line Number="7" Count="1">  if (sum_integers(integers) == 15) {</Line>
+				<Line Number="8" Count="1">    return 0;</Line>
+				<Line Number="9" Count="-1">  } else {</Line>
+				<Line Number="10" Count="0">    return 1;</Line>
+				<Line Number="11" Count="-1">  }</Line>
+				<Line Number="12" Count="-1">}</Line>
+			</Report>
+		</File>
+		<EndDateTime>Aug 29 02:28 UTC</EndDateTime>
+		<EndTime>1567045731</EndTime>
+	</CoverageLog>
+</Site>

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/test_long.dir/test_long.cpp.o  -o test_long ../src/libsum_integers.a 

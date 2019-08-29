@@ -1,0 +1,24 @@
+        -:    0:Source:/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/src/sum_integers.cpp
+        -:    0:Graph:/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/src/CMakeFiles/sum_integers.dir/sum_integers.cpp.gcno
+        -:    0:Data:/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/src/CMakeFiles/sum_integers.dir/sum_integers.cpp.gcda
+        -:    0:Runs:2
+        -:    0:Programs:2
+        -:    1:#include "sum_integers.hpp"
+        -:    2:
+        -:    3:#include <vector>
+        -:    4:
+        2:    5:int sum_integers( const std::vector<int> integers ) {
+        2:    6:    auto sum = 0;
+     1007:    7:        for ( auto i : integers ) {
+     1005:    8:        sum += i;
+        -:    9:    }
+        2:   10:    return sum;
+        -:   11:}
+        -:   12:
+    #####:   13:int sum_integers_unused( const std::vector<int> integers ) {
+    #####:   14:    auto sum = 0;
+    #####:   15:        for ( auto i : integers ) {
+    #####:   16:            sum += i;
+        -:   17:        }
+    #####:   18:    return sum;
+        -:   19:}
