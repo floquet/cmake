@@ -1,0 +1,50 @@
+l127914@pn1248056.lanl.gov:~ $ docker ps -a
+CONTAINER ID        IMAGE                                 COMMAND                  CREATED             STATUS                       PORTS               NAMES
+46568c4f842d        47e992d8adf9                          "/opt/docker/bin/tin…"   4 minutes ago       Exited (0) 3 minutes ago                         quirky_cannon
+002ad9aecfb3        47e992d8adf9                          "/opt/docker/bin/tin…"   7 minutes ago       Exited (0) 4 minutes ago                         pedantic_napier
+381d0c947555        47e992d8adf9                          "/opt/docker/bin/tin…"   25 hours ago        Exited (255) 7 minutes ago                       naughty_chandrasekhar
+168be324f078        47e992d8adf9                          "/opt/docker/bin/tin…"   25 hours ago        Exited (0) 25 hours ago                          lucid_tu
+a1de8eb02e33        devcafe/cmake-cookbook_ubuntu-18.04   "/opt/docker/bin/tin…"   9 days ago          Exited (255) 7 minutes ago                       determined_kare
+348d0ef0728c        devcafe/cmake-cookbook_ubuntu-18.04   "/opt/docker/bin/tin…"   9 days ago          Exited (255) 7 minutes ago                       serene_perlman
+f939aaf275b3        devcafe/cmake-cookbook_ubuntu-18.04   "/opt/docker/bin/tin…"   9 days ago          Exited (0) 9 days ago                            priceless_bose
+ac7c949dba3f        devcafe/cmake-cookbook_ubuntu-18.04   "/opt/docker/bin/tin…"   9 days ago          Exited (0) 9 days ago                            nice_mendeleev
+cbb9352f1131        47e992d8adf9                          "/opt/docker/bin/tin…"   9 days ago          Exited (0) 9 days ago                            vigorous_newton
+b3221fcf5b2d        devcafe/cmake-cookbook_ubuntu-18.04   "/opt/docker/bin/tin…"   2 weeks ago         Exited (0) 2 weeks ago                           brave_pike
+10dbd6ee8893        devcafe/cmake-cookbook_ubuntu-18.04   "/opt/docker/bin/tin…"   2 weeks ago         Exited (255) 2 weeks ago                         romantic_williams
+f373fbfe40f9        devcafe/cmake-cookbook_ubuntu-18.04   "/opt/docker/bin/tin…"   2 weeks ago         Exited (255) 2 weeks ago                         amazing_greider
+6848c98b0374        hello-world                           "/hello"                 2 weeks ago         Exited (0) 2 weeks ago                           sweet_lewin
+b0841af76fd6        hello-world                           "/hello"                 2 weeks ago         Exited (0) 2 weeks ago                           compassionate_kowalevski
+
+l127914@pn1248056.lanl.gov:~ $ docker container ls
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+381d0c947555        47e992d8adf9        "/opt/docker/bin/tin…"   25 hours ago        Up About a minute                       naughty_chandrasekhar
+
+l127914@pn1248056.lanl.gov:~ $ docker container prune
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+46568c4f842ddd67b456eefdc5d17bf63c9d37f78415ec8ee9441e9974fcaf5a
+002ad9aecfb36ff59a086c2e9590717333af72836d177359092594ea842240fb
+168be324f078c75ee7d9622d8d7236672e17b0aff40b5988bbf37c44f43fc8cc
+a1de8eb02e33374e9a4c3a5e8bdd062011f9ed0e6cd5c9be9727cc2a7718cfc2
+348d0ef0728ce9f6fb6d41dd72efcfb47b34992570add8d996be575c03a7196d
+f939aaf275b3621ecdb87ee70aed057d2a833e9a64d963559c0b888b84b498cc
+ac7c949dba3f55c88924573ab0700f6d0ee0f73c3e90a0fb5c0a0542827a335a
+cbb9352f1131493b804f6232c7c30a3d588e7d20e923ec4dd90ea1a2cdc64a5a
+b3221fcf5b2d9e2acf50abc9b6fb571f92441b1401648345faf1234b5cdd9a7b
+10dbd6ee88939811e0b3d6e52e8ff4c31c7b3ceef55b4508a7f6ea3d455acc18
+f373fbfe40f9a3a273aaccf64617d3fa87b65c021adc9edc7ed681756eb1c1d5
+6848c98b03740144f08ea53d36720c34a7be9f999972aedb4371fd1a228e954a
+b0841af76fd6fc2112350ac9ad9dd25e51ada62ce277b948e2f0cdb79d7d9ed5
+
+Total reclaimed space: 7.437GB
+l127914@pn1248056.lanl.gov:~ $ docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+381d0c947555        47e992d8adf9        "/opt/docker/bin/tin…"   25 hours ago        Up 3 minutes                            naughty_chandrasekhar
+
+# logged in as root
+l127914@pn1248056.lanl.gov:~ $ docker exec -it 381d0c947555 /bin/bash
+root@381d0c947555:/# lss
+bash: lss: command not found
+root@381d0c947555:/# ls
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
