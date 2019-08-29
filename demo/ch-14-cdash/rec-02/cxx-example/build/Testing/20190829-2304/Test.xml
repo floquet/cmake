@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Linux-c++"
-	BuildStamp="20190829-0317-Experimental"
-	Name="381d0c947555"
+	BuildStamp="20190829-2304-Experimental"
+	Name="b26a044b056a"
 	Generator="ctest-3.12.1"
 	CompilerName="/usr/bin/c++"
 	CompilerVersion="7.3.0"
 	OSName="Linux"
-	Hostname="381d0c947555"
+	Hostname="b26a044b056a"
 	OSRelease="4.9.184-linuxkit"
 	OSVersion="#1 SMP Tue Jul 2 22:58:16 UTC 2019"
 	OSPlatform="x86_64"
@@ -14,18 +14,18 @@
 	VendorString="GenuineIntel"
 	VendorID="Intel Corporation"
 	FamilyID="6"
-	ModelID="70"
-	ProcessorCacheSize="6144"
-	NumberOfLogicalCPU="4"
-	NumberOfPhysicalCPU="4"
+	ModelID="62"
+	ProcessorCacheSize="30720"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="12"
 	TotalVirtualMemory="1023"
-	TotalPhysicalMemory="1998"
+	TotalPhysicalMemory="1997"
 	LogicalProcessorsPerPhysical="1"
-	ProcessorClockFrequency="2592.08"
+	ProcessorClockFrequency="2697.97"
 	>
 	<Testing>
-		<StartDateTime>Aug 29 03:17 UTC</StartDateTime>
-		<StartTestTime>1567048658</StartTestTime>
+		<StartDateTime>Aug 29 23:04 UTC</StartDateTime>
+		<StartTestTime>1567119871</StartTestTime>
 		<TestList>
 			<Test>./tests/test_short</Test>
 			<Test>./tests/test_long</Test>
@@ -37,7 +37,7 @@
 			<FullCommandLine>/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/tests/test_short</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.0027632</Value>
+					<Value>0.00438322</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -60,7 +60,7 @@
 			<FullCommandLine>/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/cxx-example/build/tests/test_long</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.0022544</Value>
+					<Value>0.00466726</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -76,8 +76,8 @@
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Aug 29 03:17 UTC</EndDateTime>
-		<EndTestTime>1567048658</EndTestTime>
+		<EndDateTime>Aug 29 23:04 UTC</EndDateTime>
+		<EndTestTime>1567119871</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

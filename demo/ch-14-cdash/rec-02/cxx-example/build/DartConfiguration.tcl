@@ -11,7 +11,7 @@ BuildDirectory: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/rec-02/c
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: 381d0c947555
+Site: b26a044b056a
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
@@ -28,7 +28,7 @@ DropLocation: /submit.php?project=cmake-cookbook
 DropSiteUser: 
 DropSitePassword: 
 DropSiteMode: 
-DropMethod: http
+DropMethod: https
 TriggerSite: 
 ScpCommand: /usr/bin/scp
 
