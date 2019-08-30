@@ -1,0 +1,19 @@
+Start testing: Aug 04 18:38 MDT
+----------------------------------------------------------
+1/1 Testing: FirstTest
+1/1 Test: FirstTest
+Command: "/opt/local/bin/cmake" "-E" "echo" "'Simple" "text'"
+Directory: /Users/l127914/repos/github/alpha-ctest/5328158-b28716044156635872e56efc28457bc7dc2a535d/build
+"FirstTest" start time: Aug 04 18:38 MDT
+Output:
+----------------------------------------------------------
+'Simple text'
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FirstTest" end time: Aug 04 18:38 MDT
+"FirstTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 04 18:38 MDT

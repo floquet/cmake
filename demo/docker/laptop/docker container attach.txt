@@ -1,0 +1,2 @@
+$ docker container attach 381d0c947555
+mightybuilder@381d0c947555:~$
