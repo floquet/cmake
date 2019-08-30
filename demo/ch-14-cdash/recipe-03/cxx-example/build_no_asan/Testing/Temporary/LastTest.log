@@ -1,0 +1,34 @@
+Start testing: Aug 30 05:58 UTC
+----------------------------------------------------------
+1/2 Testing: leaky
+1/2 Test: leaky
+Command: "/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/recipe-03/cxx-example/build_no_asan/tests/leaky"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/recipe-03/cxx-example/build_no_asan/tests
+"leaky" start time: Aug 30 05:58 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"leaky" end time: Aug 30 05:58 UTC
+"leaky" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: use_after_free
+2/2 Test: use_after_free
+Command: "/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/recipe-03/cxx-example/build_no_asan/tests/use_after_free"
+Directory: /home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/recipe-03/cxx-example/build_no_asan/tests
+"use_after_free" start time: Aug 30 05:58 UTC
+Output:
+----------------------------------------------------------
+not sure what we get: 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"use_after_free" end time: Aug 30 05:58 UTC
+"use_after_free" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 30 05:58 UTC

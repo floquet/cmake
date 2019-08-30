@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/buggy.hpp
+
+/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/recipe-03/cxx-example/tests/use_after_free.cpp
+buggy.hpp
+/home/mightybuilder/repos/github/cmake/demo/ch-14-cdash/recipe-03/cxx-example/tests/buggy.hpp
+
